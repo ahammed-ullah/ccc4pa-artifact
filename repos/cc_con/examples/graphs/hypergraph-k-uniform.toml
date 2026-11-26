@@ -1,0 +1,11 @@
+[graph]
+name = "hypergraph-k-example"
+source = "synthetic"
+model = "hypergraph"
+
+[graph.parameters]
+distribution = "k-uniform"
+n = 100
+r = 80
+k = 6
+seed = 19

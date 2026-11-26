@@ -1,0 +1,9 @@
+/bin/
+/build/
+/results/
+/datasets
+/*.json
+/*.json.tmp
+*.o
+*.d
+.DS_Store

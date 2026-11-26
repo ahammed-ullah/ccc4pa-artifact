@@ -1,0 +1,24 @@
+{
+  "algorithm": "matching",
+  "representation": "zuckerli",
+  "parameters": {"matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_zk/serverfault/serverfault.zk",
+    "graph_name": "serverfault",
+    "n": 257925,
+    "m": 1567185915,
+    "arcs": 3134371830,
+    "graph_bytes": 105157481,
+    "index_bytes": 967247,
+    "perm_bytes": 1031700,
+    "bundle_bytes": 107156428
+  },
+  "config_path": null,
+  "slurm_job_id": "43708072",
+  "result": {"matching_size": 128941},
+  "memory": {"process_peak_rss_bytes": 117354496},
+  "timing_seconds": {
+    "zuckerli_load": 0.308134898,
+    "algorithm": 732.728954890
+  }
+}

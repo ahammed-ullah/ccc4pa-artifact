@@ -1,0 +1,26 @@
+{
+  "algorithm": "wvc",
+  "cover_mode": "plain",
+  "parameters": {"weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "ccf_path": "format_ccf/askubuntu-threads.ccf",
+    "graph_name": "askubuntu-threads",
+    "n": 157482,
+    "m": 27363251,
+    "num_cliques": 32761,
+    "cover_size": 253407,
+    "ccf_bytes": 839435,
+    "graph_fingerprint_sha256": "e7ae9aed8b46ece2f25de166f673941a8e082accce4e21b3da5efc7ceba894e0",
+    "ccf_stored_checksum_sha256": "f5dbfe66b69164a71e08739725e2db635adee4fb8903ad5b2db826b9f812f675"
+  },
+  "config_path": null,
+  "slurm_job_id": "43487909",
+  "result": {"selected_weight_sum": "1625497599151944"},
+  "memory": {"process_peak_rss_bytes": 14192640},
+  "timing_seconds": {
+    "ccf_load": 0.007088109,
+    "cover_decode": 0.006918238,
+    "weight_preparation": 0.001621213,
+    "algorithm": 0.003753108
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "algorithm": "bfs",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk"},
+  "input": {
+    "graph_path": "format_wg/serverfault/serverfault.graph",
+    "graph_name": "serverfault",
+    "n": 257925,
+    "m": 1567185915,
+    "arcs": 3134371830,
+    "graph_bytes": 116416800,
+    "properties_bytes": 320,
+    "ef_bytes": 452624,
+    "perm_bytes": 1031700,
+    "bundle_bytes": 117901444
+  },
+  "config_path": null,
+  "slurm_job_id": "43716756",
+  "result": {"connected_components": 4},
+  "memory": {"process_peak_rss_bytes": 128745472},
+  "timing_seconds": {
+    "webgraph_load": 0.292035106,
+    "algorithm": 1803.848125772
+  }
+}

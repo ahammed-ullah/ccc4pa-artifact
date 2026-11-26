@@ -1,0 +1,12 @@
+[graph]
+name = "hypergraph-lognormal-example"
+source = "synthetic"
+model = "hypergraph"
+
+[graph.parameters]
+distribution = "lognormal"
+n = 100
+r = 80
+mu = 1.5
+sigma = 0.6
+seed = 19

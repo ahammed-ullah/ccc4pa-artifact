@@ -1,0 +1,11 @@
+[graph]
+name = "ri-u-250m"
+source = "synthetic"
+model = "hypergraph"
+
+[graph.parameters]
+distribution = "k-uniform"
+n = 2000000
+r = 48540
+k = 102
+seed = 19

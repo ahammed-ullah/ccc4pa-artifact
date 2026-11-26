@@ -1,0 +1,25 @@
+{
+  "algorithm": "matching",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_wg/drupal/drupal.graph",
+    "graph_name": "drupal",
+    "n": 77488,
+    "m": 640722456,
+    "arcs": 1281444912,
+    "graph_bytes": 10858152,
+    "properties_bytes": 319,
+    "ef_bytes": 120056,
+    "perm_bytes": 309952,
+    "bundle_bytes": 11288479
+  },
+  "config_path": null,
+  "slurm_job_id": "43716529",
+  "result": {"matching_size": 38742},
+  "memory": {"process_peak_rss_bytes": 20877312},
+  "timing_seconds": {
+    "webgraph_load": 0.037219290,
+    "algorithm": 374.775316391
+  }
+}

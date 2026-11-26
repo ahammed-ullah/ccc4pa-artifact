@@ -1,0 +1,26 @@
+{
+  "algorithm": "wvc",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_wg/rpg/rpg.graph",
+    "graph_name": "rpg",
+    "n": 28874,
+    "m": 81903796,
+    "arcs": 163807592,
+    "graph_bytes": 2413936,
+    "properties_bytes": 317,
+    "ef_bytes": 42216,
+    "perm_bytes": 115496,
+    "bundle_bytes": 2571965
+  },
+  "config_path": null,
+  "slurm_job_id": "43717255",
+  "result": {"selected_weight_sum": "11968458906086"},
+  "memory": {"process_peak_rss_bytes": 12443648},
+  "timing_seconds": {
+    "webgraph_load": 0.041954538,
+    "weight_preparation": 0.003449842,
+    "algorithm": 13.158928658
+  }
+}

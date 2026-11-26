@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "artifact": {
+    "format": "cgf",
+    "format_version": 1,
+    "encoding": "delta-vbyte",
+    "path": "amazon-reviews.cgf",
+    "file_bytes": 9585212166,
+    "file_checksum_sha256": "4b570f19e6a0879abab947ebe62a0c7f2188d9537131ead4a414b9c4d1f3f8cf"
+  },
+  "graph": {
+    "name": "amazon-reviews",
+    "source": "file",
+    "type": "cornell-hyperedges",
+    "origin_specification_path": "repos/cc_con/config/graphs/amazon-reviews.toml",
+    "parameters": {
+      "path": "format_std/cornell_arb/amazon-reviews/hyperedges-amazon-reviews.txt"
+    },
+    "generation_statistics": {
+      "distinct_edges": 3032412387,
+      "incidence_sum": 73141425,
+      "incidence_sum_nontrivial": 73141425,
+      "max_hyperedge_size": 9350,
+      "mean_hyperedge_size": 17.0677314850574,
+      "min_hyperedge_size": 2,
+      "native_CR": 82.9191497704618,
+      "native_cover_size": 73141425,
+      "native_statistics_available": true,
+      "overlap_factor": 1.20008167444542,
+      "pair_occurrences": 3639142535,
+      "r": 4285363,
+      "r_nontrivial": 4285363
+    },
+    "n": 2268231,
+    "m": 3032412387,
+    "canonical_fingerprint_sha256": "b5b5e8e52a760923d0ff2a32e61b1829cb5dba3b1f01743749754201056ce0d2"
+  },
+  "preparation": {
+    "graph_time_seconds": 2269.931865275,
+    "encoding_and_write_time_seconds": 212.40534519
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "algorithm": "matching",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_wg/ri-u-4b/ri-u-4b.graph",
+    "graph_name": "ri-u-4b",
+    "n": 1836234,
+    "m": 4007074338,
+    "arcs": 8014148676,
+    "graph_bytes": 5553121360,
+    "properties_bytes": 320,
+    "ef_bytes": 3843264,
+    "perm_bytes": 7344936,
+    "bundle_bytes": 5564309880
+  },
+  "config_path": null,
+  "slurm_job_id": "43716412",
+  "result": {"matching_size": 918117},
+  "memory": {"process_peak_rss_bytes": 5576224768},
+  "timing_seconds": {
+    "webgraph_load": 8.360024752,
+    "algorithm": 2201.796356262
+  }
+}

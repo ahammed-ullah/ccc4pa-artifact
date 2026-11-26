@@ -1,0 +1,25 @@
+{
+  "algorithm": "dfs",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk"},
+  "input": {
+    "graph_path": "format_wg/ri-pl-1b/ri-pl-1b.graph",
+    "graph_name": "ri-pl-1b",
+    "n": 1836221,
+    "m": 1030095669,
+    "arcs": 2060191338,
+    "graph_bytes": 433219304,
+    "properties_bytes": 322,
+    "ef_bytes": 3009256,
+    "perm_bytes": 7344884,
+    "bundle_bytes": 443573766
+  },
+  "config_path": null,
+  "slurm_job_id": "43716871",
+  "result": {"connected_components": 1147},
+  "memory": {"process_peak_rss_bytes": 476962816},
+  "timing_seconds": {
+    "webgraph_load": 0.548263760,
+    "algorithm": 167.426374326
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "algorithm": "bfs",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk"},
+  "input": {
+    "graph_path": "format_wg/codereview/codereview.graph",
+    "graph_name": "codereview",
+    "n": 54084,
+    "m": 206520631,
+    "arcs": 413041262,
+    "graph_bytes": 8804536,
+    "properties_bytes": 318,
+    "ef_bytes": 85184,
+    "perm_bytes": 216336,
+    "bundle_bytes": 9106374
+  },
+  "config_path": null,
+  "slurm_job_id": "43716734",
+  "result": {"connected_components": 1},
+  "memory": {"process_peak_rss_bytes": 19054592},
+  "timing_seconds": {
+    "webgraph_load": 0.029940889,
+    "algorithm": 96.946071857
+  }
+}

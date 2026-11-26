@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "linear",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "stats",
+    "path": "format_cgf/stats.cgf",
+    "format": "cgf",
+    "n": 126441,
+    "m": 618292040,
+    "encoded_bytes": 1248622452,
+    "read_time_seconds": 31.859100525
+  },
+  "lower_bounds": {
+    "combined_best": 362209,
+    "global_core_color": 267633,
+    "global_mis": 360356
+  },
+  "timing_seconds": {
+    "linear_bounds": 20.425492542,
+    "common_neighborhood": 0,
+    "local_mis": 0,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 20.427100455,
+    "total_including_graph_read": 52.28620098
+  }
+}

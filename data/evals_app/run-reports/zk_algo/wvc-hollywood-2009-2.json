@@ -1,0 +1,25 @@
+{
+  "algorithm": "wvc",
+  "representation": "zuckerli",
+  "parameters": {"weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_zk/hollywood-2009/hollywood-2009.zk",
+    "graph_name": "hollywood-2009",
+    "n": 1107243,
+    "m": 56375711,
+    "arcs": 112751422,
+    "graph_bytes": 61664963,
+    "index_bytes": 4013784,
+    "perm_bytes": 0,
+    "bundle_bytes": 65678747
+  },
+  "config_path": null,
+  "slurm_job_id": "43708612",
+  "result": {"selected_weight_sum": "620171322064670449"},
+  "memory": {"process_peak_rss_bytes": 92508160},
+  "timing_seconds": {
+    "zuckerli_load": 0.147327293,
+    "weight_preparation": 0.009741648,
+    "algorithm": 15.675050541
+  }
+}

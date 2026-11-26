@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "local-mis",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "codegolf",
+    "path": "format_cgf/codegolf.cgf",
+    "format": "cgf",
+    "n": 9695,
+    "m": 34080224,
+    "encoded_bytes": 68268892,
+    "read_time_seconds": 1.824970308
+  },
+  "lower_bounds": {
+    "combined_best": 24834,
+    "common_neighborhood_global_color": 18476,
+    "global_core_color": 18204,
+    "global_mis": 16398,
+    "ordinary_local_mis": 24582,
+    "simplicial_dominating_local_mis": 24827
+  },
+  "timing_seconds": {
+    "linear_bounds": 0.45044294,
+    "common_neighborhood": 1762.771841624,
+    "local_mis": 0.344806203,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 1763.567256137,
+    "total_including_graph_read": 1765.392226445
+  }
+}

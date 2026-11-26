@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "lzf",
+    "parameters": {}
+  },
+  "graph": {
+    "name": "RM07R",
+    "source": "file",
+    "type": "mm",
+    "parameters": {
+      "path": "format_std/suitesparse/RM07R/RM07R.mtx"
+    },
+    "generation_statistics": {},
+    "specification_path": "format_cgf/RM07R.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/RM07R.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/RM07R.cgf",
+    "preparation_report_path": "format_cgf/RM07R.cgf.json",
+    "canonical_fingerprint_sha256": "9cf8b512cc43c093d2bc6b1db8c81e54cd5332ea652177a2650c067265ee6390",
+    "n": 272635,
+    "m": 19910625,
+    "time_seconds": 1.140670412
+  },
+  "constructed_cover": {
+    "num_cliques": 1470146,
+    "cover_size": 17981119,
+    "time_seconds": 0.292680594
+  },
+  "algorithm_statistics": {},
+  "postprocess": {
+    "assignment_minimal": false
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 4,
+  "algorithm": {
+    "name": "fm",
+    "delta_selection": "fixed",
+    "workspace": "linear"
+  },
+  "graph": {
+    "name": "amazon-reviews",
+    "path": "format_cgf/amazon-reviews.cgf",
+    "format": "cgf",
+    "format_version": 1,
+    "file_bytes": 9585212166,
+    "canonical_fingerprint_sha256": "b5b5e8e52a760923d0ff2a32e61b1829cb5dba3b1f01743749754201056ce0d2",
+    "file_checksum_sha256": "4b570f19e6a0879abab947ebe62a0c7f2188d9537131ead4a414b9c4d1f3f8cf",
+    "n": 2268231,
+    "m": 3032412387
+  },
+  "delta_search": {
+    "policy": "fixed-delta",
+    "scale_a": 1.96795709687583733605,
+    "initial_k_min": 1,
+    "initial_k_max": 1,
+    "candidate_count": 1,
+    "candidate_delta_min": 0.754070579482529277878,
+    "candidate_delta_max": 0.754070579482529277878,
+    "selected_delta": 0.754070579482529277878,
+    "selected_initial_k": 1,
+    "time_seconds": 147.905366512999989936
+  },
+  "partition": {
+    "initial_cross_edges": 6064824774,
+    "k_ge_2_bicliques": 0,
+    "star_bicliques": 1575753,
+    "num_parts": 167445417,
+    "edges_in_k_ge_2_bicliques": 0,
+    "edges_in_star_bicliques": 5898955110,
+    "residual_edges": 165869664,
+    "nontrivial_size": 5900530863,
+    "residual_size": 331739328,
+    "total_size": 6232270191
+  },
+  "fm_representation": {
+    "m_star": 6068668758,
+    "n_star": 6112215,
+    "center_count": 1575753,
+    "return_arcs": 2268231
+  },
+  "construction_state": {
+    "space_bound": "O(n+m)",
+    "packed_neighbor_bits": 0,
+    "packed_neighbor_words": 0,
+    "deleted_edge_words": 0,
+    "deletion_rank_entries": 0,
+    "neighborhood_tree_nodes": 0
+  },
+  "timing": {
+    "input_index_seconds": 0,
+    "selected_run_seconds": 147.905365662000008342,
+    "initialization_seconds": 145.311838136999995186,
+    "k_ge_2_stripping_seconds": 2.9999999999999997319e-08,
+    "star_stripping_seconds": 2.59352569099999996638
+  }
+}

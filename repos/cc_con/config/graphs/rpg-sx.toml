@@ -1,0 +1,6 @@
+# Uses the same native full archive as the ordinary thread projection.
+[graph]
+name = "rpg"
+source = "file"
+format = "sx-tag-question"
+path = "../../datasets/cornell_arb/sx-tag-question-parsed/parsed/rpg.txt"

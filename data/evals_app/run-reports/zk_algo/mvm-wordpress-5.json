@@ -1,0 +1,26 @@
+{
+  "algorithm": "mvm",
+  "representation": "zuckerli",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_seed": 5, "mvm_sample_limit": 371049, "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_zk/wordpress/wordpress.zk",
+    "graph_name": "wordpress",
+    "n": 88745,
+    "m": 226563991,
+    "arcs": 453127982,
+    "graph_bytes": 17079177,
+    "index_bytes": 310635,
+    "perm_bytes": 354980,
+    "bundle_bytes": 17744792
+  },
+  "config_path": null,
+  "slurm_job_id": "44718370",
+  "result": {"matched_vertex_weight_sum": "349651967966653"},
+  "mvm_execution": {"status": "complete", "stop_reason": "sample_limit", "samples_completed": 371049, "positive_augmentations": 44595},
+  "memory": {"process_peak_rss_bytes": 28569600},
+  "timing_seconds": {
+    "zuckerli_load": 0.095741043,
+    "weight_preparation": 0.007957692,
+    "algorithm": 794.500389901
+  }
+}

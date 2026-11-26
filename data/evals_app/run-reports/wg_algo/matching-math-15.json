@@ -1,0 +1,25 @@
+{
+  "algorithm": "matching",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_wg/math/math.graph",
+    "graph_name": "math",
+    "n": 994983,
+    "m": 24332111417,
+    "arcs": 48664222834,
+    "graph_bytes": 761268536,
+    "properties_bytes": 322,
+    "ef_bytes": 1836072,
+    "perm_bytes": 3979932,
+    "bundle_bytes": 767084862
+  },
+  "config_path": null,
+  "slurm_job_id": "43821554",
+  "result": {"matching_size": 497479},
+  "memory": {"process_peak_rss_bytes": 784969728},
+  "timing_seconds": {
+    "webgraph_load": 0.936234394,
+    "algorithm": 89974.817685091
+  }
+}

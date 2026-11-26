@@ -1,0 +1,24 @@
+{
+  "algorithm": "dfs",
+  "cover_mode": "encoded",
+  "parameters": {},
+  "input": {
+    "ccf_path": "format_ccf/stackoverflow-threads.ccf",
+    "graph_name": "stackoverflow-threads",
+    "n": 10980003,
+    "m": 8233726692,
+    "num_cliques": 1450467,
+    "cover_size": 24342146,
+    "ccf_bytes": 81357215,
+    "graph_fingerprint_sha256": "9e7a336ab63c69302c843f8c0cc3af9da30f5760695f04f2e00ee401f3d301bd",
+    "ccf_stored_checksum_sha256": "ad9d0ad3381c39b7d4e1bec0adbf754509c3311f4b05a89f4717e1191f97368e"
+  },
+  "config_path": "cp_algo/config/encoded.toml",
+  "slurm_job_id": "43679411",
+  "result": {"connected_components": 38933},
+  "memory": {"process_peak_rss_bytes": 422789120},
+  "timing_seconds": {
+    "ccf_load": 0.151927033,
+    "algorithm": 6.841391933
+  }
+}

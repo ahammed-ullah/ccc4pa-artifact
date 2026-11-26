@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "bcc",
+    "parameters": {}
+  },
+  "graph": {
+    "name": "coPapersCiteseer",
+    "source": "file",
+    "type": "mm",
+    "parameters": {
+      "path": "format_std/suitesparse/coPapersCiteseer/coPapersCiteseer.mtx"
+    },
+    "generation_statistics": {},
+    "specification_path": "format_cgf/coPapersCiteseer.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/coPapersCiteseer.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/coPapersCiteseer.cgf",
+    "preparation_report_path": "format_cgf/coPapersCiteseer.cgf.json",
+    "canonical_fingerprint_sha256": "7a818e1e19f8e06b1d0d480df25c84f0062a1eb8f97da974e5a44d11f322b86d",
+    "n": 434102,
+    "m": 16036720,
+    "time_seconds": 0.936963444
+  },
+  "constructed_cover": {
+    "num_cliques": 354727,
+    "cover_size": 3702349,
+    "time_seconds": 1.416373376
+  },
+  "algorithm_statistics": {
+    "complement_degeneracy": 433111,
+    "mu": 94206019432,
+    "num_complement_colors": 48059,
+    "num_parts": 48059,
+    "splitting_applied": false
+  },
+  "postprocess": {
+    "assignment_minimal": false
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "algorithm": "matching",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_wg/wordpress/wordpress.graph",
+    "graph_name": "wordpress",
+    "n": 88745,
+    "m": 226563991,
+    "arcs": 453127982,
+    "graph_bytes": 19074376,
+    "properties_bytes": 317,
+    "ef_bytes": 143968,
+    "perm_bytes": 354980,
+    "bundle_bytes": 19573641
+  },
+  "config_path": null,
+  "slurm_job_id": "43716487",
+  "result": {"matching_size": 44369},
+  "memory": {"process_peak_rss_bytes": 29011968},
+  "timing_seconds": {
+    "webgraph_load": 0.051162399,
+    "algorithm": 72.470167303
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "algorithm": "bfs",
+  "cover_mode": "plain",
+  "parameters": {},
+  "input": {
+    "ccf_path": "format_ccf/drupal.ccf",
+    "graph_name": "drupal",
+    "n": 77488,
+    "m": 640722456,
+    "num_cliques": 234,
+    "cover_size": 160662,
+    "ccf_bytes": 180094,
+    "graph_fingerprint_sha256": "1bb44f52a58d1b417e9b74bb9aeddd15342c37c205d8e2cc20366bfa2479b915",
+    "ccf_stored_checksum_sha256": "9085661b71efe35f7b64dd446ff28087f575cd5ef8de66bb3d56afac3dc7a66f"
+  },
+  "config_path": null,
+  "slurm_job_id": "43487481",
+  "result": {"connected_components": 2},
+  "memory": {"process_peak_rss_bytes": 14258176},
+  "timing_seconds": {
+    "ccf_load": 0.034007855,
+    "cover_decode": 0.002157724,
+    "algorithm": 0.018063097
+  }
+}

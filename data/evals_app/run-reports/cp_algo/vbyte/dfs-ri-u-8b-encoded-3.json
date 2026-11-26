@@ -1,0 +1,24 @@
+{
+  "algorithm": "dfs",
+  "cover_mode": "encoded",
+  "parameters": {},
+  "input": {
+    "ccf_path": "format_ccf/ri-u-8b.ccf",
+    "graph_name": "ri-u-8b",
+    "n": 1836255,
+    "m": 8008606172,
+    "num_cliques": 1560,
+    "cover_size": 5004480,
+    "ccf_bytes": 9028095,
+    "graph_fingerprint_sha256": "7cab5b1c373f405a1221fc1d7ff9f7ec9b7fcf01fd075a9d7f154ed5d2aadfed",
+    "ccf_stored_checksum_sha256": "4c20a3a1b463a45e4b87580146f78736a1303995dbf457a02bb415691da1d2ed"
+  },
+  "config_path": "cp_algo/config/encoded.toml",
+  "slurm_job_id": "43679362",
+  "result": {"connected_components": 1},
+  "memory": {"process_peak_rss_bytes": 59764736},
+  "timing_seconds": {
+    "ccf_load": 0.017855313,
+    "algorithm": 0.391498943
+  }
+}

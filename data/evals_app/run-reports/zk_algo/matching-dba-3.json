@@ -1,0 +1,24 @@
+{
+  "algorithm": "matching",
+  "representation": "zuckerli",
+  "parameters": {"matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_zk/dba/dba.zk",
+    "graph_name": "dba",
+    "n": 67234,
+    "m": 498237193,
+    "arcs": 996474386,
+    "graph_bytes": 8084719,
+    "index_bytes": 218538,
+    "perm_bytes": 268936,
+    "bundle_bytes": 8572193
+  },
+  "config_path": null,
+  "slurm_job_id": "43708086",
+  "result": {"matching_size": 33608},
+  "memory": {"process_peak_rss_bytes": 18866176},
+  "timing_seconds": {
+    "zuckerli_load": 0.082525894,
+    "algorithm": 283.168984367
+  }
+}

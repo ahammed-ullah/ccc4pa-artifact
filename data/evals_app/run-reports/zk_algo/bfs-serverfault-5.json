@@ -1,0 +1,24 @@
+{
+  "algorithm": "bfs",
+  "representation": "zuckerli",
+  "parameters": {},
+  "input": {
+    "graph_path": "format_zk/serverfault/serverfault.zk",
+    "graph_name": "serverfault",
+    "n": 257925,
+    "m": 1567185915,
+    "arcs": 3134371830,
+    "graph_bytes": 105157481,
+    "index_bytes": 967247,
+    "perm_bytes": 1031700,
+    "bundle_bytes": 107156428
+  },
+  "config_path": null,
+  "slurm_job_id": "43708312",
+  "result": {"connected_components": 4},
+  "memory": {"process_peak_rss_bytes": 117723136},
+  "timing_seconds": {
+    "zuckerli_load": 0.145499994,
+    "algorithm": 737.329884022
+  }
+}

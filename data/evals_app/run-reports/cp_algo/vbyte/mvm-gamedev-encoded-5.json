@@ -1,0 +1,26 @@
+{
+  "algorithm": "mvm",
+  "cover_mode": "encoded",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_round_limit": 30, "mvm_mode": "bounded", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "ccf_path": "format_ccf/gamedev.ccf",
+    "graph_name": "gamedev",
+    "n": 43145,
+    "m": 102877926,
+    "num_cliques": 941,
+    "cover_size": 119836,
+    "ccf_bytes": 161284,
+    "graph_fingerprint_sha256": "94ce47752ba181f63ee2c894e8f295e0e1c85899185c6619f17e3162486fd03b",
+    "ccf_stored_checksum_sha256": "2298773ac012d9f2539948a29e78a82f0040c1a10be24d899b75469eab648947"
+  },
+  "config_path": "cp_algo4/config/encoded.toml",
+  "slurm_job_id": "44762985",
+  "result": {"matched_vertex_weight_sum": "40136722203602"},
+  "mvm_execution": {"rounds_attempted": 4, "rounds_with_flip": 3, "early_exit": true, "stop_reason": "weight_bound"},
+  "memory": {"process_peak_rss_bytes": 11272192},
+  "timing_seconds": {
+    "ccf_load": 0.002726954,
+    "weight_preparation": 0.000959596,
+    "algorithm": 0.046894052
+  }
+}

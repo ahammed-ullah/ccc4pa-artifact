@@ -1,0 +1,24 @@
+{
+  "algorithm": "bfs",
+  "cover_mode": "encoded",
+  "parameters": {},
+  "input": {
+    "ccf_path": "format_ccf/superuser.ccf",
+    "graph_name": "superuser",
+    "n": 378232,
+    "m": 4537481735,
+    "num_cliques": 4994,
+    "cover_size": 1096090,
+    "ccf_bytes": 1657011,
+    "graph_fingerprint_sha256": "c6864082dfa0310b6df64d68718ed938c6d991884f52be66e8b3077d5ae50d68",
+    "ccf_stored_checksum_sha256": "39ae8718116416df082f19582df59836da4cabefeb8621c7b558bfa2d61b8c38"
+  },
+  "config_path": "cp_algo/config/encoded.toml",
+  "slurm_job_id": "43679134",
+  "result": {"connected_components": 8},
+  "memory": {"process_peak_rss_bytes": 16723968},
+  "timing_seconds": {
+    "ccf_load": 0.005592064,
+    "algorithm": 0.060843456
+  }
+}

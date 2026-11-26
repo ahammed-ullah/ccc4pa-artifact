@@ -1,0 +1,25 @@
+{
+  "algorithm": "dfs",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk"},
+  "input": {
+    "graph_path": "format_wg/ri-pl-500m/ri-pl-500m.graph",
+    "graph_name": "ri-pl-500m",
+    "n": 1833494,
+    "m": 494149191,
+    "arcs": 988298382,
+    "graph_bytes": 281095288,
+    "properties_bytes": 321,
+    "ef_bytes": 2856808,
+    "perm_bytes": 7333976,
+    "bundle_bytes": 291286393
+  },
+  "config_path": null,
+  "slurm_job_id": "43716863",
+  "result": {"connected_components": 1322},
+  "memory": {"process_peak_rss_bytes": 324489216},
+  "timing_seconds": {
+    "webgraph_load": 0.510260081,
+    "algorithm": 61.897423378
+  }
+}

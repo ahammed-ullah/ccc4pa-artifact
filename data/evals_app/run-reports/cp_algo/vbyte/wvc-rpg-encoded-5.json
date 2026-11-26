@@ -1,0 +1,25 @@
+{
+  "algorithm": "wvc",
+  "cover_mode": "encoded",
+  "parameters": {"weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "ccf_path": "format_ccf/rpg.ccf",
+    "graph_name": "rpg",
+    "n": 28874,
+    "m": 81903796,
+    "num_cliques": 792,
+    "cover_size": 74901,
+    "ccf_bytes": 100281,
+    "graph_fingerprint_sha256": "c3545491008fdfeac2807ef20bc4452128b257a8f393179dbc04c6455ddc2650",
+    "ccf_stored_checksum_sha256": "18831e558ee77ab1573ef0ac252af5cfc96d6047b16dea480da8fdc532d71fdd"
+  },
+  "config_path": "cp_algo/config/encoded.toml",
+  "slurm_job_id": "43679699",
+  "result": {"selected_weight_sum": "11895222400159"},
+  "memory": {"process_peak_rss_bytes": 9928704},
+  "timing_seconds": {
+    "ccf_load": 0.000564146,
+    "weight_preparation": 0.000311899,
+    "algorithm": 0.001093385
+  }
+}

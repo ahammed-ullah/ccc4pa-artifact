@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "bcc",
+    "parameters": {}
+  },
+  "graph": {
+    "name": "askubuntu",
+    "source": "file",
+    "type": "sx-tag-question",
+    "parameters": {
+      "path": "format_std/cornell_arb/sx-tag-question-parsed/parsed/askubuntu.com.txt"
+    },
+    "generation_statistics": {
+      "canonical_question_count": 306695,
+      "distinct_edges": 1942664590,
+      "incidence_sum": 838863,
+      "incidence_sum_nontrivial": 838786,
+      "isolated_questions_removed": 8,
+      "max_tag_degree": 20862,
+      "mean_tag_degree": 276.487475280158,
+      "min_tag_degree": 1,
+      "native_CR": 4632.08634860382,
+      "native_cover_size": 838786,
+      "native_statistics_available": true,
+      "nontrivial_tag_count": 2957,
+      "overlap_factor": 1.07006214181317,
+      "pair_occurrences": 2078771832,
+      "potential_CR": 4956.62023925054,
+      "question_count": 306703,
+      "tag_count": 3034
+    },
+    "specification_path": "format_cgf/askubuntu.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/askubuntu-sx.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/askubuntu.cgf",
+    "preparation_report_path": "format_cgf/askubuntu.cgf.json",
+    "canonical_fingerprint_sha256": "69192ac697c0d7747d79224f855f45f0218d0def01f387fea25db990a1322d55",
+    "n": 306695,
+    "m": 1942664590,
+    "time_seconds": 101.577838156
+  },
+  "constructed_cover": {
+    "num_cliques": 19236531,
+    "cover_size": 533488507,
+    "time_seconds": 265.448991212
+  },
+  "algorithm_statistics": {
+    "complement_degeneracy": 265955,
+    "mu": 45088093576,
+    "num_complement_colors": 2209,
+    "num_parts": 2209,
+    "splitting_applied": false
+  },
+  "postprocess": {
+    "assignment_minimal": false
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

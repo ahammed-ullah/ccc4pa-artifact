@@ -1,0 +1,25 @@
+{
+  "algorithm": "matching",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_wg/dba/dba.graph",
+    "graph_name": "dba",
+    "n": 67234,
+    "m": 498237193,
+    "arcs": 996474386,
+    "graph_bytes": 9195088,
+    "properties_bytes": 317,
+    "ef_bytes": 104056,
+    "perm_bytes": 268936,
+    "bundle_bytes": 9568397
+  },
+  "config_path": null,
+  "slurm_job_id": "43716517",
+  "result": {"matching_size": 33608},
+  "memory": {"process_peak_rss_bytes": 19607552},
+  "timing_seconds": {
+    "webgraph_load": 0.043870471,
+    "algorithm": 240.280862143
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "linear",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "physics",
+    "path": "format_cgf/physics.cgf",
+    "format": "cgf",
+    "n": 121311,
+    "m": 521145952,
+    "encoded_bytes": 1052553590,
+    "read_time_seconds": 28.016883168
+  },
+  "lower_bounds": {
+    "combined_best": 351226,
+    "global_core_color": 253027,
+    "global_mis": 348537
+  },
+  "timing_seconds": {
+    "linear_bounds": 17.32911021,
+    "common_neighborhood": 0,
+    "local_mis": 0,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 17.330696969,
+    "total_including_graph_read": 45.347580137
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "algorithm": "mvm",
+  "cover_mode": "encoded",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_round_limit": 30, "mvm_mode": "bounded", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "ccf_path": "format_ccf/audikw_1.ccf",
+    "graph_name": "audikw_1",
+    "n": 943695,
+    "m": 38354076,
+    "num_cliques": 223723,
+    "cover_size": 5492676,
+    "ccf_bytes": 8781414,
+    "graph_fingerprint_sha256": "ff8633cfd7b84a5fdd6519479f783fd1978933616d070e13aca00428786a17f9",
+    "ccf_stored_checksum_sha256": "ca518fabf94df75e29a5689329f486d340aee18736b39b4478ab6ba07e16d497"
+  },
+  "config_path": "cp_algo4/config/encoded.toml",
+  "slurm_job_id": "44762816",
+  "result": {"matched_vertex_weight_sum": "420117261360852663"},
+  "mvm_execution": {"rounds_attempted": 7, "rounds_with_flip": 6, "early_exit": true, "stop_reason": "no_positive_gain"},
+  "memory": {"process_peak_rss_bytes": 87113728},
+  "timing_seconds": {
+    "ccf_load": 0.022711550,
+    "weight_preparation": 0.008424148,
+    "algorithm": 2.192637638
+  }
+}

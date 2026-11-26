@@ -1,0 +1,26 @@
+{
+  "algorithm": "mvm",
+  "cover_mode": "encoded",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_round_limit": 30, "mvm_mode": "bounded", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "ccf_path": "format_ccf/hollywood-2009.ccf",
+    "graph_name": "hollywood-2009",
+    "n": 1107243,
+    "m": 56375711,
+    "num_cliques": 587728,
+    "cover_size": 5912421,
+    "ccf_bytes": 16076819,
+    "graph_fingerprint_sha256": "6d249596df4baaf259340c19fa5e94a8f9bfa6c5193f0649f8ff939ea06c113c",
+    "ccf_stored_checksum_sha256": "3cee4215788769ef8965009cb8cb89120703c4143ca563a4059dfca474d77650"
+  },
+  "config_path": "cp_algo4/config/encoded.toml",
+  "slurm_job_id": "44762829",
+  "result": {"matched_vertex_weight_sum": "677399833764894182"},
+  "mvm_execution": {"rounds_attempted": 19, "rounds_with_flip": 18, "early_exit": true, "stop_reason": "no_positive_gain"},
+  "memory": {"process_peak_rss_bytes": 110215168},
+  "timing_seconds": {
+    "ccf_load": 0.126861132,
+    "weight_preparation": 0.010509185,
+    "algorithm": 17.087872717
+  }
+}

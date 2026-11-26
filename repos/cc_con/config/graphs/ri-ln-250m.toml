@@ -1,0 +1,12 @@
+[graph]
+name = "ri-ln-250m"
+source = "synthetic"
+model = "hypergraph"
+
+[graph.parameters]
+distribution = "lognormal"
+n = 2000000
+r = 63570
+mu = 4.25
+sigma = 0.5
+seed = 19

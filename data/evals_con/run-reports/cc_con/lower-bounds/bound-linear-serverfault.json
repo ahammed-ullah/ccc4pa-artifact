@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "linear",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "serverfault",
+    "path": "format_cgf/serverfault.cgf",
+    "format": "cgf",
+    "n": 257925,
+    "m": 1567185915,
+    "encoded_bytes": 3201013263,
+    "read_time_seconds": 82.463340431
+  },
+  "lower_bounds": {
+    "combined_best": 710974,
+    "global_core_color": 546546,
+    "global_mis": 701746
+  },
+  "timing_seconds": {
+    "linear_bounds": 54.006654522,
+    "common_neighborhood": 0,
+    "local_mis": 0,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 54.009713354,
+    "total_including_graph_read": 136.473053785
+  }
+}

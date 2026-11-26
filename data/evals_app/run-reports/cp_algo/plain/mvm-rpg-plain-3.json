@@ -1,0 +1,27 @@
+{
+  "algorithm": "mvm",
+  "cover_mode": "plain",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_round_limit": 30, "mvm_mode": "bounded", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "ccf_path": "format_ccf/rpg.ccf",
+    "graph_name": "rpg",
+    "n": 28874,
+    "m": 81903796,
+    "num_cliques": 792,
+    "cover_size": 74901,
+    "ccf_bytes": 100281,
+    "graph_fingerprint_sha256": "c3545491008fdfeac2807ef20bc4452128b257a8f393179dbc04c6455ddc2650",
+    "ccf_stored_checksum_sha256": "18831e558ee77ab1573ef0ac252af5cfc96d6047b16dea480da8fdc532d71fdd"
+  },
+  "config_path": null,
+  "slurm_job_id": "43830889",
+  "result": {"matched_vertex_weight_sum": "12010954942537"},
+  "mvm_execution": {"rounds_attempted": 4, "rounds_with_flip": 3, "early_exit": true, "stop_reason": "no_positive_gain"},
+  "memory": {"process_peak_rss_bytes": 10625024},
+  "timing_seconds": {
+    "ccf_load": 0.003664838,
+    "cover_decode": 0.001050126,
+    "weight_preparation": 0.000329630,
+    "algorithm": 0.010657659
+  }
+}

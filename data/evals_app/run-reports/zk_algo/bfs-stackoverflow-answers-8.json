@@ -1,0 +1,24 @@
+{
+  "algorithm": "bfs",
+  "representation": "zuckerli",
+  "parameters": {},
+  "input": {
+    "graph_path": "format_zk/stackoverflow-answers/stackoverflow-answers.zk",
+    "graph_name": "stackoverflow-answers",
+    "n": 15211989,
+    "m": 14653134369,
+    "arcs": 29306268738,
+    "graph_bytes": 1483962969,
+    "index_bytes": 64650982,
+    "perm_bytes": 60847956,
+    "bundle_bytes": 1609461907
+  },
+  "config_path": null,
+  "slurm_job_id": "43719831",
+  "result": {"connected_components": 1},
+  "memory": {"process_peak_rss_bytes": 1626644480},
+  "timing_seconds": {
+    "zuckerli_load": 2.079649020,
+    "algorithm": 29558.784383899
+  }
+}

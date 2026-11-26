@@ -1,0 +1,26 @@
+{
+  "algorithm": "wvc",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_wg/audikw_1/audikw_1.graph",
+    "graph_name": "audikw_1",
+    "n": 943695,
+    "m": 38354076,
+    "arcs": 76708152,
+    "graph_bytes": 10178712,
+    "properties_bytes": 316,
+    "ef_bytes": 1016512,
+    "perm_bytes": 3774780,
+    "bundle_bytes": 14970320
+  },
+  "config_path": null,
+  "slurm_job_id": "43717054",
+  "result": {"selected_weight_sum": "419121936196422365"},
+  "memory": {"process_peak_rss_bytes": 35467264},
+  "timing_seconds": {
+    "webgraph_load": 0.020833200,
+    "weight_preparation": 0.046274628,
+    "algorithm": 5.821054474
+  }
+}

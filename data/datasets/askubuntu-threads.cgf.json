@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "artifact": {
+    "format": "cgf",
+    "format_version": 1,
+    "encoding": "delta-vbyte",
+    "path": "askubuntu-threads.cgf",
+    "file_bytes": 80176260,
+    "file_checksum_sha256": "d98047825f5c6c769dec434410286e778e15bb005971c3024ef3908e61c7eebd"
+  },
+  "graph": {
+    "name": "askubuntu-threads",
+    "source": "file",
+    "type": "cornell-dual-simplices",
+    "origin_specification_path": "repos/cc_con/config/graphs/askubuntu-threads.toml",
+    "parameters": {
+      "nverts_path": "format_std/cornell_arb/threads-ask-ubuntu/threads-ask-ubuntu-nverts.txt",
+      "simplices_path": "format_std/cornell_arb/threads-ask-ubuntu/threads-ask-ubuntu-simplices.txt"
+    },
+    "generation_statistics": {
+      "dual_hyperedge_count": 125602,
+      "dual_incidence_sum": 346537,
+      "dual_incidence_sum_nontrivial": 253967,
+      "dual_isolated_vertices_removed": 35465,
+      "dual_native_CR": 215.486665590411,
+      "dual_native_cover_size": 253967,
+      "dual_native_statistics_available": true,
+      "dual_nontrivial_hyperedge_count": 33032,
+      "dual_overlap_factor": 1.00177098839608,
+      "dual_pair_occurrences": 27411711,
+      "m_dual": 27363251,
+      "max_dual_hyperedge_size": 2332,
+      "mean_dual_hyperedge_size": 2.75900861451251,
+      "min_dual_hyperedge_size": 1,
+      "n_dual": 157482,
+      "original_simplex_count": 192947,
+      "original_vertex_count": 125602
+    },
+    "n": 157482,
+    "m": 27363251,
+    "canonical_fingerprint_sha256": "e7ae9aed8b46ece2f25de166f673941a8e082accce4e21b3da5efc7ceba894e0"
+  },
+  "preparation": {
+    "graph_time_seconds": 10.183767155,
+    "encoding_and_write_time_seconds": 26.986667684
+  }
+}

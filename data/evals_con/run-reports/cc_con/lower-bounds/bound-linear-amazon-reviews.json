@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "linear",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "amazon-reviews",
+    "path": "format_cgf/amazon-reviews.cgf",
+    "format": "cgf",
+    "n": 2268231,
+    "m": 3032412387,
+    "encoded_bytes": 9585212166,
+    "read_time_seconds": 204.486058382
+  },
+  "lower_bounds": {
+    "combined_best": 26491083,
+    "global_core_color": 7770743,
+    "global_mis": 26264348
+  },
+  "timing_seconds": {
+    "linear_bounds": 174.159648001,
+    "common_neighborhood": 0,
+    "local_mis": 0,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 174.177453661,
+    "total_including_graph_read": 378.663512043
+  }
+}

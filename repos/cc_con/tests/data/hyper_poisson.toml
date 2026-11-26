@@ -1,0 +1,11 @@
+[graph]
+name = "hyper-poisson-test"
+source = "synthetic"
+model = "hypergraph"
+
+[graph.parameters]
+distribution = "poisson"
+n = 14
+r = 30
+lambda = 4.0
+seed = 23

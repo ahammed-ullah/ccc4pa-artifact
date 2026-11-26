@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "bpa",
+    "parameters": {
+      "label_selection": "min-label",
+      "tau": 4
+    }
+  },
+  "graph": {
+    "name": "superuser",
+    "source": "file",
+    "type": "sx-tag-question",
+    "parameters": {
+      "path": "format_std/cornell_arb/sx-tag-question-parsed/parsed/superuser.com.txt"
+    },
+    "generation_statistics": {
+      "canonical_question_count": 378232,
+      "distinct_edges": 4537481735,
+      "incidence_sum": 1097125,
+      "incidence_sum_nontrivial": 1096965,
+      "isolated_questions_removed": 16,
+      "max_tag_degree": 45073,
+      "mean_tag_degree": 206.304061677322,
+      "min_tag_degree": 1,
+      "native_CR": 8272.79217659634,
+      "native_cover_size": 1096965,
+      "native_statistics_available": true,
+      "nontrivial_tag_count": 5158,
+      "overlap_factor": 1.04818931265626,
+      "pair_occurrences": 4756139861,
+      "potential_CR": 8671.45234533463,
+      "question_count": 378248,
+      "tag_count": 5318
+    },
+    "specification_path": "format_cgf/superuser.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/superuser-sx.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/superuser.cgf",
+    "preparation_report_path": "format_cgf/superuser.cgf.json",
+    "canonical_fingerprint_sha256": "c6864082dfa0310b6df64d68718ed938c6d991884f52be66e8b3077d5ae50d68",
+    "n": 378232,
+    "m": 4537481735,
+    "time_seconds": 240.403846629
+  },
+  "constructed_cover": {
+    "num_cliques": 5036,
+    "cover_size": 1100512,
+    "time_seconds": 1282.123019215
+  },
+  "algorithm_statistics": {
+    "num_phases": 1,
+    "peak_size_D": 1322630
+  },
+  "postprocess": {
+    "assignment_minimal": true,
+    "num_cliques": 4994,
+    "cover_size": 1096090,
+    "time_seconds": 25.889942522
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

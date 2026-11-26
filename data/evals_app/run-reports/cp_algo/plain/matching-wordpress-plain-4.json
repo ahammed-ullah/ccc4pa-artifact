@@ -1,0 +1,25 @@
+{
+  "algorithm": "matching",
+  "cover_mode": "plain",
+  "parameters": {"matching_variant": "three_halves"},
+  "input": {
+    "ccf_path": "format_ccf/wordpress.ccf",
+    "graph_name": "wordpress",
+    "n": 88745,
+    "m": 226563991,
+    "num_cliques": 764,
+    "cover_size": 216217,
+    "ccf_bytes": 284681,
+    "graph_fingerprint_sha256": "3d9f3a05227f3bce0b0b5798deebe07cd7cfd28ddd391733f1c59242d3e9f5fe",
+    "ccf_stored_checksum_sha256": "5811767265ec19bd111e4d284bd6f9ee25457f769ec50dfb13799008a08f2541"
+  },
+  "config_path": null,
+  "slurm_job_id": "43479329",
+  "result": {"matching_size": 44344},
+  "memory": {"process_peak_rss_bytes": 15122432},
+  "timing_seconds": {
+    "ccf_load": 0.002913669,
+    "cover_decode": 0.001980454,
+    "algorithm": 0.007141749
+  }
+}

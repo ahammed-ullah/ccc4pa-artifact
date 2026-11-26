@@ -1,0 +1,24 @@
+{
+  "algorithm": "dfs",
+  "cover_mode": "encoded",
+  "parameters": {},
+  "input": {
+    "ccf_path": "format_ccf/math-sx-threads.ccf",
+    "graph_name": "math-sx-threads",
+    "n": 698505,
+    "m": 767323596,
+    "num_cliques": 74967,
+    "cover_size": 1507717,
+    "ccf_bytes": 3887201,
+    "graph_fingerprint_sha256": "8b7f2aad70866120fef6df5a238b01cf91faec3f07e652c28d3f9b1b3337904d",
+    "ccf_stored_checksum_sha256": "402a81f0cd12c47ccc9c515c5233107ede407b2595b9682c0c9e9363a445ca18"
+  },
+  "config_path": "cp_algo/config/encoded.toml",
+  "slurm_job_id": "43679404",
+  "result": {"connected_components": 1894},
+  "memory": {"process_peak_rss_bytes": 34885632},
+  "timing_seconds": {
+    "ccf_load": 0.012457006,
+    "algorithm": 0.146469826
+  }
+}

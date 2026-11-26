@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "dpf",
+    "parameters": {}
+  },
+  "graph": {
+    "name": "ri-u-250m",
+    "source": "synthetic",
+    "type": "hypergraph",
+    "parameters": {
+      "distribution": "k-uniform",
+      "k": 102,
+      "n": 2000000,
+      "r": 48540,
+      "seed": 19
+    },
+    "generation_statistics": {
+      "deduplication_strategy": "sort-unique",
+      "distinct_edges": 250013831,
+      "estimated_distinct_edges": 250013912.272656,
+      "estimated_pair_to_edge_ratio": 1.0000625074309,
+      "nontrivial_hyperedges": 48540,
+      "pair_occurrences": 250029540,
+      "sampled_size_max": 102,
+      "sampled_size_mean": 102,
+      "sampled_size_min": 102,
+      "sampled_size_sum": 4951080
+    },
+    "specification_path": "format_cgf/ri-u-250m.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/ri-u-250m.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/ri-u-250m.cgf",
+    "preparation_report_path": "format_cgf/ri-u-250m.cgf.json",
+    "canonical_fingerprint_sha256": "8af770b2e38c2eaca08d8c54d7eb920f785305c0a9399bd5b66c88f9e3d64fa1",
+    "n": 1832126,
+    "m": 250013831,
+    "time_seconds": 18.486910181
+  },
+  "constructed_cover": {
+    "num_cliques": 48540,
+    "cover_size": 4951080,
+    "time_seconds": 18.965369605
+  },
+  "algorithm_statistics": {
+    "degeneracy": 193
+  },
+  "postprocess": {
+    "assignment_minimal": false
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

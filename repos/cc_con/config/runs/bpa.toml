@@ -1,0 +1,9 @@
+[construction]
+tau = 4.0
+label_selection = "min-label"
+
+[postprocess]
+assignment_minimal = true
+
+[verification]
+enabled = false

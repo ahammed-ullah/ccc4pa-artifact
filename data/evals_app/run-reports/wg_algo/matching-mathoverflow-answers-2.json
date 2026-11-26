@@ -1,0 +1,25 @@
+{
+  "algorithm": "matching",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_wg/mathoverflow-answers/mathoverflow-answers.graph",
+    "graph_name": "mathoverflow-answers",
+    "n": 73851,
+    "m": 17465233,
+    "arcs": 34930466,
+    "graph_bytes": 3095200,
+    "properties_bytes": 316,
+    "ef_bytes": 98080,
+    "perm_bytes": 295404,
+    "bundle_bytes": 3489000
+  },
+  "config_path": null,
+  "slurm_job_id": "43716448",
+  "result": {"matching_size": 36712},
+  "memory": {"process_peak_rss_bytes": 12824576},
+  "timing_seconds": {
+    "webgraph_load": 0.022397577,
+    "algorithm": 4.781120052
+  }
+}

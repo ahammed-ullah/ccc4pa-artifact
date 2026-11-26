@@ -1,0 +1,5 @@
+[graph]
+name = "cornell-hyperedges-example"
+source = "file"
+format = "cornell-hyperedges"
+path = "../data/hyperedges.txt"

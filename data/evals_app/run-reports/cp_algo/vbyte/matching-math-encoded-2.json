@@ -1,0 +1,24 @@
+{
+  "algorithm": "matching",
+  "cover_mode": "encoded",
+  "parameters": {"matching_variant": "three_halves"},
+  "input": {
+    "ccf_path": "format_ccf/math.ccf",
+    "graph_name": "math",
+    "n": 994983,
+    "m": 24332111417,
+    "num_cliques": 1702,
+    "cover_size": 2236075,
+    "ccf_bytes": 2981190,
+    "graph_fingerprint_sha256": "8ecb8008275fe8b192eaf77b6da23f31e636d445db3267679c42faef117a252d",
+    "ccf_stored_checksum_sha256": "b1636c059c9b7ff25df9065c079df789b81cc1d8cb584bffabe0c54a38bd7e51"
+  },
+  "config_path": "cp_algo/config/encoded.toml",
+  "slurm_job_id": "43678988",
+  "result": {"matching_size": 497429},
+  "memory": {"process_peak_rss_bytes": 27074560},
+  "timing_seconds": {
+    "ccf_load": 0.008839348,
+    "algorithm": 0.088834559
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "algorithm": "mvm",
+  "representation": "zuckerli",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_seed": 5, "mvm_sample_limit": 180393, "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_zk/gamedev/gamedev.zk",
+    "graph_name": "gamedev",
+    "n": 43145,
+    "m": 102877926,
+    "arcs": 205755852,
+    "graph_bytes": 4925223,
+    "index_bytes": 140249,
+    "perm_bytes": 172580,
+    "bundle_bytes": 5238052
+  },
+  "config_path": null,
+  "slurm_job_id": "44718360",
+  "result": {"matched_vertex_weight_sum": "40136722203602"},
+  "mvm_execution": {"status": "complete", "stop_reason": "sample_limit", "samples_completed": 180393, "positive_augmentations": 21764},
+  "memory": {"process_peak_rss_bytes": 15519744},
+  "timing_seconds": {
+    "zuckerli_load": 0.016407076,
+    "weight_preparation": 0.002954676,
+    "algorithm": 376.792120407
+  }
+}

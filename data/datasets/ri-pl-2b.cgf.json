@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "artifact": {
+    "format": "cgf",
+    "format_version": 1,
+    "encoding": "delta-vbyte",
+    "path": "ri-pl-2b.cgf",
+    "file_bytes": 6947811253,
+    "file_checksum_sha256": "30d68a334676139266d929f6887284ec0ac212d600af93d6f8591a0af50e43eb"
+  },
+  "graph": {
+    "name": "ri-pl-2b",
+    "source": "synthetic",
+    "type": "hypergraph",
+    "origin_specification_path": "repos/cc_con/config/graphs/ri-pl-2b.toml",
+    "parameters": {
+      "alpha": 2,
+      "distribution": "power-law",
+      "n": 2000000,
+      "r": 384000,
+      "s_max": 6730,
+      "s_min": 2,
+      "seed": 19
+    },
+    "generation_statistics": {
+      "deduplication_strategy": "sort-unique",
+      "distinct_edges": 2028767549,
+      "estimated_distinct_edges": 2028771414.65478,
+      "estimated_pair_to_edge_ratio": 1.00050565595405,
+      "nontrivial_hyperedges": 384000,
+      "pair_occurrences": 2029797275,
+      "sampled_size_max": 6657,
+      "sampled_size_mean": 12.9876848958333,
+      "sampled_size_min": 2,
+      "sampled_size_sum": 4987271
+    },
+    "n": 1835162,
+    "m": 2028767549,
+    "canonical_fingerprint_sha256": "a5b9531cb44f749b7bf09c70544123ddf61627bd52682e8ffb8e85611f6d3b5a"
+  },
+  "preparation": {
+    "graph_time_seconds": 1144.075534562,
+    "encoding_and_write_time_seconds": 114.469341864
+  }
+}

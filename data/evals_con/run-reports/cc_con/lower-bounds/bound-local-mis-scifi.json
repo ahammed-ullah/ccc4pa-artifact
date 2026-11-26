@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "local-mis",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "scifi",
+    "path": "format_cgf/scifi.cgf",
+    "format": "cgf",
+    "n": 48564,
+    "m": 121121230,
+    "encoded_bytes": 243891009,
+    "read_time_seconds": 6.520157411
+  },
+  "lower_bounds": {
+    "combined_best": 86655,
+    "common_neighborhood_global_color": 78474,
+    "global_core_color": 76430,
+    "global_mis": 76249,
+    "ordinary_local_mis": 82443,
+    "simplicial_dominating_local_mis": 86636
+  },
+  "timing_seconds": {
+    "linear_bounds": 1.701315905,
+    "common_neighborhood": 7189.192140782,
+    "local_mis": 1.345014102,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 7192.239991362,
+    "total_including_graph_read": 7198.760148773
+  }
+}

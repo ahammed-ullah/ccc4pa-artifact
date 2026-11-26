@@ -1,0 +1,25 @@
+{
+  "algorithm": "bfs",
+  "cover_mode": "plain",
+  "parameters": {},
+  "input": {
+    "ccf_path": "format_ccf/codereview.ccf",
+    "graph_name": "codereview",
+    "n": 54084,
+    "m": 206520631,
+    "num_cliques": 770,
+    "cover_size": 158244,
+    "ccf_bytes": 203641,
+    "graph_fingerprint_sha256": "a631dc245a3b7985127af8576c5367fd70bdda6fc141fdbffb4a1c065c502760",
+    "ccf_stored_checksum_sha256": "23b884cca4882a76b0acf993277b4391e0454362214a55687b3fb7520ece98c4"
+  },
+  "config_path": null,
+  "slurm_job_id": "43487438",
+  "result": {"connected_components": 1},
+  "memory": {"process_peak_rss_bytes": 12853248},
+  "timing_seconds": {
+    "ccf_load": 0.002857175,
+    "cover_decode": 0.002427707,
+    "algorithm": 0.009733351
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "local-mis",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "dba",
+    "path": "format_cgf/dba.cgf",
+    "format": "cgf",
+    "n": 67234,
+    "m": 498237193,
+    "encoded_bytes": 998129980,
+    "read_time_seconds": 26.565387609
+  },
+  "lower_bounds": {
+    "combined_best": 186116,
+    "common_neighborhood_global_color": 137523,
+    "global_core_color": 127722,
+    "global_mis": 167766,
+    "ordinary_local_mis": 182731,
+    "simplicial_dominating_local_mis": 186105
+  },
+  "timing_seconds": {
+    "linear_bounds": 10.024003422,
+    "common_neighborhood": 79679.005328164,
+    "local_mis": 7.863282154,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 79696.894457554,
+    "total_including_graph_read": 79723.459845163
+  }
+}

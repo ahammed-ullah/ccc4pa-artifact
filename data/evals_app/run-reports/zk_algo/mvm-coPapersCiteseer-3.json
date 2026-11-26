@@ -1,0 +1,26 @@
+{
+  "algorithm": "mvm",
+  "representation": "zuckerli",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_seed": 5, "mvm_sample_limit": 1815010, "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_zk/coPapersCiteseer/coPapersCiteseer.zk",
+    "graph_name": "coPapersCiteseer",
+    "n": 434102,
+    "m": 16036720,
+    "arcs": 32073440,
+    "graph_bytes": 3041140,
+    "index_bytes": 1356596,
+    "perm_bytes": 0,
+    "bundle_bytes": 4397736
+  },
+  "config_path": null,
+  "slurm_job_id": "44718185",
+  "result": {"matched_vertex_weight_sum": "40880065182129410"},
+  "mvm_execution": {"status": "complete", "stop_reason": "sample_limit", "samples_completed": 1815010, "positive_augmentations": 239210},
+  "memory": {"process_peak_rss_bytes": 19083264},
+  "timing_seconds": {
+    "zuckerli_load": 0.028110230,
+    "weight_preparation": 0.008688499,
+    "algorithm": 13.379591264
+  }
+}

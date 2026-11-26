@@ -1,0 +1,26 @@
+{
+  "algorithm": "mvm",
+  "representation": "zuckerli",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_seed": 4, "mvm_sample_limit": 45908124, "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_zk/stackoverflow-threads/stackoverflow-threads.zk",
+    "graph_name": "stackoverflow-threads",
+    "n": 10980003,
+    "m": 8233726692,
+    "arcs": 16467453384,
+    "graph_bytes": 1495366667,
+    "index_bytes": 46665041,
+    "perm_bytes": 43920012,
+    "bundle_bytes": 1585951720
+  },
+  "config_path": null,
+  "slurm_job_id": "44729438",
+  "result": {"matched_vertex_weight_sum": "661579772898886305448"},
+  "mvm_execution": {"status": "complete", "stop_reason": "sample_limit", "samples_completed": 45908124, "positive_augmentations": 6050976},
+  "memory": {"process_peak_rss_bytes": 1684680704},
+  "timing_seconds": {
+    "zuckerli_load": 2.497692604,
+    "weight_preparation": 1.128484741,
+    "algorithm": 24449.218111330
+  }
+}

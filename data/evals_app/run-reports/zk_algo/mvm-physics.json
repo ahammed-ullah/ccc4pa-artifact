@@ -1,0 +1,26 @@
+{
+  "algorithm": "mvm",
+  "representation": "zuckerli",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_seed": 1, "mvm_sample_limit": 507210, "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_zk/physics/physics.zk",
+    "graph_name": "physics",
+    "n": 121311,
+    "m": 521145952,
+    "arcs": 1042291904,
+    "graph_bytes": 39108058,
+    "index_bytes": 439780,
+    "perm_bytes": 485244,
+    "bundle_bytes": 40033082
+  },
+  "config_path": null,
+  "slurm_job_id": "44718401",
+  "result": {"matched_vertex_weight_sum": "892934484616277"},
+  "mvm_execution": {"status": "complete", "stop_reason": "sample_limit", "samples_completed": 507210, "positive_augmentations": 60772},
+  "memory": {"process_peak_rss_bytes": 51412992},
+  "timing_seconds": {
+    "zuckerli_load": 0.217643219,
+    "weight_preparation": 0.018539438,
+    "algorithm": 2155.560218452
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "local-mis",
+    "exact_truss": true
+  },
+  "graph": {
+    "name": "dielFilterV3real",
+    "path": "format_cgf/dielFilterV3real.cgf",
+    "format": "cgf",
+    "n": 1102824,
+    "m": 44101598,
+    "encoded_bytes": 113789546,
+    "read_time_seconds": 2.91571275
+  },
+  "lower_bounds": {
+    "combined_best": 2634993,
+    "common_neighborhood_global_color": 2419101,
+    "exact_truss": 2419214,
+    "global_core_color": 2416606,
+    "global_mis": 1906781,
+    "ordinary_local_mis": 2249182,
+    "simplicial_dominating_local_mis": 2634846
+  },
+  "timing_seconds": {
+    "linear_bounds": 1.365427642,
+    "common_neighborhood": 0,
+    "local_mis": 1.034999253,
+    "exact_truss": 202.019490424,
+    "local_color": 0,
+    "bound_computation": 204.439241154,
+    "total_including_graph_read": 207.354953904
+  }
+}

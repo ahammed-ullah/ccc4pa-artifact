@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "linear",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "wordpress",
+    "path": "format_cgf/wordpress.cgf",
+    "format": "cgf",
+    "n": 88745,
+    "m": 226563991,
+    "encoded_bytes": 459715602,
+    "read_time_seconds": 12.162579836
+  },
+  "lower_bounds": {
+    "combined_best": 213170,
+    "global_core_color": 182342,
+    "global_mis": 211702
+  },
+  "timing_seconds": {
+    "linear_bounds": 7.860349585,
+    "common_neighborhood": 0,
+    "local_mis": 0,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 7.861441579,
+    "total_including_graph_read": 20.024021415
+  }
+}

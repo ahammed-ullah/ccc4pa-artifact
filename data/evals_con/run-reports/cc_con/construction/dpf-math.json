@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "dpf",
+    "parameters": {}
+  },
+  "graph": {
+    "name": "math",
+    "source": "file",
+    "type": "sx-tag-question",
+    "parameters": {
+      "path": "format_std/cornell_arb/sx-tag-question-parsed/parsed/math.stackexchange.com.txt"
+    },
+    "generation_statistics": {
+      "canonical_question_count": 994983,
+      "distinct_edges": 24332111417,
+      "incidence_sum": 2236430,
+      "incidence_sum_nontrivial": 2236416,
+      "isolated_questions_removed": 0,
+      "max_tag_degree": 84626,
+      "mean_tag_degree": 1278.69068038879,
+      "min_tag_degree": 1,
+      "native_CR": 21759.9153440147,
+      "native_cover_size": 2236416,
+      "native_statistics_available": true,
+      "nontrivial_tag_count": 1735,
+      "overlap_factor": 1.06652662229999,
+      "pair_occurrences": 25950844603,
+      "potential_CR": 23207.5290133857,
+      "question_count": 994983,
+      "tag_count": 1749
+    },
+    "specification_path": "format_cgf/math.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/math-sx.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/math.cgf",
+    "preparation_report_path": "format_cgf/math.cgf.json",
+    "canonical_fingerprint_sha256": "8ecb8008275fe8b192eaf77b6da23f31e636d445db3267679c42faef117a252d",
+    "n": 994983,
+    "m": 24332111417,
+    "time_seconds": 1252.239131233
+  },
+  "constructed_cover": {
+    "num_cliques": 18910,
+    "cover_size": 2399597,
+    "time_seconds": 3678.799476818
+  },
+  "algorithm_statistics": {
+    "degeneracy": 84625
+  },
+  "postprocess": {
+    "assignment_minimal": false
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

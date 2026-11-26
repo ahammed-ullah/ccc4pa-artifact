@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "local-mis",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "physics",
+    "path": "format_cgf/physics.cgf",
+    "format": "cgf",
+    "n": 121311,
+    "m": 521145952,
+    "encoded_bytes": 1052553590,
+    "read_time_seconds": 27.096469824
+  },
+  "lower_bounds": {
+    "combined_best": 368677,
+    "common_neighborhood_global_color": 304336,
+    "global_core_color": 253027,
+    "global_mis": 348537,
+    "ordinary_local_mis": 357300,
+    "simplicial_dominating_local_mis": 368676
+  },
+  "timing_seconds": {
+    "linear_bounds": 14.689431989,
+    "common_neighborhood": 71621.281890312,
+    "local_mis": 12.935060571,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 71648.909124618,
+    "total_including_graph_read": 71676.005594442
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "artifact": {
+    "format": "cgf",
+    "format_version": 1,
+    "encoding": "delta-vbyte",
+    "path": "hollywood-2009.cgf",
+    "file_bytes": 152708715,
+    "file_checksum_sha256": "90e7260d868f8e381a132fd77fa2d9abb0f1688ce26e0d8f7922d72357cfbfc8"
+  },
+  "graph": {
+    "name": "hollywood-2009",
+    "source": "file",
+    "type": "mm",
+    "origin_specification_path": "repos/cc_con/config/graphs/hollywood-2009.toml",
+    "parameters": {
+      "path": "format_std/suitesparse/hollywood-2009/hollywood-2009.mtx"
+    },
+    "generation_statistics": {},
+    "n": 1107243,
+    "m": 56375711,
+    "canonical_fingerprint_sha256": "6d249596df4baaf259340c19fa5e94a8f9bfa6c5193f0649f8ff939ea06c113c"
+  },
+  "preparation": {
+    "graph_time_seconds": 44.687021934,
+    "encoding_and_write_time_seconds": 2.827611512
+  }
+}

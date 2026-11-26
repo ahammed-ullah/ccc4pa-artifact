@@ -1,0 +1,25 @@
+{
+  "algorithm": "wvc",
+  "representation": "zuckerli",
+  "parameters": {"weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_zk/amazon-reviews/amazon-reviews.zk",
+    "graph_name": "amazon-reviews",
+    "n": 2268231,
+    "m": 3032412387,
+    "arcs": 6064824774,
+    "graph_bytes": 3988672135,
+    "index_bytes": 9923539,
+    "perm_bytes": 9072924,
+    "bundle_bytes": 4007668598
+  },
+  "config_path": null,
+  "slurm_job_id": "43708756",
+  "result": {"selected_weight_sum": "5826385732968942325"},
+  "memory": {"process_peak_rss_bytes": 4049760256},
+  "timing_seconds": {
+    "zuckerli_load": 5.842096351,
+    "weight_preparation": 0.127038546,
+    "algorithm": 4572.629940747
+  }
+}

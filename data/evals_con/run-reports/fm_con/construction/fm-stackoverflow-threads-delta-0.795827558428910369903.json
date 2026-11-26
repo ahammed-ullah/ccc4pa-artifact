@@ -1,0 +1,64 @@
+{
+  "schema_version": 4,
+  "algorithm": {
+    "name": "fm",
+    "delta_selection": "fixed",
+    "workspace": "linear"
+  },
+  "graph": {
+    "name": "stackoverflow-threads",
+    "path": "format_cgf/stackoverflow-threads.cgf",
+    "format": "cgf",
+    "format_version": 1,
+    "file_bytes": 32370556454,
+    "canonical_fingerprint_sha256": "9e7a336ab63c69302c843f8c0cc3af9da30f5760695f04f2e00ee401f3d301bd",
+    "file_checksum_sha256": "1498d17a2218cc7e14beef820d44ff314927c4ac168a83b59f1ed1863a6c5488",
+    "n": 10980003,
+    "m": 8233726692
+  },
+  "delta_search": {
+    "policy": "fixed-delta",
+    "scale_a": 1.6901738386221168539,
+    "initial_k_min": 1,
+    "initial_k_max": 1,
+    "candidate_count": 1,
+    "candidate_delta_min": 0.795827558428910369903,
+    "candidate_delta_max": 0.795827558428910369903,
+    "selected_delta": 0.795827558428910369903,
+    "selected_initial_k": 1,
+    "time_seconds": 891.02173216100004538
+  },
+  "partition": {
+    "initial_cross_edges": 16467453384,
+    "k_ge_2_bicliques": 0,
+    "star_bicliques": 5157364,
+    "num_parts": 606510148,
+    "edges_in_k_ge_2_bicliques": 0,
+    "edges_in_star_bicliques": 15866100600,
+    "residual_edges": 601352784,
+    "nontrivial_size": 15871257964,
+    "residual_size": 1202705568,
+    "total_size": 17073963532
+  },
+  "fm_representation": {
+    "m_star": 16483590751,
+    "n_star": 27117370,
+    "center_count": 5157364,
+    "return_arcs": 10980003
+  },
+  "construction_state": {
+    "space_bound": "O(n+m)",
+    "packed_neighbor_bits": 0,
+    "packed_neighbor_words": 0,
+    "deleted_edge_words": 0,
+    "deletion_rank_entries": 0,
+    "neighborhood_tree_nodes": 0
+  },
+  "timing": {
+    "input_index_seconds": 0,
+    "selected_run_seconds": 891.021730557999944722,
+    "initialization_seconds": 881.120917426999994859,
+    "k_ge_2_stripping_seconds": 2.9999999999999997319e-08,
+    "star_stripping_seconds": 9.90081202900000079126
+  }
+}

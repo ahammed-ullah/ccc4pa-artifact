@@ -1,0 +1,25 @@
+{
+  "algorithm": "bfs",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk"},
+  "input": {
+    "graph_path": "format_wg/RM07R/RM07R.graph",
+    "graph_name": "RM07R",
+    "n": 272635,
+    "m": 19910625,
+    "arcs": 39821250,
+    "graph_bytes": 3415104,
+    "properties_bytes": 317,
+    "ef_bytes": 301352,
+    "perm_bytes": 0,
+    "bundle_bytes": 3716773
+  },
+  "config_path": null,
+  "slurm_job_id": "43716557",
+  "result": {"connected_components": 1},
+  "memory": {"process_peak_rss_bytes": 13017088},
+  "timing_seconds": {
+    "webgraph_load": 0.049795337,
+    "algorithm": 5.066513307
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "local-mis",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "askubuntu-threads",
+    "path": "format_cgf/askubuntu-threads.cgf",
+    "format": "cgf",
+    "n": 157482,
+    "m": 27363251,
+    "encoded_bytes": 80176260,
+    "read_time_seconds": 2.102866812
+  },
+  "lower_bounds": {
+    "combined_best": 253403,
+    "common_neighborhood_global_color": 253173,
+    "global_core_color": 246226,
+    "global_mis": 232643,
+    "ordinary_local_mis": 252911,
+    "simplicial_dominating_local_mis": 253393
+  },
+  "timing_seconds": {
+    "linear_bounds": 0.737426841,
+    "common_neighborhood": 316.172705464,
+    "local_mis": 0.693583732,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 317.606949443,
+    "total_including_graph_read": 319.709816255
+  }
+}

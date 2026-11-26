@@ -1,0 +1,25 @@
+{
+  "algorithm": "matching",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_wg/gamedev/gamedev.graph",
+    "graph_name": "gamedev",
+    "n": 43145,
+    "m": 102877926,
+    "arcs": 205755852,
+    "graph_bytes": 5526008,
+    "properties_bytes": 317,
+    "ef_bytes": 66536,
+    "perm_bytes": 172580,
+    "bundle_bytes": 5765441
+  },
+  "config_path": null,
+  "slurm_job_id": "43716479",
+  "result": {"matching_size": 21563},
+  "memory": {"process_peak_rss_bytes": 15224832},
+  "timing_seconds": {
+    "webgraph_load": 0.014793612,
+    "algorithm": 40.606701241
+  }
+}

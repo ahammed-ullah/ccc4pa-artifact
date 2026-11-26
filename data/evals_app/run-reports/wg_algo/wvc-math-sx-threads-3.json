@@ -1,0 +1,26 @@
+{
+  "algorithm": "wvc",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_wg/math-sx-threads/math-sx-threads.graph",
+    "graph_name": "math-sx-threads",
+    "n": 698505,
+    "m": 767323596,
+    "arcs": 1534647192,
+    "graph_bytes": 110672352,
+    "properties_bytes": 320,
+    "ef_bytes": 1092096,
+    "perm_bytes": 2794020,
+    "bundle_bytes": 114558788
+  },
+  "config_path": null,
+  "slurm_job_id": "43717197",
+  "result": {"selected_weight_sum": "166193661587501090"},
+  "memory": {"process_peak_rss_bytes": 132681728},
+  "timing_seconds": {
+    "webgraph_load": 0.137875747,
+    "weight_preparation": 0.039109250,
+    "algorithm": 123.763669900
+  }
+}

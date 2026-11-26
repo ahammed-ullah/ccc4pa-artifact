@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "cpa",
+    "parameters": {
+      "label_selection": "min-label",
+      "tau": 4
+    }
+  },
+  "graph": {
+    "name": "ri-ln-1b",
+    "source": "synthetic",
+    "type": "hypergraph",
+    "parameters": {
+      "distribution": "lognormal",
+      "mu": 5.7,
+      "n": 2000000,
+      "r": 16010,
+      "seed": 19,
+      "sigma": 0.5
+    },
+    "generation_statistics": {
+      "deduplication_strategy": "sort-unique",
+      "distinct_edges": 1174896620,
+      "estimated_distinct_edges": 1174895797.21713,
+      "estimated_pair_to_edge_ratio": 1.00029378757137,
+      "nontrivial_hyperedges": 16010,
+      "pair_occurrences": 1175240967,
+      "sampled_size_max": 2233,
+      "sampled_size_mean": 338.332354778264,
+      "sampled_size_min": 44,
+      "sampled_size_sum": 5416701
+    },
+    "specification_path": "format_cgf/ri-ln-1b.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/ri-ln-1b.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/ri-ln-1b.cgf",
+    "preparation_report_path": "format_cgf/ri-ln-1b.cgf.json",
+    "canonical_fingerprint_sha256": "507a59bf981952c87e75d8a58fc55f1a594ac31ffb65de308de689b32dc20e51",
+    "n": 1866033,
+    "m": 1174896620,
+    "time_seconds": 80.876882098
+  },
+  "constructed_cover": {
+    "num_cliques": 123356,
+    "cover_size": 5750950,
+    "time_seconds": 428.590750808
+  },
+  "algorithm_statistics": {
+    "bcc_cover_size": 1537846795,
+    "bcc_num_cliques": 535604147,
+    "complement_degeneracy": 1860251,
+    "mu": 1739863748909,
+    "num_complement_colors": 16006,
+    "num_parts": 16006,
+    "num_phases": 1,
+    "peak_size_D": 5827215,
+    "splitting_applied": false
+  },
+  "postprocess": {
+    "assignment_minimal": true,
+    "num_cliques": 16010,
+    "cover_size": 5416701,
+    "time_seconds": 9.123352954
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

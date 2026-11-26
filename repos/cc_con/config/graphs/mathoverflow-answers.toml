@@ -1,0 +1,6 @@
+# Extract the Cornell dataset ZIP and point to its hyperedge-list member.
+[graph]
+name = "mathoverflow-answers"
+source = "file"
+format = "cornell-hyperedges"
+path = "../../datasets/cornell_arb/mathoverflow-answers/hyperedges-mathoverflow-answers.txt"

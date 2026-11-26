@@ -1,0 +1,5 @@
+[graph]
+name = "coQuestions-example"
+source = "file"
+format = "sx-tag-question"
+path = "../data/tag-questions.txt"

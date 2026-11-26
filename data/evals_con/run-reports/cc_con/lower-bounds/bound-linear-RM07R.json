@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "linear",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "RM07R",
+    "path": "format_cgf/RM07R.cgf",
+    "format": "cgf",
+    "n": 272635,
+    "m": 19910625,
+    "encoded_bytes": 44816287,
+    "read_time_seconds": 1.204374783
+  },
+  "lower_bounds": {
+    "combined_best": 875820,
+    "global_core_color": 801484,
+    "global_mis": 750654
+  },
+  "timing_seconds": {
+    "linear_bounds": 0.48538724,
+    "common_neighborhood": 0,
+    "local_mis": 0,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 0.48860548,
+    "total_including_graph_read": 1.692980263
+  }
+}

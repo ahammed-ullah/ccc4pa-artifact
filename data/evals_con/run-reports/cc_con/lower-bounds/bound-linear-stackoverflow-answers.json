@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "linear",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "stackoverflow-answers",
+    "path": "format_cgf/stackoverflow-answers.cgf",
+    "format": "cgf",
+    "n": 15211989,
+    "m": 14653134369,
+    "encoded_bytes": 50982779220,
+    "read_time_seconds": 1077.489211699
+  },
+  "lower_bounds": {
+    "combined_best": 25652730,
+    "global_core_color": 24293339,
+    "global_mis": 25297363
+  },
+  "timing_seconds": {
+    "linear_bounds": 1646.160527249,
+    "common_neighborhood": 0,
+    "local_mis": 0,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 1646.286015399,
+    "total_including_graph_read": 2723.775227098
+  }
+}

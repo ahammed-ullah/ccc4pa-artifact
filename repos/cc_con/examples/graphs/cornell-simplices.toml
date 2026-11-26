@@ -1,0 +1,6 @@
+[graph]
+name = "cornell-simplices-example"
+source = "file"
+format = "cornell-simplices"
+nverts_path = "../data/temporal-simplices-nverts.txt"
+simplices_path = "../data/temporal-simplices.txt"

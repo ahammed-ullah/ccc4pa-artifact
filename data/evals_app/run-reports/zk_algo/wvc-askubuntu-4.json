@@ -1,0 +1,25 @@
+{
+  "algorithm": "wvc",
+  "representation": "zuckerli",
+  "parameters": {"weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_zk/askubuntu/askubuntu.zk",
+    "graph_name": "askubuntu",
+    "n": 306695,
+    "m": 1942664590,
+    "arcs": 3885329180,
+    "graph_bytes": 115878647,
+    "index_bytes": 1150134,
+    "perm_bytes": 1226780,
+    "bundle_bytes": 118255561
+  },
+  "config_path": null,
+  "slurm_job_id": "43708823",
+  "result": {"selected_weight_sum": "14407113014512012"},
+  "memory": {"process_peak_rss_bytes": 132874240},
+  "timing_seconds": {
+    "zuckerli_load": 0.158375409,
+    "weight_preparation": 0.017193988,
+    "algorithm": 1046.824537217
+  }
+}

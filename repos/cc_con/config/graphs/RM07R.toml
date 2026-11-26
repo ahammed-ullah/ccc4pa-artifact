@@ -1,0 +1,5 @@
+[graph]
+name = "RM07R"
+source = "file"
+format = "mm"
+path = "../../datasets/suitesparse/RM07R/RM07R.mtx"

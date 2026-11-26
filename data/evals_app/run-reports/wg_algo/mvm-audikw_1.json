@@ -1,0 +1,27 @@
+{
+  "algorithm": "mvm",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]", "mvm_epsilon": 0.01, "mvm_seed": 3, "mvm_sample_limit": 3945652},
+  "input": {
+    "graph_path": "format_wg/audikw_1/audikw_1.graph",
+    "graph_name": "audikw_1",
+    "n": 943695,
+    "m": 38354076,
+    "arcs": 76708152,
+    "graph_bytes": 10178712,
+    "properties_bytes": 316,
+    "ef_bytes": 1016512,
+    "perm_bytes": 3774780,
+    "bundle_bytes": 14970320
+  },
+  "config_path": null,
+  "slurm_job_id": "44717939",
+  "result": {"matched_vertex_weight_sum": "420116964783077656"},
+  "mvm_execution": {"status": "complete", "stop_reason": "sample_limit", "samples_completed": 3945652, "positive_augmentations": 486928},
+  "memory": {"process_peak_rss_bytes": 31936512},
+  "timing_seconds": {
+    "webgraph_load": 0.064988882,
+    "weight_preparation": 0.179739275,
+    "algorithm": 107.013137837
+  }
+}

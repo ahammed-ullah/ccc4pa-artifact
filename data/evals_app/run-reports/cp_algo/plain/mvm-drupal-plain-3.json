@@ -1,0 +1,27 @@
+{
+  "algorithm": "mvm",
+  "cover_mode": "plain",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_round_limit": 30, "mvm_mode": "bounded", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "ccf_path": "format_ccf/drupal.ccf",
+    "graph_name": "drupal",
+    "n": 77488,
+    "m": 640722456,
+    "num_cliques": 234,
+    "cover_size": 160662,
+    "ccf_bytes": 180094,
+    "graph_fingerprint_sha256": "1bb44f52a58d1b417e9b74bb9aeddd15342c37c205d8e2cc20366bfa2479b915",
+    "ccf_stored_checksum_sha256": "9085661b71efe35f7b64dd446ff28087f575cd5ef8de66bb3d56afac3dc7a66f"
+  },
+  "config_path": null,
+  "slurm_job_id": "43830903",
+  "result": {"matched_vertex_weight_sum": "232818322879491"},
+  "mvm_execution": {"rounds_attempted": 4, "rounds_with_flip": 3, "early_exit": true, "stop_reason": "no_positive_gain"},
+  "memory": {"process_peak_rss_bytes": 14520320},
+  "timing_seconds": {
+    "ccf_load": 0.004027196,
+    "cover_decode": 0.001852484,
+    "weight_preparation": 0.000897793,
+    "algorithm": 0.029569489
+  }
+}

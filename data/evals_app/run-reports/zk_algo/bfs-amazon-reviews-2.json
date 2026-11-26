@@ -1,0 +1,24 @@
+{
+  "algorithm": "bfs",
+  "representation": "zuckerli",
+  "parameters": {},
+  "input": {
+    "graph_path": "format_zk/amazon-reviews/amazon-reviews.zk",
+    "graph_name": "amazon-reviews",
+    "n": 2268231,
+    "m": 3032412387,
+    "arcs": 6064824774,
+    "graph_bytes": 3988672135,
+    "index_bytes": 9923539,
+    "perm_bytes": 9072924,
+    "bundle_bytes": 4007668598
+  },
+  "config_path": null,
+  "slurm_job_id": "43708272",
+  "result": {"connected_components": 6},
+  "memory": {"process_peak_rss_bytes": 4024487936},
+  "timing_seconds": {
+    "zuckerli_load": 7.823538991,
+    "algorithm": 7257.863776224
+  }
+}

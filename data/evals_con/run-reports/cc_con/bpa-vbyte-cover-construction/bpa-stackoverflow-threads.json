@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "bpa",
+    "parameters": {
+      "label_selection": "min-label",
+      "tau": 4
+    }
+  },
+  "graph": {
+    "name": "stackoverflow-threads",
+    "source": "file",
+    "type": "cornell-dual-simplices",
+    "parameters": {
+      "nverts_path": "format_std/cornell_arb/threads-stack-overflow-full/threads-stack-overflow-full-nverts.txt",
+      "simplices_path": "format_std/cornell_arb/threads-stack-overflow-full/threads-stack-overflow-full-simplices.txt"
+    },
+    "generation_statistics": {
+      "dual_hyperedge_count": 2675969,
+      "dual_incidence_sum": 25578226,
+      "dual_incidence_sum_nontrivial": 24361706,
+      "dual_isolated_vertices_removed": 325353,
+      "dual_native_CR": 675.956494344033,
+      "dual_native_cover_size": 24361706,
+      "dual_native_statistics_available": true,
+      "dual_nontrivial_hyperedge_count": 1459449,
+      "dual_overlap_factor": 1.00133574691162,
+      "dual_pair_occurrences": 8244724867,
+      "m_dual": 8233726692,
+      "max_dual_hyperedge_size": 36365,
+      "mean_dual_hyperedge_size": 9.55849114844006,
+      "min_dual_hyperedge_size": 1,
+      "n_dual": 10980003,
+      "original_simplex_count": 11305356,
+      "original_vertex_count": 2675969
+    },
+    "specification_path": "format_cgf/stackoverflow-threads.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/stackoverflow-threads.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/stackoverflow-threads.cgf",
+    "preparation_report_path": "format_cgf/stackoverflow-threads.cgf.json",
+    "canonical_fingerprint_sha256": "9e7a336ab63c69302c843f8c0cc3af9da30f5760695f04f2e00ee401f3d301bd",
+    "n": 10980003,
+    "m": 8233726692,
+    "time_seconds": 636.078111004
+  },
+  "constructed_cover": {
+    "num_cliques": 1450653,
+    "cover_size": 24343713,
+    "time_seconds": 1517.052579637
+  },
+  "algorithm_statistics": {
+    "num_phases": 1,
+    "peak_size_D": 24941389
+  },
+  "postprocess": {
+    "assignment_minimal": true,
+    "num_cliques": 1450467,
+    "cover_size": 24342146,
+    "time_seconds": 169.343722587
+  },
+  "output": {
+    "written": true,
+    "format": "ccf",
+    "format_version": 1,
+    "path": "format_ccf/stackoverflow-threads.ccf",
+    "encoded_bytes": 81357215,
+    "file_checksum_sha256": "ad9d0ad3381c39b7d4e1bec0adbf754509c3311f4b05a89f4717e1191f97368e",
+    "encoding_and_write_time_seconds": 4.933673819
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": true,
+    "trigger": "cover-output",
+    "passed": true,
+    "time_seconds": 752.695792012
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "algorithm": "wvc",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_wg/codegolf/codegolf.graph",
+    "graph_name": "codegolf",
+    "n": 9695,
+    "m": 34080224,
+    "arcs": 68160448,
+    "graph_bytes": 243448,
+    "properties_bytes": 315,
+    "ef_bytes": 12328,
+    "perm_bytes": 38780,
+    "bundle_bytes": 294871
+  },
+  "config_path": null,
+  "slurm_job_id": "43717249",
+  "result": {"selected_weight_sum": "458215202903"},
+  "memory": {"process_peak_rss_bytes": 9945088},
+  "timing_seconds": {
+    "webgraph_load": 0.038009294,
+    "weight_preparation": 0.001454529,
+    "algorithm": 4.140361761
+  }
+}

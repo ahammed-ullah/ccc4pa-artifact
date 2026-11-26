@@ -1,0 +1,24 @@
+{
+  "algorithm": "matching",
+  "representation": "zuckerli",
+  "parameters": {"matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_zk/scifi/scifi.zk",
+    "graph_name": "scifi",
+    "n": 48564,
+    "m": 121121230,
+    "arcs": 242242460,
+    "graph_bytes": 965738,
+    "index_bytes": 139649,
+    "perm_bytes": 194256,
+    "bundle_bytes": 1299643
+  },
+  "config_path": null,
+  "slurm_job_id": "43707993",
+  "result": {"matching_size": 24214},
+  "memory": {"process_peak_rss_bytes": 10985472},
+  "timing_seconds": {
+    "zuckerli_load": 0.030384892,
+    "algorithm": 117.679313541
+  }
+}

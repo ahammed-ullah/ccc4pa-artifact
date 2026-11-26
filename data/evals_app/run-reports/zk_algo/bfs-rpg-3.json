@@ -1,0 +1,24 @@
+{
+  "algorithm": "bfs",
+  "representation": "zuckerli",
+  "parameters": {},
+  "input": {
+    "graph_path": "format_zk/rpg/rpg.zk",
+    "graph_name": "rpg",
+    "n": 28874,
+    "m": 81903796,
+    "arcs": 163807592,
+    "graph_bytes": 2113375,
+    "index_bytes": 90259,
+    "perm_bytes": 115496,
+    "bundle_bytes": 2319130
+  },
+  "config_path": null,
+  "slurm_job_id": "43708325",
+  "result": {"connected_components": 15},
+  "memory": {"process_peak_rss_bytes": 11853824},
+  "timing_seconds": {
+    "zuckerli_load": 0.090257381,
+    "algorithm": 27.281203964
+  }
+}

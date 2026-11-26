@@ -1,0 +1,24 @@
+{
+  "algorithm": "dfs",
+  "cover_mode": "encoded",
+  "parameters": {},
+  "input": {
+    "ccf_path": "format_ccf/audikw_1.ccf",
+    "graph_name": "audikw_1",
+    "n": 943695,
+    "m": 38354076,
+    "num_cliques": 223723,
+    "cover_size": 5492676,
+    "ccf_bytes": 8781414,
+    "graph_fingerprint_sha256": "ff8633cfd7b84a5fdd6519479f783fd1978933616d070e13aca00428786a17f9",
+    "ccf_stored_checksum_sha256": "ca518fabf94df75e29a5689329f486d340aee18736b39b4478ab6ba07e16d497"
+  },
+  "config_path": "cp_algo/config/encoded.toml",
+  "slurm_job_id": "43679258",
+  "result": {"connected_components": 1},
+  "memory": {"process_peak_rss_bytes": 50884608},
+  "timing_seconds": {
+    "ccf_load": 0.034091725,
+    "algorithm": 0.245400703
+  }
+}

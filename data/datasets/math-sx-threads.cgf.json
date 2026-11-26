@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "artifact": {
+    "format": "cgf",
+    "format_version": 1,
+    "encoding": "delta-vbyte",
+    "path": "math-sx-threads.cgf",
+    "file_bytes": 2114621709,
+    "file_checksum_sha256": "63c6bda78a2228200a574c88a988efb18c4087f915880429f52f04355d969ff9"
+  },
+  "graph": {
+    "name": "math-sx-threads",
+    "source": "file",
+    "type": "cornell-dual-simplices",
+    "origin_specification_path": "repos/cc_con/config/graphs/math-sx-threads.toml",
+    "parameters": {
+      "nverts_path": "format_std/cornell_arb/threads-math-sx/threads-math-sx-nverts.txt",
+      "simplices_path": "format_std/cornell_arb/threads-math-sx/threads-math-sx-simplices.txt"
+    },
+    "generation_statistics": {
+      "dual_hyperedge_count": 176445,
+      "dual_incidence_sum": 1610393,
+      "dual_incidence_sum_nontrivial": 1509983,
+      "dual_isolated_vertices_removed": 21287,
+      "dual_native_CR": 1016.33408588044,
+      "dual_native_cover_size": 1509983,
+      "dual_native_statistics_available": true,
+      "dual_nontrivial_hyperedge_count": 76035,
+      "dual_overlap_factor": 1.00248205582355,
+      "dual_pair_occurrences": 769228136,
+      "m_dual": 767323596,
+      "max_dual_hyperedge_size": 12511,
+      "mean_dual_hyperedge_size": 9.1268837314744,
+      "min_dual_hyperedge_size": 1,
+      "n_dual": 698505,
+      "original_simplex_count": 719792,
+      "original_vertex_count": 176445
+    },
+    "n": 698505,
+    "m": 767323596,
+    "canonical_fingerprint_sha256": "8b7f2aad70866120fef6df5a238b01cf91faec3f07e652c28d3f9b1b3337904d"
+  },
+  "preparation": {
+    "graph_time_seconds": 466.576670568,
+    "encoding_and_write_time_seconds": 86.946787207
+  }
+}

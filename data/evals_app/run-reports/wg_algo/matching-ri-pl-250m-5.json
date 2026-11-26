@@ -1,0 +1,25 @@
+{
+  "algorithm": "matching",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_wg/ri-pl-250m/ri-pl-250m.graph",
+    "graph_name": "ri-pl-250m",
+    "n": 1835035,
+    "m": 249942214,
+    "arcs": 499884428,
+    "graph_bytes": 190227424,
+    "properties_bytes": 320,
+    "ef_bytes": 2726712,
+    "perm_bytes": 7340140,
+    "bundle_bytes": 200294596
+  },
+  "config_path": null,
+  "slurm_job_id": "43716363",
+  "result": {"matching_size": 901630},
+  "memory": {"process_peak_rss_bytes": 211369984},
+  "timing_seconds": {
+    "webgraph_load": 0.261077855,
+    "algorithm": 27.010988044
+  }
+}

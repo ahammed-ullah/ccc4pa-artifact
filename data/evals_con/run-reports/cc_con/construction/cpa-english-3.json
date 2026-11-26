@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "cpa",
+    "parameters": {
+      "label_selection": "min-label",
+      "tau": 4
+    }
+  },
+  "graph": {
+    "name": "english",
+    "source": "file",
+    "type": "sx-tag-question",
+    "parameters": {
+      "path": "format_std/cornell_arb/sx-tag-question-parsed/parsed/english.txt"
+    },
+    "generation_statistics": {
+      "canonical_question_count": 98460,
+      "distinct_edges": 424210898,
+      "incidence_sum": 204146,
+      "incidence_sum_nontrivial": 204134,
+      "isolated_questions_removed": 1,
+      "max_tag_degree": 15098,
+      "mean_tag_degree": 216.256355932203,
+      "min_tag_degree": 1,
+      "native_CR": 4156.20031939804,
+      "native_cover_size": 204134,
+      "native_statistics_available": true,
+      "nontrivial_tag_count": 932,
+      "overlap_factor": 1.03893184281183,
+      "pair_occurrences": 440726210,
+      "potential_CR": 4318.00885692731,
+      "question_count": 98461,
+      "tag_count": 944
+    },
+    "specification_path": "format_cgf/english.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/english-sx.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/english.cgf",
+    "preparation_report_path": "format_cgf/english.cgf.json",
+    "canonical_fingerprint_sha256": "34ca1b603f8ce4ab0eb21d16b6868e8611500191654548ec32e97ae381621b2b",
+    "n": 98460,
+    "m": 424210898,
+    "time_seconds": 22.184528876
+  },
+  "constructed_cover": {
+    "num_cliques": 2340,
+    "cover_size": 227821,
+    "time_seconds": 54.016798155
+  },
+  "algorithm_statistics": {
+    "bcc_cover_size": 50573884,
+    "bcc_num_cliques": 1560644,
+    "complement_degeneracy": 76672,
+    "mu": 4422925673,
+    "num_complement_colors": 679,
+    "num_parts": 679,
+    "num_phases": 1,
+    "peak_size_D": 639050,
+    "splitting_applied": false
+  },
+  "postprocess": {
+    "assignment_minimal": true,
+    "num_cliques": 916,
+    "cover_size": 204025,
+    "time_seconds": 2.054340022
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

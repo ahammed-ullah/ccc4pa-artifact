@@ -1,0 +1,26 @@
+{
+  "algorithm": "wvc",
+  "cover_mode": "plain",
+  "parameters": {"weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "ccf_path": "format_ccf/english.ccf",
+    "graph_name": "english",
+    "n": 98460,
+    "m": 424210898,
+    "num_cliques": 917,
+    "cover_size": 204028,
+    "ccf_bytes": 264776,
+    "graph_fingerprint_sha256": "34ca1b603f8ce4ab0eb21d16b6868e8611500191654548ec32e97ae381621b2b",
+    "ccf_stored_checksum_sha256": "25a157928b0baf8744ec051cfc7d96874ef2b0706314a5a31b0b32cd72085c8b"
+  },
+  "config_path": null,
+  "slurm_job_id": "43487883",
+  "result": {"selected_weight_sum": "474048770507483"},
+  "memory": {"process_peak_rss_bytes": 11730944},
+  "timing_seconds": {
+    "ccf_load": 0.002020885,
+    "cover_decode": 0.002272390,
+    "weight_preparation": 0.001025241,
+    "algorithm": 0.002385652
+  }
+}

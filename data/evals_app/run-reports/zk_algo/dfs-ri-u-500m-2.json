@@ -1,0 +1,24 @@
+{
+  "algorithm": "dfs",
+  "representation": "zuckerli",
+  "parameters": {},
+  "input": {
+    "graph_path": "format_zk/ri-u-500m/ri-u-500m.zk",
+    "graph_name": "ri-u-500m",
+    "n": 1834019,
+    "m": 500153753,
+    "arcs": 1000307506,
+    "graph_bytes": 858386776,
+    "index_bytes": 7565357,
+    "perm_bytes": 7336076,
+    "bundle_bytes": 873288209
+  },
+  "config_path": null,
+  "slurm_job_id": "43708447",
+  "result": {"connected_components": 1},
+  "memory": {"process_peak_rss_bytes": 906543104},
+  "timing_seconds": {
+    "zuckerli_load": 1.943621503,
+    "algorithm": 90.387865036
+  }
+}

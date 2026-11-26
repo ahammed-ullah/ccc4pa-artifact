@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "artifact": {
+    "format": "cgf",
+    "format_version": 1,
+    "encoding": "delta-vbyte",
+    "path": "codegolf.cgf",
+    "file_bytes": 68268892,
+    "file_checksum_sha256": "7e88d2f3f4bb948731a6b3b1c6c3d6a304b73930c996308cc48cbebbb3e33bc6"
+  },
+  "graph": {
+    "name": "codegolf",
+    "source": "file",
+    "type": "sx-tag-question",
+    "origin_specification_path": "repos/cc_con/config/graphs/codegolf-sx.toml",
+    "parameters": {
+      "path": "format_std/cornell_arb/sx-tag-question-parsed/parsed/codegolf.txt"
+    },
+    "generation_statistics": {
+      "canonical_question_count": 9695,
+      "distinct_edges": 34080224,
+      "incidence_sum": 25707,
+      "incidence_sum_nontrivial": 25679,
+      "isolated_questions_removed": 2,
+      "max_tag_degree": 8155,
+      "mean_tag_degree": 93.1413043478261,
+      "min_tag_degree": 1,
+      "native_CR": 2654.32641458001,
+      "native_cover_size": 25679,
+      "native_statistics_available": true,
+      "nontrivial_tag_count": 248,
+      "overlap_factor": 1.0930650866614,
+      "pair_occurrences": 37251903,
+      "potential_CR": 2901.35153238054,
+      "question_count": 9697,
+      "tag_count": 276
+    },
+    "n": 9695,
+    "m": 34080224,
+    "canonical_fingerprint_sha256": "36b8d55b9645702b6a7c82e690b252c6f41a04ff61a60da9e9dd4ffd781942e5"
+  },
+  "preparation": {
+    "graph_time_seconds": 9.835598889,
+    "encoding_and_write_time_seconds": 1.027945065
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "algorithm": "matching",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_wg/rpg/rpg.graph",
+    "graph_name": "rpg",
+    "n": 28874,
+    "m": 81903796,
+    "arcs": 163807592,
+    "graph_bytes": 2413936,
+    "properties_bytes": 317,
+    "ef_bytes": 42216,
+    "perm_bytes": 115496,
+    "bundle_bytes": 2571965
+  },
+  "config_path": null,
+  "slurm_job_id": "43716512",
+  "result": {"matching_size": 14423},
+  "memory": {"process_peak_rss_bytes": 12341248},
+  "timing_seconds": {
+    "webgraph_load": 0.010349371,
+    "algorithm": 19.606491079
+  }
+}

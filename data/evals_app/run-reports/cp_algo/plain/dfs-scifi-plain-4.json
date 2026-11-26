@@ -1,0 +1,25 @@
+{
+  "algorithm": "dfs",
+  "cover_mode": "plain",
+  "parameters": {},
+  "input": {
+    "ccf_path": "format_ccf/scifi.ccf",
+    "graph_name": "scifi",
+    "n": 48564,
+    "m": 121121230,
+    "num_cliques": 1254,
+    "cover_size": 86680,
+    "ccf_bytes": 121558,
+    "graph_fingerprint_sha256": "e1b92cbc0d059d83ba11ed6598945cbeb74e8b38b61fe8dc176fb8a7fa425cbb",
+    "ccf_stored_checksum_sha256": "6b03db3cd5e1efe5d3f81e776916e520c464ede4eebcae44090101a6a104b1cb"
+  },
+  "config_path": null,
+  "slurm_job_id": "43487624",
+  "result": {"connected_components": 92},
+  "memory": {"process_peak_rss_bytes": 12722176},
+  "timing_seconds": {
+    "ccf_load": 0.002331898,
+    "cover_decode": 0.001370982,
+    "algorithm": 0.009131559
+  }
+}

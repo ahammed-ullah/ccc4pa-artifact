@@ -1,0 +1,24 @@
+{
+  "algorithm": "bfs",
+  "cover_mode": "encoded",
+  "parameters": {},
+  "input": {
+    "ccf_path": "format_ccf/dielFilterV3real.ccf",
+    "graph_name": "dielFilterV3real",
+    "n": 1102824,
+    "m": 44101598,
+    "num_cliques": 61927,
+    "cover_size": 2635803,
+    "ccf_bytes": 3890710,
+    "graph_fingerprint_sha256": "f54f1ea1328642a614817443e9ba78532009c2e6cd50d23725dec021216d817e",
+    "ccf_stored_checksum_sha256": "ce4e4c4082177c510299d0791558b41e35f1a19de3a23c88fc4e880a354096f7"
+  },
+  "config_path": "cp_algo/config/encoded.toml",
+  "slurm_job_id": "43679008",
+  "result": {"connected_components": 1},
+  "memory": {"process_peak_rss_bytes": 33234944},
+  "timing_seconds": {
+    "ccf_load": 0.010559468,
+    "algorithm": 0.099968196
+  }
+}

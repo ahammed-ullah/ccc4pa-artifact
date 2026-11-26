@@ -1,0 +1,25 @@
+{
+  "algorithm": "bfs",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk"},
+  "input": {
+    "graph_path": "format_wg/drupal/drupal.graph",
+    "graph_name": "drupal",
+    "n": 77488,
+    "m": 640722456,
+    "arcs": 1281444912,
+    "graph_bytes": 10858152,
+    "properties_bytes": 319,
+    "ef_bytes": 120056,
+    "perm_bytes": 309952,
+    "bundle_bytes": 11288479
+  },
+  "config_path": null,
+  "slurm_job_id": "43716781",
+  "result": {"connected_components": 2},
+  "memory": {"process_peak_rss_bytes": 20897792},
+  "timing_seconds": {
+    "webgraph_load": 0.064949437,
+    "algorithm": 355.478944164
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "lzf",
+    "parameters": {}
+  },
+  "graph": {
+    "name": "stats",
+    "source": "file",
+    "type": "sx-tag-question",
+    "parameters": {
+      "path": "format_std/cornell_arb/sx-tag-question-parsed/parsed/stats.txt"
+    },
+    "generation_statistics": {
+      "canonical_question_count": 126441,
+      "distinct_edges": 618292040,
+      "incidence_sum": 372414,
+      "incidence_sum_nontrivial": 372380,
+      "isolated_questions_removed": 0,
+      "max_tag_degree": 18379,
+      "mean_tag_degree": 272.631039531479,
+      "min_tag_degree": 1,
+      "native_CR": 3320.75857994522,
+      "native_cover_size": 372380,
+      "native_statistics_available": true,
+      "nontrivial_tag_count": 1332,
+      "overlap_factor": 1.0540342181989,
+      "pair_occurrences": 651700967,
+      "potential_CR": 3500.19317363983,
+      "question_count": 126441,
+      "tag_count": 1366
+    },
+    "specification_path": "format_cgf/stats.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/stats-sx.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/stats.cgf",
+    "preparation_report_path": "format_cgf/stats.cgf.json",
+    "canonical_fingerprint_sha256": "1134f7b823d030d764b0a020bb816c549168e499e6b308c349825f3a5ad9b926",
+    "n": 126441,
+    "m": 618292040,
+    "time_seconds": 31.543426271
+  },
+  "constructed_cover": {
+    "num_cliques": 4208882,
+    "cover_size": 297391902,
+    "time_seconds": 10.748991478
+  },
+  "algorithm_statistics": {},
+  "postprocess": {
+    "assignment_minimal": false
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

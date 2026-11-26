@@ -1,0 +1,24 @@
+{
+  "algorithm": "matching",
+  "representation": "zuckerli",
+  "parameters": {"matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_zk/audikw_1/audikw_1.zk",
+    "graph_name": "audikw_1",
+    "n": 943695,
+    "m": 38354076,
+    "arcs": 76708152,
+    "graph_bytes": 6706589,
+    "index_bytes": 3067036,
+    "perm_bytes": 3774780,
+    "bundle_bytes": 13548405
+  },
+  "config_path": null,
+  "slurm_job_id": "43707882",
+  "result": {"matching_size": 471577},
+  "memory": {"process_peak_rss_bytes": 23531520},
+  "timing_seconds": {
+    "zuckerli_load": 0.030767394,
+    "algorithm": 7.470204622
+  }
+}

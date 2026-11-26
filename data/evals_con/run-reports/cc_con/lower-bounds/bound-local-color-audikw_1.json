@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "local-color",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "audikw_1",
+    "path": "format_cgf/audikw_1.cgf",
+    "format": "cgf",
+    "n": 943695,
+    "m": 38354076,
+    "encoded_bytes": 94621796,
+    "read_time_seconds": 2.385153852
+  },
+  "lower_bounds": {
+    "combined_best": 3049848,
+    "common_neighborhood_global_color": 2776398,
+    "common_neighborhood_local_color": 2960988,
+    "global_core_color": 2547684,
+    "global_mis": 1927383,
+    "ordinary_local_mis": 2567541,
+    "simplicial_dominating_local_mis": 2581746
+  },
+  "timing_seconds": {
+    "linear_bounds": 0.860275592,
+    "common_neighborhood": 0,
+    "local_mis": 1.0777771,
+    "exact_truss": 0,
+    "local_color": 219.32875828,
+    "bound_computation": 221.283029404,
+    "total_including_graph_read": 223.668183256
+  }
+}

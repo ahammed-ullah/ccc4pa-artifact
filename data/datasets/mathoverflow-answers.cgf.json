@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "artifact": {
+    "format": "cgf",
+    "format_version": 1,
+    "encoding": "delta-vbyte",
+    "path": "mathoverflow-answers.cgf",
+    "file_bytes": 43657622,
+    "file_checksum_sha256": "4682c66e5e7dcf9cb208464cc43d47e35480feed26972f73a2d9c165d6c74ecd"
+  },
+  "graph": {
+    "name": "mathoverflow-answers",
+    "source": "file",
+    "type": "cornell-hyperedges",
+    "origin_specification_path": "repos/cc_con/config/graphs/mathoverflow-answers.toml",
+    "parameters": {
+      "path": "format_std/cornell_arb/mathoverflow-answers/hyperedges-mathoverflow-answers.txt"
+    },
+    "generation_statistics": {
+      "distinct_edges": 17465233,
+      "incidence_sum": 131714,
+      "incidence_sum_nontrivial": 131714,
+      "max_hyperedge_size": 1784,
+      "mean_hyperedge_size": 24.1854572163055,
+      "min_hyperedge_size": 2,
+      "native_CR": 265.199340996401,
+      "native_cover_size": 131714,
+      "native_statistics_available": true,
+      "overlap_factor": 1.00917388276469,
+      "pair_occurrences": 17625457,
+      "r": 5446,
+      "r_nontrivial": 5446
+    },
+    "n": 73851,
+    "m": 17465233,
+    "canonical_fingerprint_sha256": "fcf30b51fe63c56e75bf2cc9e5a65cc004428124cdcb1418730153ee28a1c21e"
+  },
+  "preparation": {
+    "graph_time_seconds": 5.823701512,
+    "encoding_and_write_time_seconds": 5.265115002
+  }
+}

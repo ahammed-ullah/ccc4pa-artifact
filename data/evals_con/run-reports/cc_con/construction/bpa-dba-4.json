@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "bpa",
+    "parameters": {
+      "label_selection": "min-label",
+      "tau": 4
+    }
+  },
+  "graph": {
+    "name": "dba",
+    "source": "file",
+    "type": "sx-tag-question",
+    "parameters": {
+      "path": "format_std/cornell_arb/sx-tag-question-parsed/parsed/dba.txt"
+    },
+    "generation_statistics": {
+      "canonical_question_count": 67234,
+      "distinct_edges": 498237193,
+      "incidence_sum": 186851,
+      "incidence_sum_nontrivial": 186806,
+      "isolated_questions_removed": 0,
+      "max_tag_degree": 22121,
+      "mean_tag_degree": 175.611842105263,
+      "min_tag_degree": 1,
+      "native_CR": 5334.27398477565,
+      "native_cover_size": 186806,
+      "native_statistics_available": true,
+      "nontrivial_tag_count": 1019,
+      "overlap_factor": 1.0666978107353,
+      "pair_occurrences": 531468523,
+      "potential_CR": 5690.05838142244,
+      "question_count": 67234,
+      "tag_count": 1064
+    },
+    "specification_path": "format_cgf/dba.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/dba-sx.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/dba.cgf",
+    "preparation_report_path": "format_cgf/dba.cgf.json",
+    "canonical_fingerprint_sha256": "c85df23a74e7ce352beee3ea60fbcf2c409904f598077187986212d92ed57ac5",
+    "n": 67234,
+    "m": 498237193,
+    "time_seconds": 25.752380885
+  },
+  "constructed_cover": {
+    "num_cliques": 953,
+    "cover_size": 187333,
+    "time_seconds": 64.999085678
+  },
+  "algorithm_statistics": {
+    "num_phases": 1,
+    "peak_size_D": 279848
+  },
+  "postprocess": {
+    "assignment_minimal": true,
+    "num_cliques": 938,
+    "cover_size": 186201,
+    "time_seconds": 2.322113994
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

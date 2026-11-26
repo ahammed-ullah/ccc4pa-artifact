@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "cpa",
+    "parameters": {
+      "label_selection": "min-label",
+      "tau": 4
+    }
+  },
+  "graph": {
+    "name": "ri-pl-4b",
+    "source": "synthetic",
+    "type": "hypergraph",
+    "parameters": {
+      "alpha": 2,
+      "distribution": "power-law",
+      "n": 2000000,
+      "r": 351000,
+      "s_max": 14710,
+      "s_min": 2,
+      "seed": 19
+    },
+    "generation_statistics": {
+      "deduplication_strategy": "sort-unique",
+      "distinct_edges": 3777989133,
+      "estimated_distinct_edges": 3777967347.68422,
+      "estimated_pair_to_edge_ratio": 1.0009372876973,
+      "nontrivial_hyperedges": 351000,
+      "pair_occurrences": 3781508390,
+      "sampled_size_max": 14363,
+      "sampled_size_mean": 14.004113960114,
+      "sampled_size_min": 2,
+      "sampled_size_sum": 4915444
+    },
+    "specification_path": "format_cgf/ri-pl-4b.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/ri-pl-4b.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/ri-pl-4b.cgf",
+    "preparation_report_path": "format_cgf/ri-pl-4b.cgf.json",
+    "canonical_fingerprint_sha256": "cac9e5376ebf150a890984a8c5e39f998b791539e75c44858dfe57c8acbfa185",
+    "n": 1829290,
+    "m": 3777989133,
+    "time_seconds": 262.66456394
+  },
+  "constructed_cover": {
+    "num_cliques": 510213,
+    "cover_size": 6189360,
+    "time_seconds": 1345.649150733
+  },
+  "algorithm_statistics": {
+    "bcc_cover_size": 3792723627,
+    "bcc_num_cliques": 932871761,
+    "complement_degeneracy": 1798335,
+    "mu": 1669372048273,
+    "num_complement_colors": 137126,
+    "num_parts": 137126,
+    "num_phases": 1,
+    "peak_size_D": 13531478,
+    "splitting_applied": false
+  },
+  "postprocess": {
+    "assignment_minimal": true,
+    "num_cliques": 350697,
+    "cover_size": 4914873,
+    "time_seconds": 27.669299001
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "local-mis",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "math-sx-threads",
+    "path": "format_cgf/math-sx-threads.cgf",
+    "format": "cgf",
+    "n": 698505,
+    "m": 767323596,
+    "encoded_bytes": 2114621709,
+    "read_time_seconds": 48.925527987
+  },
+  "lower_bounds": {
+    "combined_best": 1507694,
+    "common_neighborhood_global_color": 1499808,
+    "global_core_color": 1356047,
+    "global_mis": 1399277,
+    "ordinary_local_mis": 1506086,
+    "simplicial_dominating_local_mis": 1507674
+  },
+  "timing_seconds": {
+    "linear_bounds": 25.484885728,
+    "common_neighborhood": 61274.288976871,
+    "local_mis": 24.743918677,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 61324.528320537,
+    "total_including_graph_read": 61373.453848524
+  }
+}

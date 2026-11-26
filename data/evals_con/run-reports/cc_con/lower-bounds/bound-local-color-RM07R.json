@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "local-color",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "RM07R",
+    "path": "format_cgf/RM07R.cgf",
+    "format": "cgf",
+    "n": 272635,
+    "m": 19910625,
+    "encoded_bytes": 44816287,
+    "read_time_seconds": 1.247221798
+  },
+  "lower_bounds": {
+    "combined_best": 1544845,
+    "common_neighborhood_global_color": 905183,
+    "common_neighborhood_local_color": 1076358,
+    "global_core_color": 801484,
+    "global_mis": 750654,
+    "ordinary_local_mis": 1544429,
+    "simplicial_dominating_local_mis": 1544429
+  },
+  "timing_seconds": {
+    "linear_bounds": 0.362842916,
+    "common_neighborhood": 0,
+    "local_mis": 0.469522606,
+    "exact_truss": 0,
+    "local_color": 257.094769822,
+    "bound_computation": 257.934119255,
+    "total_including_graph_read": 259.181341053
+  }
+}

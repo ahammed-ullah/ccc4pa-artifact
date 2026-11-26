@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "linear",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "math-sx-threads",
+    "path": "format_cgf/math-sx-threads.cgf",
+    "format": "cgf",
+    "n": 698505,
+    "m": 767323596,
+    "encoded_bytes": 2114621709,
+    "read_time_seconds": 49.918166176
+  },
+  "lower_bounds": {
+    "combined_best": 1459174,
+    "global_core_color": 1356047,
+    "global_mis": 1399277
+  },
+  "timing_seconds": {
+    "linear_bounds": 30.210227877,
+    "common_neighborhood": 0,
+    "local_mis": 0,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 30.216584175,
+    "total_including_graph_read": 80.134750351
+  }
+}

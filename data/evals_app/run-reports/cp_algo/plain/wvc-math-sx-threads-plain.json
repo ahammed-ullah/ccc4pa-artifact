@@ -1,0 +1,26 @@
+{
+  "algorithm": "wvc",
+  "cover_mode": "plain",
+  "parameters": {"weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "ccf_path": "format_ccf/math-sx-threads.ccf",
+    "graph_name": "math-sx-threads",
+    "n": 698505,
+    "m": 767323596,
+    "num_cliques": 74967,
+    "cover_size": 1507717,
+    "ccf_bytes": 3887201,
+    "graph_fingerprint_sha256": "8b7f2aad70866120fef6df5a238b01cf91faec3f07e652c28d3f9b1b3337904d",
+    "ccf_stored_checksum_sha256": "402a81f0cd12c47ccc9c515c5233107ede407b2595b9682c0c9e9363a445ca18"
+  },
+  "config_path": null,
+  "slurm_job_id": "43487913",
+  "result": {"selected_weight_sum": "159625522387793674"},
+  "memory": {"process_peak_rss_bytes": 30752768},
+  "timing_seconds": {
+    "ccf_load": 0.011735858,
+    "cover_decode": 0.022001324,
+    "weight_preparation": 0.005719309,
+    "algorithm": 0.013386278
+  }
+}

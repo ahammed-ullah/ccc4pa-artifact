@@ -1,0 +1,25 @@
+{
+  "algorithm": "wvc",
+  "representation": "zuckerli",
+  "parameters": {"weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_zk/dielFilterV3real/dielFilterV3real.zk",
+    "graph_name": "dielFilterV3real",
+    "n": 1102824,
+    "m": 44101598,
+    "arcs": 88203196,
+    "graph_bytes": 5147874,
+    "index_bytes": 3584206,
+    "perm_bytes": 4411296,
+    "bundle_bytes": 13143376
+  },
+  "config_path": null,
+  "slurm_job_id": "43708610",
+  "result": {"selected_weight_sum": "668541549298069810"},
+  "memory": {"process_peak_rss_bytes": 35414016},
+  "timing_seconds": {
+    "zuckerli_load": 0.027932157,
+    "weight_preparation": 0.052093370,
+    "algorithm": 4.064958348
+  }
+}

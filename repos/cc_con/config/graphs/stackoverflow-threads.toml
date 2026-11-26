@@ -1,0 +1,7 @@
+# Uses the same native full archive as the ordinary thread projection.
+[graph]
+name = "stackoverflow-threads"
+source = "file"
+format = "cornell-dual-simplices"
+nverts_path = "../../datasets/cornell_arb/threads-stack-overflow-full/threads-stack-overflow-full-nverts.txt"
+simplices_path = "../../datasets/cornell_arb/threads-stack-overflow-full/threads-stack-overflow-full-simplices.txt"

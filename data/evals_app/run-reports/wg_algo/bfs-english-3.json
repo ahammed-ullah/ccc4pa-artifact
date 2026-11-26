@@ -1,0 +1,25 @@
+{
+  "algorithm": "bfs",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk"},
+  "input": {
+    "graph_path": "format_wg/english/english.graph",
+    "graph_name": "english",
+    "n": 98460,
+    "m": 424210898,
+    "arcs": 848421796,
+    "graph_bytes": 13654400,
+    "properties_bytes": 319,
+    "ef_bytes": 152440,
+    "perm_bytes": 393840,
+    "bundle_bytes": 14200999
+  },
+  "config_path": null,
+  "slurm_job_id": "43716679",
+  "result": {"connected_components": 1},
+  "memory": {"process_peak_rss_bytes": 24887296},
+  "timing_seconds": {
+    "webgraph_load": 0.031442335,
+    "algorithm": 427.060619739
+  }
+}

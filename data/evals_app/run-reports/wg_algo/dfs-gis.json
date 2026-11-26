@@ -1,0 +1,25 @@
+{
+  "algorithm": "dfs",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk"},
+  "input": {
+    "graph_path": "format_wg/gis/gis.graph",
+    "graph_name": "gis",
+    "n": 101753,
+    "m": 592469235,
+    "arcs": 1184938470,
+    "graph_bytes": 23567112,
+    "properties_bytes": 320,
+    "ef_bytes": 166648,
+    "perm_bytes": 407012,
+    "bundle_bytes": 24141092
+  },
+  "config_path": null,
+  "slurm_job_id": "43716993",
+  "result": {"connected_components": 2},
+  "memory": {"process_peak_rss_bytes": 35020800},
+  "timing_seconds": {
+    "webgraph_load": 0.096252583,
+    "algorithm": 230.379075540
+  }
+}

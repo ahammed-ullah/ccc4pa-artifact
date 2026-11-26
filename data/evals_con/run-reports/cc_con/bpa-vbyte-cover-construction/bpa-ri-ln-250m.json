@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "bpa",
+    "parameters": {
+      "label_selection": "min-label",
+      "tau": 4
+    }
+  },
+  "graph": {
+    "name": "ri-ln-250m",
+    "source": "synthetic",
+    "type": "hypergraph",
+    "parameters": {
+      "distribution": "lognormal",
+      "mu": 4.25,
+      "n": 2000000,
+      "r": 63570,
+      "seed": 19,
+      "sigma": 0.5
+    },
+    "generation_statistics": {
+      "deduplication_strategy": "sort-unique",
+      "distinct_edges": 255720073,
+      "estimated_distinct_edges": 255720273.10624,
+      "estimated_pair_to_edge_ratio": 1.00006393272446,
+      "nontrivial_hyperedges": 63570,
+      "pair_occurrences": 255736622,
+      "sampled_size_max": 661,
+      "sampled_size_mean": 79.4471920717319,
+      "sampled_size_min": 8,
+      "sampled_size_sum": 5050458
+    },
+    "specification_path": "format_cgf/ri-ln-250m.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/ri-ln-250m.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/ri-ln-250m.cgf",
+    "preparation_report_path": "format_cgf/ri-ln-250m.cgf.json",
+    "canonical_fingerprint_sha256": "5b7774e8c8b5cf798b13c5eda5edd3cce40d3915e761407e93a07ac8d059fee1",
+    "n": 1840646,
+    "m": 255720073,
+    "time_seconds": 18.57089695
+  },
+  "constructed_cover": {
+    "num_cliques": 63575,
+    "cover_size": 5050473,
+    "time_seconds": 31.399471329
+  },
+  "algorithm_statistics": {
+    "num_phases": 1,
+    "peak_size_D": 5050473
+  },
+  "postprocess": {
+    "assignment_minimal": true,
+    "num_cliques": 63570,
+    "cover_size": 5050458,
+    "time_seconds": 3.181372065
+  },
+  "output": {
+    "written": true,
+    "format": "ccf",
+    "format_version": 1,
+    "path": "format_ccf/ri-ln-250m.ccf",
+    "encoded_bytes": 12872246,
+    "file_checksum_sha256": "601b5062b3e92c9cf16021258c2952f7fcf957f60c2ccec8c42e8ef672fcf3a4",
+    "encoding_and_write_time_seconds": 0.369308438
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": true,
+    "trigger": "cover-output",
+    "passed": true,
+    "time_seconds": 22.69211482
+  }
+}

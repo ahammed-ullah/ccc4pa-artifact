@@ -1,0 +1,18 @@
+[package]
+name = "wg_con"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+
+[[bin]]
+name = "wg_encode"
+path = "src/main.rs"
+
+[dependencies]
+# The encoder writes the same BVGraph format that wg_algo will read.
+webgraph = "=0.6.2"
+webgraph-algo = "=0.6.2"
+dsi-bitstream = "=0.7.0"
+memmap2 = "=0.9.9"
+predicates = "=3.1.3"
+sux = "=0.12.3"

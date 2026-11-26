@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "local-mis",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "codereview",
+    "path": "format_cgf/codereview.cgf",
+    "format": "cgf",
+    "n": 54084,
+    "m": 206520631,
+    "encoded_bytes": 414214825,
+    "read_time_seconds": 10.758905794
+  },
+  "lower_bounds": {
+    "combined_best": 157563,
+    "common_neighborhood_global_color": 125343,
+    "global_core_color": 106907,
+    "global_mis": 104884,
+    "ordinary_local_mis": 151099,
+    "simplicial_dominating_local_mis": 157407
+  },
+  "timing_seconds": {
+    "linear_bounds": 4.734798294,
+    "common_neighborhood": 18881.809874964,
+    "local_mis": 6.003969288,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 18892.549983977,
+    "total_including_graph_read": 18903.308889771
+  }
+}

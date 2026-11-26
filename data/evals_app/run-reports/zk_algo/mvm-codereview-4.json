@@ -1,0 +1,26 @@
+{
+  "algorithm": "mvm",
+  "representation": "zuckerli",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_seed": 2, "mvm_sample_limit": 226129, "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_zk/codereview/codereview.zk",
+    "graph_name": "codereview",
+    "n": 54084,
+    "m": 206520631,
+    "arcs": 413041262,
+    "graph_bytes": 7869382,
+    "index_bytes": 175801,
+    "perm_bytes": 216336,
+    "bundle_bytes": 8261519
+  },
+  "config_path": null,
+  "slurm_job_id": "44718362",
+  "result": {"matched_vertex_weight_sum": "79253768782958"},
+  "mvm_execution": {"status": "complete", "stop_reason": "all_vertices_matched", "samples_completed": 80736, "positive_augmentations": 27096},
+  "memory": {"process_peak_rss_bytes": 18571264},
+  "timing_seconds": {
+    "zuckerli_load": 0.009677843,
+    "weight_preparation": 0.003610881,
+    "algorithm": 320.912773104
+  }
+}

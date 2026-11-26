@@ -1,0 +1,6 @@
+# Extract the Cornell dataset ZIP and point to its hyperedge-list member.
+[graph]
+name = "amazon-reviews"
+source = "file"
+format = "cornell-hyperedges"
+path = "../../datasets/cornell_arb/amazon-reviews/hyperedges-amazon-reviews.txt"

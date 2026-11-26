@@ -1,0 +1,25 @@
+{
+  "algorithm": "matching",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_wg/stackoverflow-answers/stackoverflow-answers.graph",
+    "graph_name": "stackoverflow-answers",
+    "n": 15211989,
+    "m": 14653134369,
+    "arcs": 29306268738,
+    "graph_bytes": 1740636480,
+    "properties_bytes": 325,
+    "ef_bytes": 22920096,
+    "perm_bytes": 60847956,
+    "bundle_bytes": 1824404857
+  },
+  "config_path": null,
+  "slurm_job_id": "43724700",
+  "result": {"matching_size": 7506796},
+  "memory": {"process_peak_rss_bytes": 1852710912},
+  "timing_seconds": {
+    "webgraph_load": 2.837929935,
+    "algorithm": 30068.939066934
+  }
+}

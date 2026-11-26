@@ -1,0 +1,26 @@
+{
+  "algorithm": "wvc",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_wg/gamedev/gamedev.graph",
+    "graph_name": "gamedev",
+    "n": 43145,
+    "m": 102877926,
+    "arcs": 205755852,
+    "graph_bytes": 5526008,
+    "properties_bytes": 317,
+    "ef_bytes": 66536,
+    "perm_bytes": 172580,
+    "bundle_bytes": 5765441
+  },
+  "config_path": null,
+  "slurm_job_id": "43717221",
+  "result": {"selected_weight_sum": "40088687594865"},
+  "memory": {"process_peak_rss_bytes": 15802368},
+  "timing_seconds": {
+    "webgraph_load": 0.122603249,
+    "weight_preparation": 0.023526613,
+    "algorithm": 21.831548815
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 4,
+  "algorithm": {
+    "name": "fm",
+    "delta_selection": "fixed",
+    "workspace": "linear"
+  },
+  "graph": {
+    "name": "coPapersCiteseer",
+    "path": "format_cgf/coPapersCiteseer.cgf",
+    "format": "cgf",
+    "format_version": 1,
+    "file_bytes": 39577937,
+    "canonical_fingerprint_sha256": "7a818e1e19f8e06b1d0d480df25c84f0062a1eb8f97da974e5a44d11f322b86d",
+    "file_checksum_sha256": "84410a2917512bab632f6eecfc243c31b266c8e1f2aa6ffd884c9940faff0533",
+    "n": 434102,
+    "m": 16036720
+  },
+  "delta_search": {
+    "policy": "fixed-delta",
+    "scale_a": 1.38513453569145634505,
+    "initial_k_min": 1,
+    "initial_k_max": 1,
+    "candidate_count": 1,
+    "candidate_delta_min": 0.860975765975253094244,
+    "candidate_delta_max": 0.860975765975253094244,
+    "selected_delta": 0.860975765975253094244,
+    "selected_initial_k": 1,
+    "time_seconds": 2.12650613399999999231
+  },
+  "partition": {
+    "initial_cross_edges": 32073440,
+    "k_ge_2_bicliques": 0,
+    "star_bicliques": 207203,
+    "num_parts": 5484131,
+    "edges_in_k_ge_2_bicliques": 0,
+    "edges_in_star_bicliques": 26796512,
+    "residual_edges": 5276928,
+    "nontrivial_size": 27003715,
+    "residual_size": 10553856,
+    "total_size": 37557571
+  },
+  "fm_representation": {
+    "m_star": 32714745,
+    "n_star": 1075407,
+    "center_count": 207203,
+    "return_arcs": 434102
+  },
+  "construction_state": {
+    "space_bound": "O(n+m)",
+    "packed_neighbor_bits": 0,
+    "packed_neighbor_words": 0,
+    "deleted_edge_words": 0,
+    "deletion_rank_entries": 0,
+    "neighborhood_tree_nodes": 0
+  },
+  "timing": {
+    "input_index_seconds": 0,
+    "selected_run_seconds": 2.12650546299999998467,
+    "initialization_seconds": 1.88143434199999992629,
+    "k_ge_2_stripping_seconds": 2.9999999999999997319e-08,
+    "star_stripping_seconds": 0.24507047900000000773
+  }
+}

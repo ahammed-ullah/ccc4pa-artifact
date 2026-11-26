@@ -1,0 +1,11 @@
+[graph]
+name = "hypergraph-poisson-example"
+source = "synthetic"
+model = "hypergraph"
+
+[graph.parameters]
+distribution = "poisson"
+n = 100
+r = 80
+lambda = 6.0
+seed = 19

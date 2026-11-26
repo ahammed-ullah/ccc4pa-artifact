@@ -1,0 +1,27 @@
+{
+  "algorithm": "mvm",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]", "mvm_epsilon": 0.01, "mvm_seed": 3, "mvm_sample_limit": 4629457},
+  "input": {
+    "graph_path": "format_wg/hollywood-2009/hollywood-2009.graph",
+    "graph_name": "hollywood-2009",
+    "n": 1107243,
+    "m": 56375711,
+    "arcs": 112751422,
+    "graph_bytes": 68550136,
+    "properties_bytes": 319,
+    "ef_bytes": 1557952,
+    "perm_bytes": 0,
+    "bundle_bytes": 70108407
+  },
+  "config_path": null,
+  "slurm_job_id": "44717949",
+  "result": {"matched_vertex_weight_sum": "677216700822050239"},
+  "mvm_execution": {"status": "complete", "stop_reason": "sample_limit", "samples_completed": 4629457, "positive_augmentations": 666135},
+  "memory": {"process_peak_rss_bytes": 93081600},
+  "timing_seconds": {
+    "webgraph_load": 0.182089245,
+    "weight_preparation": 0.012410756,
+    "algorithm": 220.127331390
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "algorithm": "dfs",
+  "representation": "zuckerli",
+  "parameters": {},
+  "input": {
+    "graph_path": "format_zk/math/math.zk",
+    "graph_name": "math",
+    "n": 994983,
+    "m": 24332111417,
+    "arcs": 48664222834,
+    "graph_bytes": 692394394,
+    "index_bytes": 4104333,
+    "perm_bytes": 3979932,
+    "bundle_bytes": 700478659
+  },
+  "config_path": null,
+  "slurm_job_id": "43830155",
+  "result": {"connected_components": 1},
+  "memory": {"process_peak_rss_bytes": 728760320},
+  "timing_seconds": {
+    "zuckerli_load": 0.768206503,
+    "algorithm": 134888.680209320
+  }
+}

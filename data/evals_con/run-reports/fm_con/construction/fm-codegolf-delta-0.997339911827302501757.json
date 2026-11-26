@@ -1,0 +1,64 @@
+{
+  "schema_version": 4,
+  "algorithm": {
+    "name": "fm",
+    "delta_selection": "fixed",
+    "workspace": "linear"
+  },
+  "graph": {
+    "name": "codegolf",
+    "path": "format_cgf/codegolf.cgf",
+    "format": "cgf",
+    "format_version": 1,
+    "file_bytes": 68268892,
+    "canonical_fingerprint_sha256": "36b8d55b9645702b6a7c82e690b252c6f41a04ff61a60da9e9dd4ffd781942e5",
+    "file_checksum_sha256": "7e88d2f3f4bb948731a6b3b1c6c3d6a304b73930c996308cc48cbebbb3e33bc6",
+    "n": 9695,
+    "m": 34080224
+  },
+  "delta_search": {
+    "policy": "fixed-delta",
+    "scale_a": 9.0481376880980964629,
+    "initial_k_min": 9,
+    "initial_k_max": 9,
+    "candidate_count": 1,
+    "candidate_delta_min": 0.997339911827302501757,
+    "candidate_delta_max": 0.997339911827302501757,
+    "selected_delta": 0.997339911827302501757,
+    "selected_initial_k": 9,
+    "time_seconds": 172.842136247000013327
+  },
+  "partition": {
+    "initial_cross_edges": 68160448,
+    "k_ge_2_bicliques": 2095,
+    "star_bicliques": 7528,
+    "num_parts": 29491,
+    "edges_in_k_ge_2_bicliques": 66239303,
+    "edges_in_star_bicliques": 1901277,
+    "residual_edges": 19868,
+    "nontrivial_size": 17684764,
+    "residual_size": 39736,
+    "total_size": 17724500
+  },
+  "fm_representation": {
+    "m_star": 17714327,
+    "n_star": 29013,
+    "center_count": 9623,
+    "return_arcs": 9695
+  },
+  "construction_state": {
+    "space_bound": "O(n+m)",
+    "packed_neighbor_bits": 14,
+    "packed_neighbor_words": 14910099,
+    "deleted_edge_words": 1065007,
+    "deletion_rank_entries": 280901,
+    "neighborhood_tree_nodes": 0
+  },
+  "timing": {
+    "input_index_seconds": 1.99620869600000006017,
+    "selected_run_seconds": 170.84592517699999803,
+    "initialization_seconds": 0.00191912000000000007062,
+    "k_ge_2_stripping_seconds": 170.83795496400000502,
+    "star_stripping_seconds": 0.00605061200000000035115
+  }
+}

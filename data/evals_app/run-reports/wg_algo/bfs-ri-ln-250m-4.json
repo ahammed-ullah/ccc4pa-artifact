@@ -1,0 +1,25 @@
+{
+  "algorithm": "bfs",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk"},
+  "input": {
+    "graph_path": "format_wg/ri-ln-250m/ri-ln-250m.graph",
+    "graph_name": "ri-ln-250m",
+    "n": 1840646,
+    "m": 255720073,
+    "arcs": 511440146,
+    "graph_bytes": 455828816,
+    "properties_bytes": 320,
+    "ef_bytes": 3037560,
+    "perm_bytes": 7362584,
+    "bundle_bytes": 466229280
+  },
+  "config_path": null,
+  "slurm_job_id": "43716584",
+  "result": {"connected_components": 1},
+  "memory": {"process_peak_rss_bytes": 477118464},
+  "timing_seconds": {
+    "webgraph_load": 0.551879142,
+    "algorithm": 51.427007777
+  }
+}

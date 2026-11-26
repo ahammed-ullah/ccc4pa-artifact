@@ -1,0 +1,27 @@
+{
+  "algorithm": "mvm",
+  "cover_mode": "plain",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_round_limit": 30, "mvm_mode": "bounded", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "ccf_path": "format_ccf/codereview.ccf",
+    "graph_name": "codereview",
+    "n": 54084,
+    "m": 206520631,
+    "num_cliques": 770,
+    "cover_size": 158244,
+    "ccf_bytes": 203641,
+    "graph_fingerprint_sha256": "a631dc245a3b7985127af8576c5367fd70bdda6fc141fdbffb4a1c065c502760",
+    "ccf_stored_checksum_sha256": "23b884cca4882a76b0acf993277b4391e0454362214a55687b3fb7520ece98c4"
+  },
+  "config_path": null,
+  "slurm_job_id": "43830859",
+  "result": {"matched_vertex_weight_sum": "79253768782958"},
+  "mvm_execution": {"rounds_attempted": 4, "rounds_with_flip": 3, "early_exit": true, "stop_reason": "all_vertices_matched"},
+  "memory": {"process_peak_rss_bytes": 13914112},
+  "timing_seconds": {
+    "ccf_load": 0.001406964,
+    "cover_decode": 0.001940466,
+    "weight_preparation": 0.000608955,
+    "algorithm": 0.019991696
+  }
+}

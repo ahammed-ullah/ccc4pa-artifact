@@ -1,0 +1,26 @@
+{
+  "algorithm": "mvm",
+  "cover_mode": "encoded",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_round_limit": 30, "mvm_mode": "bounded", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "ccf_path": "format_ccf/stackoverflow-answers.ccf",
+    "graph_name": "stackoverflow-answers",
+    "n": 15211989,
+    "m": 14653134369,
+    "num_cliques": 1100608,
+    "cover_size": 26103697,
+    "ccf_bytes": 74063333,
+    "graph_fingerprint_sha256": "950aa8302a083bddc053e438567f53e5e88e1af50ec6638a6004d767ebc1a9d1",
+    "ccf_stored_checksum_sha256": "2d327b5d20792b35f6583750746f46886094ef4c4e37289f20a4d07eb2bcaff8"
+  },
+  "config_path": "cp_algo4/config/encoded.toml",
+  "slurm_job_id": "44762978",
+  "result": {"matched_vertex_weight_sum": "1759696901251412691390"},
+  "mvm_execution": {"rounds_attempted": 12, "rounds_with_flip": 11, "early_exit": true, "stop_reason": "no_positive_gain"},
+  "memory": {"process_peak_rss_bytes": 768294912},
+  "timing_seconds": {
+    "ccf_load": 0.224589513,
+    "weight_preparation": 0.155420537,
+    "algorithm": 183.773200798
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "algorithm": "mvm",
+  "representation": "zuckerli",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_seed": 3, "mvm_sample_limit": 203050, "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_zk/scifi/scifi.zk",
+    "graph_name": "scifi",
+    "n": 48564,
+    "m": 121121230,
+    "arcs": 242242460,
+    "graph_bytes": 965738,
+    "index_bytes": 139649,
+    "perm_bytes": 194256,
+    "bundle_bytes": 1299643
+  },
+  "config_path": null,
+  "slurm_job_id": "44718303",
+  "result": {"matched_vertex_weight_sum": "57246274521846"},
+  "mvm_execution": {"status": "complete", "stop_reason": "sample_limit", "samples_completed": 203050, "positive_augmentations": 24840},
+  "memory": {"process_peak_rss_bytes": 11526144},
+  "timing_seconds": {
+    "zuckerli_load": 0.019985236,
+    "weight_preparation": 0.003681817,
+    "algorithm": 1136.333969484
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "algorithm": "wvc",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_wg/codereview/codereview.graph",
+    "graph_name": "codereview",
+    "n": 54084,
+    "m": 206520631,
+    "arcs": 413041262,
+    "graph_bytes": 8804536,
+    "properties_bytes": 318,
+    "ef_bytes": 85184,
+    "perm_bytes": 216336,
+    "bundle_bytes": 9106374
+  },
+  "config_path": null,
+  "slurm_job_id": "43717225",
+  "result": {"selected_weight_sum": "79219985144948"},
+  "memory": {"process_peak_rss_bytes": 18841600},
+  "timing_seconds": {
+    "webgraph_load": 0.040671299,
+    "weight_preparation": 0.003141876,
+    "algorithm": 52.277468813
+  }
+}

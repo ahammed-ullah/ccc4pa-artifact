@@ -1,0 +1,26 @@
+{
+  "algorithm": "mvm",
+  "cover_mode": "encoded",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_round_limit": 30, "mvm_mode": "bounded", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "ccf_path": "format_ccf/askubuntu.ccf",
+    "graph_name": "askubuntu",
+    "n": 306695,
+    "m": 1942664590,
+    "num_cliques": 2909,
+    "cover_size": 838534,
+    "ccf_bytes": 1201624,
+    "graph_fingerprint_sha256": "69192ac697c0d7747d79224f855f45f0218d0def01f387fea25db990a1322d55",
+    "ccf_stored_checksum_sha256": "1d4b29c5eb872f514bcbc56e23d14740f7db7fca39a3ed6b131de28e897b9587"
+  },
+  "config_path": "cp_algo4/config/encoded.toml",
+  "slurm_job_id": "44763039",
+  "result": {"matched_vertex_weight_sum": "14414198946530303"},
+  "mvm_execution": {"rounds_attempted": 5, "rounds_with_flip": 4, "early_exit": true, "stop_reason": "no_positive_gain"},
+  "memory": {"process_peak_rss_bytes": 25436160},
+  "timing_seconds": {
+    "ccf_load": 0.040992807,
+    "weight_preparation": 0.003156613,
+    "algorithm": 0.276149917
+  }
+}

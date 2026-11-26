@@ -1,0 +1,24 @@
+{
+  "algorithm": "matching",
+  "cover_mode": "encoded",
+  "parameters": {"matching_variant": "three_halves"},
+  "input": {
+    "ccf_path": "format_ccf/mathoverflow-answers.ccf",
+    "graph_name": "mathoverflow-answers",
+    "n": 73851,
+    "m": 17465233,
+    "num_cliques": 5336,
+    "cover_size": 131429,
+    "ccf_bytes": 263678,
+    "graph_fingerprint_sha256": "fcf30b51fe63c56e75bf2cc9e5a65cc004428124cdcb1418730153ee28a1c21e",
+    "ccf_stored_checksum_sha256": "fc487ff4c85ebe96e1d1c75f41fd046cb0a7bc10c9b49f6e96dcef180568430c"
+  },
+  "config_path": "cp_algo/config/encoded.toml",
+  "slurm_job_id": "43678899",
+  "result": {"matching_size": 36296},
+  "memory": {"process_peak_rss_bytes": 10571776},
+  "timing_seconds": {
+    "ccf_load": 0.000777909,
+    "algorithm": 0.006462667
+  }
+}

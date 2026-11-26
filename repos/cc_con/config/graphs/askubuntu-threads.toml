@@ -1,0 +1,7 @@
+# Uses the same native full archive as the ordinary thread projection.
+[graph]
+name = "askubuntu-threads"
+source = "file"
+format = "cornell-dual-simplices"
+nverts_path = "../../datasets/cornell_arb/threads-ask-ubuntu/threads-ask-ubuntu-nverts.txt"
+simplices_path = "../../datasets/cornell_arb/threads-ask-ubuntu/threads-ask-ubuntu-simplices.txt"

@@ -1,0 +1,26 @@
+{
+  "algorithm": "mvm",
+  "cover_mode": "encoded",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_round_limit": 30, "mvm_mode": "bounded", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "ccf_path": "format_ccf/dba.ccf",
+    "graph_name": "dba",
+    "n": 67234,
+    "m": 498237193,
+    "num_cliques": 938,
+    "cover_size": 186201,
+    "ccf_bytes": 242228,
+    "graph_fingerprint_sha256": "c85df23a74e7ce352beee3ea60fbcf2c409904f598077187986212d92ed57ac5",
+    "ccf_stored_checksum_sha256": "2de2c1f9fc128ffebb6e85ac36c2a4c3fd96c3d90ec7f35314556fa35779a625"
+  },
+  "config_path": "cp_algo4/config/encoded.toml",
+  "slurm_job_id": "44763025",
+  "result": {"matched_vertex_weight_sum": "152479297188820"},
+  "mvm_execution": {"rounds_attempted": 3, "rounds_with_flip": 2, "early_exit": true, "stop_reason": "all_vertices_matched"},
+  "memory": {"process_peak_rss_bytes": 12554240},
+  "timing_seconds": {
+    "ccf_load": 0.004367810,
+    "weight_preparation": 0.001179427,
+    "algorithm": 0.029966633
+  }
+}

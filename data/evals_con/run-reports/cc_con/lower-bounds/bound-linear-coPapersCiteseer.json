@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "linear",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "coPapersCiteseer",
+    "path": "format_cgf/coPapersCiteseer.cgf",
+    "format": "cgf",
+    "n": 434102,
+    "m": 16036720,
+    "encoded_bytes": 39577937,
+    "read_time_seconds": 1.114095832
+  },
+  "lower_bounds": {
+    "combined_best": 772330,
+    "global_core_color": 731969,
+    "global_mis": 692908
+  },
+  "timing_seconds": {
+    "linear_bounds": 0.481627335,
+    "common_neighborhood": 0,
+    "local_mis": 0,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 0.48548645,
+    "total_including_graph_read": 1.599582282
+  }
+}

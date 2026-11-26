@@ -1,0 +1,27 @@
+{
+  "algorithm": "mvm",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]", "mvm_epsilon": 0.01, "mvm_seed": 4, "mvm_sample_limit": 45908124},
+  "input": {
+    "graph_path": "format_wg/stackoverflow-threads/stackoverflow-threads.graph",
+    "graph_name": "stackoverflow-threads",
+    "n": 10980003,
+    "m": 8233726692,
+    "arcs": 16467453384,
+    "graph_bytes": 1759267648,
+    "properties_bytes": 324,
+    "ef_bytes": 17180472,
+    "perm_bytes": 43920012,
+    "bundle_bytes": 1820368456
+  },
+  "config_path": null,
+  "slurm_job_id": "44729239",
+  "result": {"matched_vertex_weight_sum": "661579032432049155155"},
+  "mvm_execution": {"status": "complete", "stop_reason": "sample_limit", "samples_completed": 45908124, "positive_augmentations": 6050822},
+  "memory": {"process_peak_rss_bytes": 1919447040},
+  "timing_seconds": {
+    "webgraph_load": 3.096084739,
+    "weight_preparation": 1.083895158,
+    "algorithm": 21237.204902477
+  }
+}

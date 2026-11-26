@@ -1,0 +1,10 @@
+[graph]
+name = "hyper-bad-poisson"
+source = "synthetic"
+model = "hypergraph"
+
+[graph.parameters]
+distribution = "poisson"
+n = 10
+r = 5
+lambda = 11.0

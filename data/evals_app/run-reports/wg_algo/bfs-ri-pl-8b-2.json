@@ -1,0 +1,25 @@
+{
+  "algorithm": "bfs",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk"},
+  "input": {
+    "graph_path": "format_wg/ri-pl-8b/ri-pl-8b.graph",
+    "graph_name": "ri-pl-8b",
+    "n": 1829849,
+    "m": 7296311321,
+    "arcs": 14592622642,
+    "graph_bytes": 1035413784,
+    "properties_bytes": 322,
+    "ef_bytes": 3287400,
+    "perm_bytes": 7319396,
+    "bundle_bytes": 1046020902
+  },
+  "config_path": null,
+  "slurm_job_id": "43716638",
+  "result": {"connected_components": 1017},
+  "memory": {"process_peak_rss_bytes": 1058426880},
+  "timing_seconds": {
+    "webgraph_load": 1.459895135,
+    "algorithm": 5153.876527831
+  }
+}

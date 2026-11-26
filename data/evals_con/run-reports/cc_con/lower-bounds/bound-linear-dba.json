@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "linear",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "dba",
+    "path": "format_cgf/dba.cgf",
+    "format": "cgf",
+    "n": 67234,
+    "m": 498237193,
+    "encoded_bytes": 998129980,
+    "read_time_seconds": 25.732050798
+  },
+  "lower_bounds": {
+    "combined_best": 170985,
+    "global_core_color": 127722,
+    "global_mis": 167766
+  },
+  "timing_seconds": {
+    "linear_bounds": 12.435769185,
+    "common_neighborhood": 0,
+    "local_mis": 0,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 12.436614865,
+    "total_including_graph_read": 38.168665663
+  }
+}

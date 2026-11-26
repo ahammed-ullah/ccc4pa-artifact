@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "linear",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "ri-pl-4b",
+    "path": "format_cgf/ri-pl-4b.cgf",
+    "format": "cgf",
+    "n": 1829290,
+    "m": 3777989133,
+    "encoded_bytes": 11482025445,
+    "read_time_seconds": 258.706492097
+  },
+  "lower_bounds": {
+    "combined_best": 4451196,
+    "global_core_color": 3734996,
+    "global_mis": 4292533
+  },
+  "timing_seconds": {
+    "linear_bounds": 188.45550459,
+    "common_neighborhood": 0,
+    "local_mis": 0,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 188.476349378,
+    "total_including_graph_read": 447.182841475
+  }
+}

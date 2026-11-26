@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "linear",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "tex",
+    "path": "format_cgf/tex.cgf",
+    "format": "cgf",
+    "n": 160967,
+    "m": 580729818,
+    "encoded_bytes": 1187072181,
+    "read_time_seconds": 30.273958048
+  },
+  "lower_bounds": {
+    "combined_best": 359326,
+    "global_core_color": 312185,
+    "global_mis": 355510
+  },
+  "timing_seconds": {
+    "linear_bounds": 18.27101344,
+    "common_neighborhood": 0,
+    "local_mis": 0,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 18.272909821,
+    "total_including_graph_read": 48.546867869
+  }
+}

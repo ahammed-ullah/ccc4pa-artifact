@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "artifact": {
+    "format": "cgf",
+    "format_version": 1,
+    "encoding": "delta-vbyte",
+    "path": "superuser.cgf",
+    "file_bytes": 9203726521,
+    "file_checksum_sha256": "7ece7b98c220da640e20c07ce6478f6285b98d64a6e76079abbb91d40bc72050"
+  },
+  "graph": {
+    "name": "superuser",
+    "source": "file",
+    "type": "sx-tag-question",
+    "origin_specification_path": "repos/cc_con/config/graphs/superuser-sx.toml",
+    "parameters": {
+      "path": "format_std/cornell_arb/sx-tag-question-parsed/parsed/superuser.com.txt"
+    },
+    "generation_statistics": {
+      "canonical_question_count": 378232,
+      "distinct_edges": 4537481735,
+      "incidence_sum": 1097125,
+      "incidence_sum_nontrivial": 1096965,
+      "isolated_questions_removed": 16,
+      "max_tag_degree": 45073,
+      "mean_tag_degree": 206.304061677322,
+      "min_tag_degree": 1,
+      "native_CR": 8272.79217659634,
+      "native_cover_size": 1096965,
+      "native_statistics_available": true,
+      "nontrivial_tag_count": 5158,
+      "overlap_factor": 1.04818931265626,
+      "pair_occurrences": 4756139861,
+      "potential_CR": 8671.45234533463,
+      "question_count": 378248,
+      "tag_count": 5318
+    },
+    "n": 378232,
+    "m": 4537481735,
+    "canonical_fingerprint_sha256": "c6864082dfa0310b6df64d68718ed938c6d991884f52be66e8b3077d5ae50d68"
+  },
+  "preparation": {
+    "graph_time_seconds": 4602.153598162,
+    "encoding_and_write_time_seconds": 171.443208085
+  }
+}

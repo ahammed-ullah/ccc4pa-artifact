@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "linear",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "ri-ln-2b",
+    "path": "format_cgf/ri-ln-2b.cgf",
+    "format": "cgf",
+    "n": 1872562,
+    "m": 2413320514,
+    "encoded_bytes": 8668614696,
+    "read_time_seconds": 166.211384984
+  },
+  "lower_bounds": {
+    "combined_best": 5502051,
+    "global_core_color": 4816801,
+    "global_mis": 5499007
+  },
+  "timing_seconds": {
+    "linear_bounds": 133.070795873,
+    "common_neighborhood": 0,
+    "local_mis": 0,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 133.087252701,
+    "total_including_graph_read": 299.298637685
+  }
+}

@@ -1,0 +1,11 @@
+[graph]
+name = "hyper-inapplicable"
+source = "synthetic"
+model = "hypergraph"
+
+[graph.parameters]
+distribution = "poisson"
+n = 10
+r = 5
+lambda = 3.0
+k = 3

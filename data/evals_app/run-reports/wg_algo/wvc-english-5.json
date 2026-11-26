@@ -1,0 +1,26 @@
+{
+  "algorithm": "wvc",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_wg/english/english.graph",
+    "graph_name": "english",
+    "n": 98460,
+    "m": 424210898,
+    "arcs": 848421796,
+    "graph_bytes": 13654400,
+    "properties_bytes": 319,
+    "ef_bytes": 152440,
+    "perm_bytes": 393840,
+    "bundle_bytes": 14200999
+  },
+  "config_path": null,
+  "slurm_job_id": "43717169",
+  "result": {"selected_weight_sum": "477034750592438"},
+  "memory": {"process_peak_rss_bytes": 26034176},
+  "timing_seconds": {
+    "webgraph_load": 0.047384426,
+    "weight_preparation": 0.005253724,
+    "algorithm": 290.600475838
+  }
+}

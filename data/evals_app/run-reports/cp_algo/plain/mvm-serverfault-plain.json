@@ -1,0 +1,27 @@
+{
+  "algorithm": "mvm",
+  "cover_mode": "plain",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_round_limit": 30, "mvm_mode": "bounded", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "ccf_path": "format_ccf/serverfault.ccf",
+    "graph_name": "serverfault",
+    "n": 257925,
+    "m": 1567185915,
+    "num_cliques": 3453,
+    "cover_size": 748154,
+    "ccf_bytes": 1115841,
+    "graph_fingerprint_sha256": "6387d8c9fa58801031c18eb003b2a1c731f5909438a4e7c77f71823e2b742b74",
+    "ccf_stored_checksum_sha256": "a5cf0d0cd93895610a1ffa817ac45fa9d714a95d479d240ce8ba115e59d7c37c"
+  },
+  "config_path": null,
+  "slurm_job_id": "43830876",
+  "result": {"matched_vertex_weight_sum": "8581275594820303"},
+  "mvm_execution": {"rounds_attempted": 5, "rounds_with_flip": 4, "early_exit": true, "stop_reason": "no_positive_gain"},
+  "memory": {"process_peak_rss_bytes": 32071680},
+  "timing_seconds": {
+    "ccf_load": 0.018790025,
+    "cover_decode": 0.007956404,
+    "weight_preparation": 0.002714863,
+    "algorithm": 0.135818604
+  }
+}

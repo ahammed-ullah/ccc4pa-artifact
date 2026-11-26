@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "artifact": {
+    "format": "cgf",
+    "format_version": 1,
+    "encoding": "delta-vbyte",
+    "path": "gamedev.cgf",
+    "file_bytes": 207151137,
+    "file_checksum_sha256": "c9c7f3ad2e8f6d53042eabd7278a6ef9a79a3299fd114507bd1260854876261a"
+  },
+  "graph": {
+    "name": "gamedev",
+    "source": "file",
+    "type": "sx-tag-question",
+    "origin_specification_path": "repos/cc_con/config/graphs/gamedev-sx.toml",
+    "parameters": {
+      "path": "format_std/cornell_arb/sx-tag-question-parsed/parsed/gamedev.txt"
+    },
+    "generation_statistics": {
+      "canonical_question_count": 43145,
+      "distinct_edges": 102877926,
+      "incidence_sum": 120210,
+      "incidence_sum_nontrivial": 120160,
+      "isolated_questions_removed": 7,
+      "max_tag_degree": 9520,
+      "mean_tag_degree": 115.586538461538,
+      "min_tag_degree": 1,
+      "native_CR": 1712.34896804261,
+      "native_cover_size": 120160,
+      "native_statistics_available": true,
+      "nontrivial_tag_count": 990,
+      "overlap_factor": 1.10024710257087,
+      "pair_occurrences": 113191140,
+      "potential_CR": 1884.00699067909,
+      "question_count": 43152,
+      "tag_count": 1040
+    },
+    "n": 43145,
+    "m": 102877926,
+    "canonical_fingerprint_sha256": "94ce47752ba181f63ee2c894e8f295e0e1c85899185c6619f17e3162486fd03b"
+  },
+  "preparation": {
+    "graph_time_seconds": 43.460615037,
+    "encoding_and_write_time_seconds": 3.097577017
+  }
+}

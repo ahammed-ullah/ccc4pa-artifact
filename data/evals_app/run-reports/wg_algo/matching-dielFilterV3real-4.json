@@ -1,0 +1,25 @@
+{
+  "algorithm": "matching",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_wg/dielFilterV3real/dielFilterV3real.graph",
+    "graph_name": "dielFilterV3real",
+    "n": 1102824,
+    "m": 44101598,
+    "arcs": 88203196,
+    "graph_bytes": 8391872,
+    "properties_bytes": 318,
+    "ef_bytes": 1126408,
+    "perm_bytes": 4411296,
+    "bundle_bytes": 13929894
+  },
+  "config_path": null,
+  "slurm_job_id": "43716319",
+  "result": {"matching_size": 550983},
+  "memory": {"process_peak_rss_bytes": 24313856},
+  "timing_seconds": {
+    "webgraph_load": 0.066381738,
+    "algorithm": 8.774367850
+  }
+}

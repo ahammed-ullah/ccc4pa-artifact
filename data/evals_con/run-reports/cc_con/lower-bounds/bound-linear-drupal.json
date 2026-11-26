@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "linear",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "drupal",
+    "path": "format_cgf/drupal.cgf",
+    "format": "cgf",
+    "n": 77488,
+    "m": 640722456,
+    "encoded_bytes": 1284157749,
+    "read_time_seconds": 33.78830428
+  },
+  "lower_bounds": {
+    "combined_best": 159732,
+    "global_core_color": 142787,
+    "global_mis": 158896
+  },
+  "timing_seconds": {
+    "linear_bounds": 16.931868002,
+    "common_neighborhood": 0,
+    "local_mis": 0,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 16.932800679,
+    "total_including_graph_read": 50.721104959
+  }
+}

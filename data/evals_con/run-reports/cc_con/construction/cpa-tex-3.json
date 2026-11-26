@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "cpa",
+    "parameters": {
+      "label_selection": "min-label",
+      "tau": 4
+    }
+  },
+  "graph": {
+    "name": "tex",
+    "source": "file",
+    "type": "sx-tag-question",
+    "parameters": {
+      "path": "format_std/cornell_arb/sx-tag-question-parsed/parsed/tex.txt"
+    },
+    "generation_statistics": {
+      "canonical_question_count": 160967,
+      "distinct_edges": 580729818,
+      "incidence_sum": 366850,
+      "incidence_sum_nontrivial": 366773,
+      "isolated_questions_removed": 8,
+      "max_tag_degree": 20168,
+      "mean_tag_degree": 211.807159353349,
+      "min_tag_degree": 1,
+      "native_CR": 3166.69884642545,
+      "native_cover_size": 366773,
+      "native_statistics_available": true,
+      "nontrivial_tag_count": 1655,
+      "overlap_factor": 1.03437777152335,
+      "pair_occurrences": 600694015,
+      "potential_CR": 3275.56289585111,
+      "question_count": 160975,
+      "tag_count": 1732
+    },
+    "specification_path": "format_cgf/tex.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/tex-sx.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/tex.cgf",
+    "preparation_report_path": "format_cgf/tex.cgf.json",
+    "canonical_fingerprint_sha256": "51d5ab9c8893cbc64a9b2e9e89edfb03c61c7fe68514830102288a5432c76b99",
+    "n": 160967,
+    "m": 580729818,
+    "time_seconds": 30.180396844
+  },
+  "constructed_cover": {
+    "num_cliques": 4079,
+    "cover_size": 413822,
+    "time_seconds": 81.465637193
+  },
+  "algorithm_statistics": {
+    "bcc_cover_size": 96006142,
+    "bcc_num_cliques": 4040419,
+    "complement_degeneracy": 138028,
+    "mu": 12374377244,
+    "num_complement_colors": 1204,
+    "num_parts": 1204,
+    "num_phases": 1,
+    "peak_size_D": 889869,
+    "splitting_applied": false
+  },
+  "postprocess": {
+    "assignment_minimal": true,
+    "num_cliques": 1600,
+    "cover_size": 366411,
+    "time_seconds": 3.199256098
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

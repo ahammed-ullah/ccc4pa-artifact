@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "local-mis",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "hollywood-2009",
+    "path": "format_cgf/hollywood-2009.cgf",
+    "format": "cgf",
+    "n": 1107243,
+    "m": 56375711,
+    "encoded_bytes": 152708715,
+    "read_time_seconds": 4.204220879
+  },
+  "lower_bounds": {
+    "combined_best": 5288367,
+    "common_neighborhood_global_color": 3155939,
+    "global_core_color": 2313855,
+    "global_mis": 3419329,
+    "ordinary_local_mis": 5160599,
+    "simplicial_dominating_local_mis": 5280915
+  },
+  "timing_seconds": {
+    "linear_bounds": 1.708961104,
+    "common_neighborhood": 288.958671713,
+    "local_mis": 5.382155518,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 296.064441615,
+    "total_including_graph_read": 300.268662494
+  }
+}

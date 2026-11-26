@@ -1,0 +1,5 @@
+[graph]
+name = "audikw_1"
+source = "file"
+format = "mm"
+path = "../../datasets/suitesparse/audikw_1/audikw_1.mtx"

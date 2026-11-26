@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "cpa",
+    "parameters": {
+      "label_selection": "min-label",
+      "tau": 4
+    }
+  },
+  "graph": {
+    "name": "drupal",
+    "source": "file",
+    "type": "sx-tag-question",
+    "parameters": {
+      "path": "format_std/cornell_arb/sx-tag-question-parsed/parsed/drupal.txt"
+    },
+    "generation_statistics": {
+      "canonical_question_count": 77488,
+      "distinct_edges": 640722456,
+      "incidence_sum": 160670,
+      "incidence_sum_nontrivial": 160670,
+      "isolated_questions_removed": 0,
+      "max_tag_degree": 25654,
+      "mean_tag_degree": 683.702127659574,
+      "min_tag_degree": 2,
+      "native_CR": 7975.63273791,
+      "native_cover_size": 160670,
+      "native_statistics_available": true,
+      "nontrivial_tag_count": 235,
+      "overlap_factor": 1.064192101611,
+      "pair_occurrences": 681851777,
+      "potential_CR": 8487.60536503392,
+      "question_count": 77488,
+      "tag_count": 235
+    },
+    "specification_path": "format_cgf/drupal.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/drupal-sx.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/drupal.cgf",
+    "preparation_report_path": "format_cgf/drupal.cgf.json",
+    "canonical_fingerprint_sha256": "1bb44f52a58d1b417e9b74bb9aeddd15342c37c205d8e2cc20366bfa2479b915",
+    "n": 77488,
+    "m": 640722456,
+    "time_seconds": 32.484622562
+  },
+  "constructed_cover": {
+    "num_cliques": 619,
+    "cover_size": 174172,
+    "time_seconds": 83.500932778
+  },
+  "algorithm_statistics": {
+    "bcc_cover_size": 37522512,
+    "bcc_num_cliques": 292688,
+    "complement_degeneracy": 46472,
+    "mu": 2361433873,
+    "num_complement_colors": 215,
+    "num_parts": 215,
+    "num_phases": 1,
+    "peak_size_D": 425577,
+    "splitting_applied": false
+  },
+  "postprocess": {
+    "assignment_minimal": true,
+    "num_cliques": 234,
+    "cover_size": 160662,
+    "time_seconds": 3.104355041
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

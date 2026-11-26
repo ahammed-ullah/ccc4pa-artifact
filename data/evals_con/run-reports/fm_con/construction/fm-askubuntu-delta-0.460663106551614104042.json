@@ -1,0 +1,64 @@
+{
+  "schema_version": 4,
+  "algorithm": {
+    "name": "fm",
+    "delta_selection": "fixed",
+    "workspace": "linear"
+  },
+  "graph": {
+    "name": "askubuntu",
+    "path": "format_cgf/askubuntu.cgf",
+    "format": "cgf",
+    "format_version": 1,
+    "file_bytes": 3989043006,
+    "canonical_fingerprint_sha256": "69192ac697c0d7747d79224f855f45f0218d0def01f387fea25db990a1322d55",
+    "file_checksum_sha256": "cd8573a46f530ef86423ac6d95419baeeba3ae9f64afb0719d1afa3015789cf1",
+    "n": 306695,
+    "m": 1942664590
+  },
+  "delta_search": {
+    "policy": "fixed-delta",
+    "scale_a": 3.25617567082493377436,
+    "initial_k_min": 1,
+    "initial_k_max": 1,
+    "candidate_count": 1,
+    "candidate_delta_min": 0.460663106551614104042,
+    "candidate_delta_max": 0.460663106551614104042,
+    "selected_delta": 0.460663106551614104042,
+    "selected_initial_k": 1,
+    "time_seconds": 44.382839760000003082
+  },
+  "partition": {
+    "initial_cross_edges": 3885329180,
+    "k_ge_2_bicliques": 0,
+    "star_bicliques": 163926,
+    "num_parts": 558528273,
+    "edges_in_k_ge_2_bicliques": 0,
+    "edges_in_star_bicliques": 3326964833,
+    "residual_edges": 558364347,
+    "nontrivial_size": 3327128759,
+    "residual_size": 1116728694,
+    "total_size": 4443857453
+  },
+  "fm_representation": {
+    "m_star": 3885799801,
+    "n_star": 777316,
+    "center_count": 163926,
+    "return_arcs": 306695
+  },
+  "construction_state": {
+    "space_bound": "O(n+m)",
+    "packed_neighbor_bits": 0,
+    "packed_neighbor_words": 0,
+    "deleted_edge_words": 0,
+    "deletion_rank_entries": 0,
+    "neighborhood_tree_nodes": 0
+  },
+  "timing": {
+    "input_index_seconds": 0,
+    "selected_run_seconds": 44.3828387579999983359,
+    "initialization_seconds": 44.164516091000002973,
+    "k_ge_2_stripping_seconds": 2.9999999999999997319e-08,
+    "star_stripping_seconds": 0.218321905000000010544
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "algorithm": "dfs",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk"},
+  "input": {
+    "graph_path": "format_wg/tex/tex.graph",
+    "graph_name": "tex",
+    "n": 160967,
+    "m": 580729818,
+    "arcs": 1161459636,
+    "graph_bytes": 32394536,
+    "properties_bytes": 321,
+    "ef_bytes": 258728,
+    "perm_bytes": 643868,
+    "bundle_bytes": 33297453
+  },
+  "config_path": null,
+  "slurm_job_id": "43716932",
+  "result": {"connected_components": 5},
+  "memory": {"process_peak_rss_bytes": 45445120},
+  "timing_seconds": {
+    "webgraph_load": 0.061378306,
+    "algorithm": 504.520116943
+  }
+}

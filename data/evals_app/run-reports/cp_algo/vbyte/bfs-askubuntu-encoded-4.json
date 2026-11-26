@@ -1,0 +1,24 @@
+{
+  "algorithm": "bfs",
+  "cover_mode": "encoded",
+  "parameters": {},
+  "input": {
+    "ccf_path": "format_ccf/askubuntu.ccf",
+    "graph_name": "askubuntu",
+    "n": 306695,
+    "m": 1942664590,
+    "num_cliques": 2909,
+    "cover_size": 838534,
+    "ccf_bytes": 1201624,
+    "graph_fingerprint_sha256": "69192ac697c0d7747d79224f855f45f0218d0def01f387fea25db990a1322d55",
+    "ccf_stored_checksum_sha256": "1d4b29c5eb872f514bcbc56e23d14740f7db7fca39a3ed6b131de28e897b9587"
+  },
+  "config_path": "cp_algo/config/encoded.toml",
+  "slurm_job_id": "43679230",
+  "result": {"connected_components": 3},
+  "memory": {"process_peak_rss_bytes": 15314944},
+  "timing_seconds": {
+    "ccf_load": 0.004928771,
+    "algorithm": 0.068989500
+  }
+}

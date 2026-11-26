@@ -1,0 +1,27 @@
+{
+  "algorithm": "mvm",
+  "cover_mode": "plain",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_round_limit": 30, "mvm_mode": "bounded", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "ccf_path": "format_ccf/coPapersCiteseer.ccf",
+    "graph_name": "coPapersCiteseer",
+    "n": 434102,
+    "m": 16036720,
+    "num_cliques": 70727,
+    "cover_size": 833798,
+    "ccf_bytes": 1798224,
+    "graph_fingerprint_sha256": "7a818e1e19f8e06b1d0d480df25c84f0062a1eb8f97da974e5a44d11f322b86d",
+    "ccf_stored_checksum_sha256": "63f5062d983023165e384a7713f0709a3a5c1ba0f479d757cb589759071a053f"
+  },
+  "config_path": null,
+  "slurm_job_id": "43830679",
+  "result": {"matched_vertex_weight_sum": "40884692879329489"},
+  "mvm_execution": {"rounds_attempted": 12, "rounds_with_flip": 11, "early_exit": true, "stop_reason": "no_positive_gain"},
+  "memory": {"process_peak_rss_bytes": 44064768},
+  "timing_seconds": {
+    "ccf_load": 0.009084582,
+    "cover_decode": 0.015118400,
+    "weight_preparation": 0.004479253,
+    "algorithm": 0.495730123
+  }
+}

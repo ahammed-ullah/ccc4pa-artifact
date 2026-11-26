@@ -1,0 +1,24 @@
+{
+  "algorithm": "matching",
+  "representation": "zuckerli",
+  "parameters": {"matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_zk/codegolf/codegolf.zk",
+    "graph_name": "codegolf",
+    "n": 9695,
+    "m": 34080224,
+    "arcs": 68160448,
+    "graph_bytes": 191525,
+    "index_bytes": 25476,
+    "perm_bytes": 38780,
+    "bundle_bytes": 255781
+  },
+  "config_path": null,
+  "slurm_job_id": "43708076",
+  "result": {"matching_size": 4847},
+  "memory": {"process_peak_rss_bytes": 9666560},
+  "timing_seconds": {
+    "zuckerli_load": 0.004045136,
+    "algorithm": 9.201126862
+  }
+}

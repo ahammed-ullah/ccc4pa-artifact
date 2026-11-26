@@ -1,0 +1,25 @@
+{
+  "algorithm": "matching",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_wg/serverfault/serverfault.graph",
+    "graph_name": "serverfault",
+    "n": 257925,
+    "m": 1567185915,
+    "arcs": 3134371830,
+    "graph_bytes": 116416800,
+    "properties_bytes": 320,
+    "ef_bytes": 452624,
+    "perm_bytes": 1031700,
+    "bundle_bytes": 117901444
+  },
+  "config_path": null,
+  "slurm_job_id": "43716504",
+  "result": {"matching_size": 128941},
+  "memory": {"process_peak_rss_bytes": 128434176},
+  "timing_seconds": {
+    "webgraph_load": 0.155031694,
+    "algorithm": 700.508609111
+  }
+}

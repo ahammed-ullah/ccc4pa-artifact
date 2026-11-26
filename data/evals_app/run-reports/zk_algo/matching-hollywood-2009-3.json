@@ -1,0 +1,24 @@
+{
+  "algorithm": "matching",
+  "representation": "zuckerli",
+  "parameters": {"matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_zk/hollywood-2009/hollywood-2009.zk",
+    "graph_name": "hollywood-2009",
+    "n": 1107243,
+    "m": 56375711,
+    "arcs": 112751422,
+    "graph_bytes": 61664963,
+    "index_bytes": 4013784,
+    "perm_bytes": 0,
+    "bundle_bytes": 65678747
+  },
+  "config_path": null,
+  "slurm_job_id": "43707888",
+  "result": {"matching_size": 543320},
+  "memory": {"process_peak_rss_bytes": 80859136},
+  "timing_seconds": {
+    "zuckerli_load": 0.185350245,
+    "algorithm": 29.630428089
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "algorithm": "dfs",
+  "cover_mode": "plain",
+  "parameters": {},
+  "input": {
+    "ccf_path": "format_ccf/ri-pl-1b.ccf",
+    "graph_name": "ri-pl-1b",
+    "n": 1836221,
+    "m": 1030095669,
+    "num_cliques": 423900,
+    "cover_size": 5006954,
+    "ccf_bytes": 16141414,
+    "graph_fingerprint_sha256": "f4fd4b96e4ea30aaacfc86f5386939170390a2ea5e3c6ec81ca6b1642d448831",
+    "ccf_stored_checksum_sha256": "c5173c3d520a6d4e161392351fa153d5af929fc047dd79e9e3ab7e89b808e288"
+  },
+  "config_path": null,
+  "slurm_job_id": "43487574",
+  "result": {"connected_components": 1147},
+  "memory": {"process_peak_rss_bytes": 196591616},
+  "timing_seconds": {
+    "ccf_load": 0.052808805,
+    "cover_decode": 0.085723620,
+    "algorithm": 1.194539940
+  }
+}

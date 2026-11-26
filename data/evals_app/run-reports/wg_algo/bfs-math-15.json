@@ -1,0 +1,25 @@
+{
+  "algorithm": "bfs",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk"},
+  "input": {
+    "graph_path": "format_wg/math/math.graph",
+    "graph_name": "math",
+    "n": 994983,
+    "m": 24332111417,
+    "arcs": 48664222834,
+    "graph_bytes": 761268536,
+    "properties_bytes": 322,
+    "ef_bytes": 1836072,
+    "perm_bytes": 3979932,
+    "bundle_bytes": 767084862
+  },
+  "config_path": null,
+  "slurm_job_id": "43821559",
+  "result": {"connected_components": 1},
+  "memory": {"process_peak_rss_bytes": 785137664},
+  "timing_seconds": {
+    "webgraph_load": 0.904091507,
+    "algorithm": 89297.850093420
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "local-mis",
+    "exact_truss": true
+  },
+  "graph": {
+    "name": "rpg",
+    "path": "format_cgf/rpg.cgf",
+    "format": "cgf",
+    "n": 28874,
+    "m": 81903796,
+    "encoded_bytes": 164545190,
+    "read_time_seconds": 4.405039849
+  },
+  "lower_bounds": {
+    "combined_best": 74721,
+    "common_neighborhood_global_color": 60673,
+    "exact_truss": 62714,
+    "global_core_color": 55413,
+    "global_mis": 61811,
+    "ordinary_local_mis": 73727,
+    "simplicial_dominating_local_mis": 74705
+  },
+  "timing_seconds": {
+    "linear_bounds": 1.520055581,
+    "common_neighborhood": 0,
+    "local_mis": 1.388884179,
+    "exact_truss": 77665.802359906,
+    "local_color": 0,
+    "bound_computation": 77668.712994669,
+    "total_including_graph_read": 77673.118034518
+  }
+}

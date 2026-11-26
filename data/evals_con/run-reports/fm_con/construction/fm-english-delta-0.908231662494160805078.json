@@ -1,0 +1,64 @@
+{
+  "schema_version": 4,
+  "algorithm": {
+    "name": "fm",
+    "delta_selection": "fixed",
+    "workspace": "linear"
+  },
+  "graph": {
+    "name": "english",
+    "path": "format_cgf/english.cgf",
+    "format": "cgf",
+    "format_version": 1,
+    "file_bytes": 854944543,
+    "canonical_fingerprint_sha256": "34ca1b603f8ce4ab0eb21d16b6868e8611500191654548ec32e97ae381621b2b",
+    "file_checksum_sha256": "aeaa228db08e8fba79ad73ba5af27de93a9461b1ff675df12a936d52d0560112",
+    "n": 98460,
+    "m": 424210898
+  },
+  "delta_search": {
+    "policy": "fixed-delta",
+    "scale_a": 3.67438427199765634532,
+    "initial_k_min": 3,
+    "initial_k_max": 3,
+    "candidate_count": 1,
+    "candidate_delta_min": 0.908231662494160805078,
+    "candidate_delta_max": 0.908231662494160805078,
+    "selected_delta": 0.908231662494160805078,
+    "selected_initial_k": 3,
+    "time_seconds": 18880.1282117139999173
+  },
+  "partition": {
+    "initial_cross_edges": 848421796,
+    "k_ge_2_bicliques": 43033,
+    "star_bicliques": 66160,
+    "num_parts": 674736,
+    "edges_in_k_ge_2_bicliques": 743702675,
+    "edges_in_star_bicliques": 104153578,
+    "residual_edges": 565543,
+    "nontrivial_size": 434232478,
+    "residual_size": 1131086,
+    "total_size": 435363564
+  },
+  "fm_representation": {
+    "m_star": 434896481,
+    "n_star": 306113,
+    "center_count": 109193,
+    "return_arcs": 98460
+  },
+  "construction_state": {
+    "space_bound": "O(n+m)",
+    "packed_neighbor_bits": 17,
+    "packed_neighbor_words": 225362041,
+    "deleted_edge_words": 13256591,
+    "deletion_rank_entries": 3461632,
+    "neighborhood_tree_nodes": 0
+  },
+  "timing": {
+    "input_index_seconds": 22.3910012750000007031,
+    "selected_run_seconds": 18857.7372049479999987,
+    "initialization_seconds": 0.0124770269999999999094,
+    "k_ge_2_stripping_seconds": 18857.6550892039995233,
+    "star_stripping_seconds": 0.0696382170000000022547
+  }
+}

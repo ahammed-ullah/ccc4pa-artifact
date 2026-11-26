@@ -1,0 +1,24 @@
+{
+  "algorithm": "matching",
+  "representation": "zuckerli",
+  "parameters": {"matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_zk/math-sx-threads/math-sx-threads.zk",
+    "graph_name": "math-sx-threads",
+    "n": 698505,
+    "m": 767323596,
+    "arcs": 1534647192,
+    "graph_bytes": 95482523,
+    "index_bytes": 2619422,
+    "perm_bytes": 2794020,
+    "bundle_bytes": 100895965
+  },
+  "config_path": null,
+  "slurm_job_id": "43708026",
+  "result": {"matching_size": 346542},
+  "memory": {"process_peak_rss_bytes": 111673344},
+  "timing_seconds": {
+    "zuckerli_load": 1.689407512,
+    "algorithm": 216.710917700
+  }
+}

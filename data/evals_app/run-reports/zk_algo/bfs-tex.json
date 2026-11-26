@@ -1,0 +1,24 @@
+{
+  "algorithm": "bfs",
+  "representation": "zuckerli",
+  "parameters": {},
+  "input": {
+    "graph_path": "format_zk/tex/tex.zk",
+    "graph_name": "tex",
+    "n": 160967,
+    "m": 580729818,
+    "arcs": 1161459636,
+    "graph_bytes": 29096147,
+    "index_bytes": 563412,
+    "perm_bytes": 643868,
+    "bundle_bytes": 30303427
+  },
+  "config_path": null,
+  "slurm_job_id": "43708243",
+  "result": {"connected_components": 5},
+  "memory": {"process_peak_rss_bytes": 40390656},
+  "timing_seconds": {
+    "zuckerli_load": 0.579372013,
+    "algorithm": 523.649537603
+  }
+}

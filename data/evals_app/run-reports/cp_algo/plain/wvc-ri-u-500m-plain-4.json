@@ -1,0 +1,26 @@
+{
+  "algorithm": "wvc",
+  "cover_mode": "plain",
+  "parameters": {"weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "ccf_path": "format_ccf/ri-u-500m.ccf",
+    "graph_name": "ri-u-500m",
+    "n": 1834019,
+    "m": 500153753,
+    "num_cliques": 24640,
+    "cover_size": 4977280,
+    "ccf_bytes": 10944202,
+    "graph_fingerprint_sha256": "1c616b73ec5ea421f59384e943a65d5368e2ed5b36797ce2bc7d97560b701c9f",
+    "ccf_stored_checksum_sha256": "5bee5731ed03a85fc4d9333c46506ca7edf8022c51876ffe907ea8f4269400e6"
+  },
+  "config_path": null,
+  "slurm_job_id": "43487852",
+  "result": {"selected_weight_sum": "3064313520265099259"},
+  "memory": {"process_peak_rss_bytes": 64675840},
+  "timing_seconds": {
+    "ccf_load": 0.024006356,
+    "cover_decode": 0.045936472,
+    "weight_preparation": 0.014614607,
+    "algorithm": 0.037864919
+  }
+}

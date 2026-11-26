@@ -1,0 +1,24 @@
+{
+  "algorithm": "matching",
+  "representation": "zuckerli",
+  "parameters": {"matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_zk/gamedev/gamedev.zk",
+    "graph_name": "gamedev",
+    "n": 43145,
+    "m": 102877926,
+    "arcs": 205755852,
+    "graph_bytes": 4925223,
+    "index_bytes": 140249,
+    "perm_bytes": 172580,
+    "bundle_bytes": 5238052
+  },
+  "config_path": null,
+  "slurm_job_id": "43708044",
+  "result": {"matching_size": 21563},
+  "memory": {"process_peak_rss_bytes": 15085568},
+  "timing_seconds": {
+    "zuckerli_load": 0.015551931,
+    "algorithm": 42.908986503
+  }
+}

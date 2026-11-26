@@ -1,0 +1,26 @@
+{
+  "algorithm": "mvm",
+  "cover_mode": "encoded",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_round_limit": 30, "mvm_mode": "bounded", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "ccf_path": "format_ccf/HV15R.ccf",
+    "graph_name": "HV15R",
+    "n": 2017169,
+    "m": 162357569,
+    "num_cliques": 1302755,
+    "cover_size": 19609657,
+    "ccf_bytes": 36924140,
+    "graph_fingerprint_sha256": "cc74c41a3712eb675e9f10c4bc558e9c8a1cde3008de1eb44279c09cd6678155",
+    "ccf_stored_checksum_sha256": "aa5065676c4107907d36648e8bc72a677186d6b803f59d22718bb8515ebb2fa5"
+  },
+  "config_path": "cp_algo4/config/encoded.toml",
+  "slurm_job_id": "44762834",
+  "result": {"matched_vertex_weight_sum": "4102237626298434150"},
+  "mvm_execution": {"rounds_attempted": 8, "rounds_with_flip": 7, "early_exit": true, "stop_reason": "no_positive_gain"},
+  "memory": {"process_peak_rss_bytes": 263311360},
+  "timing_seconds": {
+    "ccf_load": 0.097544155,
+    "weight_preparation": 0.019764480,
+    "algorithm": 17.463992596
+  }
+}

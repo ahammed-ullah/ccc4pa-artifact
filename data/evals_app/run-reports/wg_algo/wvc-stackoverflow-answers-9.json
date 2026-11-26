@@ -1,0 +1,26 @@
+{
+  "algorithm": "wvc",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_wg/stackoverflow-answers/stackoverflow-answers.graph",
+    "graph_name": "stackoverflow-answers",
+    "n": 15211989,
+    "m": 14653134369,
+    "arcs": 29306268738,
+    "graph_bytes": 1740636480,
+    "properties_bytes": 325,
+    "ef_bytes": 22920096,
+    "perm_bytes": 60847956,
+    "bundle_bytes": 1824404857
+  },
+  "config_path": null,
+  "slurm_job_id": "43724732",
+  "result": {"selected_weight_sum": "1690289933759200403100"},
+  "memory": {"process_peak_rss_bytes": 2020163584},
+  "timing_seconds": {
+    "webgraph_load": 3.190732882,
+    "weight_preparation": 1.659472028,
+    "algorithm": 33833.323920964
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 4,
+  "algorithm": {
+    "name": "fm",
+    "delta_selection": "fixed",
+    "workspace": "linear"
+  },
+  "graph": {
+    "name": "gamedev",
+    "path": "format_cgf/gamedev.cgf",
+    "format": "cgf",
+    "format_version": 1,
+    "file_bytes": 207151137,
+    "canonical_fingerprint_sha256": "94ce47752ba181f63ee2c894e8f295e0e1c85899185c6619f17e3162486fd03b",
+    "file_checksum_sha256": "c9c7f3ad2e8f6d53042eabd7278a6ef9a79a3299fd114507bd1260854876261a",
+    "n": 43145,
+    "m": 102877926
+  },
+  "delta_search": {
+    "policy": "fixed-delta",
+    "scale_a": 3.68571583741759013515,
+    "initial_k_min": 3,
+    "initial_k_max": 3,
+    "candidate_count": 1,
+    "candidate_delta_min": 0.906976572846967040321,
+    "candidate_delta_max": 0.906976572846967040321,
+    "selected_delta": 0.906976572846967040321,
+    "selected_initial_k": 3,
+    "time_seconds": 2939.27162556599978416
+  },
+  "partition": {
+    "initial_cross_edges": 205755852,
+    "k_ge_2_bicliques": 19411,
+    "star_bicliques": 34052,
+    "num_parts": 286253,
+    "edges_in_k_ge_2_bicliques": 176312869,
+    "edges_in_star_bicliques": 29210193,
+    "residual_edges": 232790,
+    "nontrivial_size": 107779650,
+    "residual_size": 465580,
+    "total_size": 108245230
+  },
+  "fm_representation": {
+    "m_star": 108055585,
+    "n_star": 139753,
+    "center_count": 53463,
+    "return_arcs": 43145
+  },
+  "construction_state": {
+    "space_bound": "O(n+m)",
+    "packed_neighbor_bits": 16,
+    "packed_neighbor_words": 51438964,
+    "deleted_edge_words": 3214936,
+    "deletion_rank_entries": 868751,
+    "neighborhood_tree_nodes": 0
+  },
+  "timing": {
+    "input_index_seconds": 5.5473720059999998,
+    "selected_run_seconds": 2933.72425068399979864,
+    "initialization_seconds": 0.00450580999999999985001,
+    "k_ge_2_stripping_seconds": 2933.68645808400015085,
+    "star_stripping_seconds": 0.03328633000000000286
+  }
+}

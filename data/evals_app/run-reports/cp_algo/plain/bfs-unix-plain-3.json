@@ -1,0 +1,25 @@
+{
+  "algorithm": "bfs",
+  "cover_mode": "plain",
+  "parameters": {},
+  "input": {
+    "ccf_path": "format_ccf/unix.ccf",
+    "graph_name": "unix",
+    "n": 144992,
+    "m": 657203781,
+    "num_cliques": 2436,
+    "cover_size": 407096,
+    "ccf_bytes": 605797,
+    "graph_fingerprint_sha256": "48d8fdfbd58228b6f54d563e26b693a9608430482f5fc75d79e38ba1d98573cb",
+    "ccf_stored_checksum_sha256": "526129b96793c459a633eb67aaaac46597f0615c841ca3ff96045566d033d377"
+  },
+  "config_path": null,
+  "slurm_job_id": "43487391",
+  "result": {"connected_components": 2},
+  "memory": {"process_peak_rss_bytes": 21479424},
+  "timing_seconds": {
+    "ccf_load": 0.001056789,
+    "cover_decode": 0.004255819,
+    "algorithm": 0.024962770
+  }
+}

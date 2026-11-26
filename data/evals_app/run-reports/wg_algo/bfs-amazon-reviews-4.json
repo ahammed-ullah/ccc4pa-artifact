@@ -1,0 +1,25 @@
+{
+  "algorithm": "bfs",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk"},
+  "input": {
+    "graph_path": "format_wg/amazon-reviews/amazon-reviews.graph",
+    "graph_name": "amazon-reviews",
+    "n": 2268231,
+    "m": 3032412387,
+    "arcs": 6064824774,
+    "graph_bytes": 4353150320,
+    "properties_bytes": 321,
+    "ef_bytes": 4580976,
+    "perm_bytes": 9072924,
+    "bundle_bytes": 4366804541
+  },
+  "config_path": null,
+  "slurm_job_id": "43716713",
+  "result": {"connected_components": 6},
+  "memory": {"process_peak_rss_bytes": 4386095104},
+  "timing_seconds": {
+    "webgraph_load": 6.995310780,
+    "algorithm": 2681.712849630
+  }
+}

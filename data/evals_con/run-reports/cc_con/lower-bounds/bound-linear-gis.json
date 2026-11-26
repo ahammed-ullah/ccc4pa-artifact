@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "linear",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "gis",
+    "path": "format_cgf/gis.cgf",
+    "format": "cgf",
+    "n": 101753,
+    "m": 592469235,
+    "encoded_bytes": 1191280532,
+    "read_time_seconds": 30.976990217
+  },
+  "lower_bounds": {
+    "combined_best": 282323,
+    "global_core_color": 208545,
+    "global_mis": 277487
+  },
+  "timing_seconds": {
+    "linear_bounds": 17.405378784,
+    "common_neighborhood": 0,
+    "local_mis": 0,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 17.406845931,
+    "total_including_graph_read": 48.383836148
+  }
+}

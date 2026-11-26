@@ -1,0 +1,7 @@
+# Uses the same native full archive as the ordinary thread projection.
+[graph]
+name = "math-sx-threads"
+source = "file"
+format = "cornell-dual-simplices"
+nverts_path = "../../datasets/cornell_arb/threads-math-sx/threads-math-sx-nverts.txt"
+simplices_path = "../../datasets/cornell_arb/threads-math-sx/threads-math-sx-simplices.txt"

@@ -1,0 +1,24 @@
+{
+  "algorithm": "matching",
+  "representation": "zuckerli",
+  "parameters": {"matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_zk/coPapersCiteseer/coPapersCiteseer.zk",
+    "graph_name": "coPapersCiteseer",
+    "n": 434102,
+    "m": 16036720,
+    "arcs": 32073440,
+    "graph_bytes": 3041140,
+    "index_bytes": 1356596,
+    "perm_bytes": 0,
+    "bundle_bytes": 4397736
+  },
+  "config_path": null,
+  "slurm_job_id": "43707872",
+  "result": {"matching_size": 211596},
+  "memory": {"process_peak_rss_bytes": 15990784},
+  "timing_seconds": {
+    "zuckerli_load": 0.182203645,
+    "algorithm": 1.164722495
+  }
+}

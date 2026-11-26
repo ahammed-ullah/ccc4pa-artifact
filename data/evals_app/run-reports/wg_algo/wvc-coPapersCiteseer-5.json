@@ -1,0 +1,26 @@
+{
+  "algorithm": "wvc",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_wg/coPapersCiteseer/coPapersCiteseer.graph",
+    "graph_name": "coPapersCiteseer",
+    "n": 434102,
+    "m": 16036720,
+    "arcs": 32073440,
+    "graph_bytes": 3755960,
+    "properties_bytes": 314,
+    "ef_bytes": 453264,
+    "perm_bytes": 0,
+    "bundle_bytes": 4209538
+  },
+  "config_path": null,
+  "slurm_job_id": "43717045",
+  "result": {"selected_weight_sum": "36790696005905893"},
+  "memory": {"process_peak_rss_bytes": 19632128},
+  "timing_seconds": {
+    "webgraph_load": 0.011287570,
+    "weight_preparation": 0.005235021,
+    "algorithm": 0.944662764
+  }
+}

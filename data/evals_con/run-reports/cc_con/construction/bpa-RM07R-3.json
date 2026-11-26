@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "bpa",
+    "parameters": {
+      "label_selection": "min-label",
+      "tau": 4
+    }
+  },
+  "graph": {
+    "name": "RM07R",
+    "source": "file",
+    "type": "mm",
+    "parameters": {
+      "path": "format_std/suitesparse/RM07R/RM07R.mtx"
+    },
+    "generation_statistics": {},
+    "specification_path": "format_cgf/RM07R.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/RM07R.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/RM07R.cgf",
+    "preparation_report_path": "format_cgf/RM07R.cgf.json",
+    "canonical_fingerprint_sha256": "9cf8b512cc43c093d2bc6b1db8c81e54cd5332ea652177a2650c067265ee6390",
+    "n": 272635,
+    "m": 19910625,
+    "time_seconds": 1.313713658
+  },
+  "constructed_cover": {
+    "num_cliques": 56483,
+    "cover_size": 2013444,
+    "time_seconds": 1.812541137
+  },
+  "algorithm_statistics": {
+    "num_phases": 1,
+    "peak_size_D": 2214812
+  },
+  "postprocess": {
+    "assignment_minimal": true,
+    "num_cliques": 56480,
+    "cover_size": 1854412,
+    "time_seconds": 0.25581749
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

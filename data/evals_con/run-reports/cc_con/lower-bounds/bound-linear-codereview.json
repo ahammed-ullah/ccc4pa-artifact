@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "linear",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "codereview",
+    "path": "format_cgf/codereview.cgf",
+    "format": "cgf",
+    "n": 54084,
+    "m": 206520631,
+    "encoded_bytes": 414214825,
+    "read_time_seconds": 10.927100123
+  },
+  "lower_bounds": {
+    "combined_best": 119852,
+    "global_core_color": 106907,
+    "global_mis": 104884
+  },
+  "timing_seconds": {
+    "linear_bounds": 5.827355493,
+    "common_neighborhood": 0,
+    "local_mis": 0,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 5.828020155,
+    "total_including_graph_read": 16.755120278
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "algorithm": "mvm",
+  "representation": "zuckerli",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_seed": 5, "mvm_sample_limit": 7802009, "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_zk/ri-ln-1b/ri-ln-1b.zk",
+    "graph_name": "ri-ln-1b",
+    "n": 1866033,
+    "m": 1174896620,
+    "arcs": 2349793240,
+    "graph_bytes": 1437001942,
+    "index_bytes": 7930669,
+    "perm_bytes": 7464132,
+    "bundle_bytes": 1452396743
+  },
+  "config_path": null,
+  "slurm_job_id": "44718225",
+  "result": {"matched_vertex_weight_sum": "3250884206863567760"},
+  "mvm_execution": {"status": "complete", "stop_reason": "sample_limit", "samples_completed": 7802009, "positive_augmentations": 936560},
+  "memory": {"process_peak_rss_bytes": 1477107712},
+  "timing_seconds": {
+    "zuckerli_load": 2.149344354,
+    "weight_preparation": 0.128267154,
+    "algorithm": 2076.392753168
+  }
+}

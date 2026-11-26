@@ -1,0 +1,26 @@
+{
+  "algorithm": "wvc",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_wg/drupal/drupal.graph",
+    "graph_name": "drupal",
+    "n": 77488,
+    "m": 640722456,
+    "arcs": 1281444912,
+    "graph_bytes": 10858152,
+    "properties_bytes": 319,
+    "ef_bytes": 120056,
+    "perm_bytes": 309952,
+    "bundle_bytes": 11288479
+  },
+  "config_path": null,
+  "slurm_job_id": "43717268",
+  "result": {"selected_weight_sum": "232768165449978"},
+  "memory": {"process_peak_rss_bytes": 22331392},
+  "timing_seconds": {
+    "webgraph_load": 0.062896173,
+    "weight_preparation": 0.019250379,
+    "algorithm": 232.202257835
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "algorithm": "dfs",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk"},
+  "input": {
+    "graph_path": "format_wg/stackoverflow-threads/stackoverflow-threads.graph",
+    "graph_name": "stackoverflow-threads",
+    "n": 10980003,
+    "m": 8233726692,
+    "arcs": 16467453384,
+    "graph_bytes": 1759267648,
+    "properties_bytes": 324,
+    "ef_bytes": 17180472,
+    "perm_bytes": 43920012,
+    "bundle_bytes": 1820368456
+  },
+  "config_path": null,
+  "slurm_job_id": "43716966",
+  "result": {"connected_components": 38933},
+  "memory": {"process_peak_rss_bytes": 1974304768},
+  "timing_seconds": {
+    "webgraph_load": 2.502757449,
+    "algorithm": 2395.107293525
+  }
+}

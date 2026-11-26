@@ -1,0 +1,25 @@
+{
+  "algorithm": "dfs",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk"},
+  "input": {
+    "graph_path": "format_wg/audikw_1/audikw_1.graph",
+    "graph_name": "audikw_1",
+    "n": 943695,
+    "m": 38354076,
+    "arcs": 76708152,
+    "graph_bytes": 10178712,
+    "properties_bytes": 316,
+    "ef_bytes": 1016512,
+    "perm_bytes": 3774780,
+    "bundle_bytes": 14970320
+  },
+  "config_path": null,
+  "slurm_job_id": "43716810",
+  "result": {"connected_components": 1},
+  "memory": {"process_peak_rss_bytes": 36610048},
+  "timing_seconds": {
+    "webgraph_load": 0.076877897,
+    "algorithm": 9.035700551
+  }
+}

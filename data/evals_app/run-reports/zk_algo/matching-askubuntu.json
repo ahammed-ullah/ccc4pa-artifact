@@ -1,0 +1,24 @@
+{
+  "algorithm": "matching",
+  "representation": "zuckerli",
+  "parameters": {"matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_zk/askubuntu/askubuntu.zk",
+    "graph_name": "askubuntu",
+    "n": 306695,
+    "m": 1942664590,
+    "arcs": 3885329180,
+    "graph_bytes": 115878647,
+    "index_bytes": 1150134,
+    "perm_bytes": 1226780,
+    "bundle_bytes": 118255561
+  },
+  "config_path": null,
+  "slurm_job_id": "43708099",
+  "result": {"matching_size": 153324},
+  "memory": {"process_peak_rss_bytes": 128983040},
+  "timing_seconds": {
+    "zuckerli_load": 0.234897963,
+    "algorithm": 1459.761100817
+  }
+}

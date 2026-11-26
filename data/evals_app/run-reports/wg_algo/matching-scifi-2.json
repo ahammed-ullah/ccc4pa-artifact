@@ -1,0 +1,25 @@
+{
+  "algorithm": "matching",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_wg/scifi/scifi.graph",
+    "graph_name": "scifi",
+    "n": 48564,
+    "m": 121121230,
+    "arcs": 242242460,
+    "graph_bytes": 1181696,
+    "properties_bytes": 316,
+    "ef_bytes": 59744,
+    "perm_bytes": 194256,
+    "bundle_bytes": 1436012
+  },
+  "config_path": null,
+  "slurm_job_id": "43716423",
+  "result": {"matching_size": 24214},
+  "memory": {"process_peak_rss_bytes": 11116544},
+  "timing_seconds": {
+    "webgraph_load": 0.060967944,
+    "algorithm": 126.340531977
+  }
+}

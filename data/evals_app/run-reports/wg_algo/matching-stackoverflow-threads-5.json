@@ -1,0 +1,25 @@
+{
+  "algorithm": "matching",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_wg/stackoverflow-threads/stackoverflow-threads.graph",
+    "graph_name": "stackoverflow-threads",
+    "n": 10980003,
+    "m": 8233726692,
+    "arcs": 16467453384,
+    "graph_bytes": 1759267648,
+    "properties_bytes": 324,
+    "ef_bytes": 17180472,
+    "perm_bytes": 43920012,
+    "bundle_bytes": 1820368456
+  },
+  "config_path": null,
+  "slurm_job_id": "43716465",
+  "result": {"matching_size": 5396137},
+  "memory": {"process_peak_rss_bytes": 1842774016},
+  "timing_seconds": {
+    "webgraph_load": 3.385554396,
+    "algorithm": 5276.752164157
+  }
+}

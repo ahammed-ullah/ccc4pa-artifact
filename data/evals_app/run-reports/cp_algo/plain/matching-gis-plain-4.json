@@ -1,0 +1,25 @@
+{
+  "algorithm": "matching",
+  "cover_mode": "plain",
+  "parameters": {"matching_variant": "three_halves"},
+  "input": {
+    "ccf_path": "format_ccf/gis.ccf",
+    "graph_name": "gis",
+    "n": 101753,
+    "m": 592469235,
+    "num_cliques": 2102,
+    "cover_size": 308784,
+    "ccf_bytes": 433423,
+    "graph_fingerprint_sha256": "88f34da11988facc54f042e3a1014e81c9d86141f85338c3d9cae35432be508f",
+    "ccf_stored_checksum_sha256": "e8088a5b372b454f19cca59f7e2ca3b87f868043a21cc37a21346bc74c1ab6df"
+  },
+  "config_path": null,
+  "slurm_job_id": "43479336",
+  "result": {"matching_size": 50824},
+  "memory": {"process_peak_rss_bytes": 16523264},
+  "timing_seconds": {
+    "ccf_load": 0.002989450,
+    "cover_decode": 0.003037240,
+    "algorithm": 0.011489939
+  }
+}

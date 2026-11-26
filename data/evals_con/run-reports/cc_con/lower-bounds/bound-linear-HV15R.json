@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "linear",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "HV15R",
+    "path": "format_cgf/HV15R.cgf",
+    "format": "cgf",
+    "n": 2017169,
+    "m": 162357569,
+    "encoded_bytes": 364420976,
+    "read_time_seconds": 9.620998951
+  },
+  "lower_bounds": {
+    "combined_best": 8159517,
+    "global_core_color": 5975501,
+    "global_mis": 7512112
+  },
+  "timing_seconds": {
+    "linear_bounds": 4.289687194,
+    "common_neighborhood": 0,
+    "local_mis": 0,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 4.305148844,
+    "total_including_graph_read": 13.926147795
+  }
+}

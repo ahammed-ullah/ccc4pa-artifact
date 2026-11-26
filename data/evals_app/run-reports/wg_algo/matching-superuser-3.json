@@ -1,0 +1,25 @@
+{
+  "algorithm": "matching",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_wg/superuser/superuser.graph",
+    "graph_name": "superuser",
+    "n": 378232,
+    "m": 4537481735,
+    "arcs": 9074963470,
+    "graph_bytes": 232261576,
+    "properties_bytes": 320,
+    "ef_bytes": 684296,
+    "perm_bytes": 1512928,
+    "bundle_bytes": 234459120
+  },
+  "config_path": null,
+  "slurm_job_id": "43716441",
+  "result": {"matching_size": 189066},
+  "memory": {"process_peak_rss_bytes": 247111680},
+  "timing_seconds": {
+    "webgraph_load": 0.401607358,
+    "algorithm": 3219.631059343
+  }
+}

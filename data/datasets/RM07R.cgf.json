@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "artifact": {
+    "format": "cgf",
+    "format_version": 1,
+    "encoding": "delta-vbyte",
+    "path": "RM07R.cgf",
+    "file_bytes": 44816287,
+    "file_checksum_sha256": "8932e8d6fc385a72bd1ad963f188564b51d9f4282a6635bfdcb0a76f73dd55ae"
+  },
+  "graph": {
+    "name": "RM07R",
+    "source": "file",
+    "type": "mm",
+    "origin_specification_path": "repos/cc_con/config/graphs/RM07R.toml",
+    "parameters": {
+      "path": "format_std/suitesparse/RM07R/RM07R.mtx"
+    },
+    "generation_statistics": {},
+    "n": 272635,
+    "m": 19910625,
+    "canonical_fingerprint_sha256": "9cf8b512cc43c093d2bc6b1db8c81e54cd5332ea652177a2650c067265ee6390"
+  },
+  "preparation": {
+    "graph_time_seconds": 35.258567845,
+    "encoding_and_write_time_seconds": 0.767324812
+  }
+}

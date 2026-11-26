@@ -1,0 +1,25 @@
+{
+  "algorithm": "wvc",
+  "cover_mode": "encoded",
+  "parameters": {"weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "ccf_path": "format_ccf/codereview.ccf",
+    "graph_name": "codereview",
+    "n": 54084,
+    "m": 206520631,
+    "num_cliques": 770,
+    "cover_size": 158244,
+    "ccf_bytes": 203641,
+    "graph_fingerprint_sha256": "a631dc245a3b7985127af8576c5367fd70bdda6fc141fdbffb4a1c065c502760",
+    "ccf_stored_checksum_sha256": "23b884cca4882a76b0acf993277b4391e0454362214a55687b3fb7520ece98c4"
+  },
+  "config_path": "cp_algo/config/encoded.toml",
+  "slurm_job_id": "43679673",
+  "result": {"selected_weight_sum": "79077495009826"},
+  "memory": {"process_peak_rss_bytes": 10031104},
+  "timing_seconds": {
+    "ccf_load": 0.001429948,
+    "weight_preparation": 0.000626528,
+    "algorithm": 0.002521500
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "algorithm": "mvm",
+  "representation": "zuckerli",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_seed": 5, "mvm_sample_limit": 4610981, "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_zk/dielFilterV3real/dielFilterV3real.zk",
+    "graph_name": "dielFilterV3real",
+    "n": 1102824,
+    "m": 44101598,
+    "arcs": 88203196,
+    "graph_bytes": 5147874,
+    "index_bytes": 3584206,
+    "perm_bytes": 4411296,
+    "bundle_bytes": 13143376
+  },
+  "config_path": null,
+  "slurm_job_id": "44718200",
+  "result": {"matched_vertex_weight_sum": "670731099585332778"},
+  "mvm_execution": {"status": "complete", "stop_reason": "sample_limit", "samples_completed": 4610981, "positive_augmentations": 569401},
+  "memory": {"process_peak_rss_bytes": 31703040},
+  "timing_seconds": {
+    "zuckerli_load": 0.032050070,
+    "weight_preparation": 0.087979388,
+    "algorithm": 76.751863267
+  }
+}

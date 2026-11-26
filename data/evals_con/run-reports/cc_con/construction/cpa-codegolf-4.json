@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "cpa",
+    "parameters": {
+      "label_selection": "min-label",
+      "tau": 4
+    }
+  },
+  "graph": {
+    "name": "codegolf",
+    "source": "file",
+    "type": "sx-tag-question",
+    "parameters": {
+      "path": "format_std/cornell_arb/sx-tag-question-parsed/parsed/codegolf.txt"
+    },
+    "generation_statistics": {
+      "canonical_question_count": 9695,
+      "distinct_edges": 34080224,
+      "incidence_sum": 25707,
+      "incidence_sum_nontrivial": 25679,
+      "isolated_questions_removed": 2,
+      "max_tag_degree": 8155,
+      "mean_tag_degree": 93.1413043478261,
+      "min_tag_degree": 1,
+      "native_CR": 2654.32641458001,
+      "native_cover_size": 25679,
+      "native_statistics_available": true,
+      "nontrivial_tag_count": 248,
+      "overlap_factor": 1.0930650866614,
+      "pair_occurrences": 37251903,
+      "potential_CR": 2901.35153238054,
+      "question_count": 9697,
+      "tag_count": 276
+    },
+    "specification_path": "format_cgf/codegolf.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/codegolf-sx.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/codegolf.cgf",
+    "preparation_report_path": "format_cgf/codegolf.cgf.json",
+    "canonical_fingerprint_sha256": "36b8d55b9645702b6a7c82e690b252c6f41a04ff61a60da9e9dd4ffd781942e5",
+    "n": 9695,
+    "m": 34080224,
+    "time_seconds": 1.768733639
+  },
+  "constructed_cover": {
+    "num_cliques": 687,
+    "cover_size": 37572,
+    "time_seconds": 1.767392297
+  },
+  "algorithm_statistics": {
+    "bcc_cover_size": 543807,
+    "bcc_num_cliques": 10142,
+    "complement_degeneracy": 1538,
+    "mu": 12911442,
+    "num_complement_colors": 47,
+    "num_parts": 47,
+    "num_phases": 1,
+    "peak_size_D": 130626,
+    "splitting_applied": false
+  },
+  "postprocess": {
+    "assignment_minimal": true,
+    "num_cliques": 330,
+    "cover_size": 25626,
+    "time_seconds": 0.139226196
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

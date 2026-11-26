@@ -1,0 +1,25 @@
+{
+  "algorithm": "wvc",
+  "representation": "zuckerli",
+  "parameters": {"weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_zk/ri-u-1b/ri-u-1b.zk",
+    "graph_name": "ri-u-1b",
+    "n": 1834053,
+    "m": 1000008074,
+    "arcs": 2000016148,
+    "graph_bytes": 1551433488,
+    "index_bytes": 7794754,
+    "perm_bytes": 7336212,
+    "bundle_bytes": 1566564454
+  },
+  "config_path": null,
+  "slurm_job_id": "43708693",
+  "result": {"selected_weight_sum": "3084556554236877365"},
+  "memory": {"process_peak_rss_bytes": 1598119936},
+  "timing_seconds": {
+    "zuckerli_load": 1.952983305,
+    "weight_preparation": 0.135516547,
+    "algorithm": 121.098750868
+  }
+}

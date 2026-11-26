@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "dpf",
+    "parameters": {}
+  },
+  "graph": {
+    "name": "dielFilterV3real",
+    "source": "file",
+    "type": "mm",
+    "parameters": {
+      "path": "format_std/suitesparse/dielFilterV3real/dielFilterV3real.mtx"
+    },
+    "generation_statistics": {},
+    "specification_path": "format_cgf/dielFilterV3real.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/dielFilterV3real.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/dielFilterV3real.cgf",
+    "preparation_report_path": "format_cgf/dielFilterV3real.cgf.json",
+    "canonical_fingerprint_sha256": "f54f1ea1328642a614817443e9ba78532009c2e6cd50d23725dec021216d817e",
+    "n": 1102824,
+    "m": 44101598,
+    "time_seconds": 3.058307599
+  },
+  "constructed_cover": {
+    "num_cliques": 64704,
+    "cover_size": 2661037,
+    "time_seconds": 2.291477544
+  },
+  "algorithm_statistics": {
+    "degeneracy": 56
+  },
+  "postprocess": {
+    "assignment_minimal": false
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

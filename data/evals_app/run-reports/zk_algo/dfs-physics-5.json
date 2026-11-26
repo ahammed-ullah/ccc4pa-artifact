@@ -1,0 +1,24 @@
+{
+  "algorithm": "dfs",
+  "representation": "zuckerli",
+  "parameters": {},
+  "input": {
+    "graph_path": "format_zk/physics/physics.zk",
+    "graph_name": "physics",
+    "n": 121311,
+    "m": 521145952,
+    "arcs": 1042291904,
+    "graph_bytes": 39108058,
+    "index_bytes": 439780,
+    "perm_bytes": 485244,
+    "bundle_bytes": 40033082
+  },
+  "config_path": null,
+  "slurm_job_id": "43708573",
+  "result": {"connected_components": 1},
+  "memory": {"process_peak_rss_bytes": 51482624},
+  "timing_seconds": {
+    "zuckerli_load": 0.055057635,
+    "algorithm": 234.709557417
+  }
+}

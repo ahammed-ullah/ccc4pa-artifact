@@ -1,0 +1,25 @@
+{
+  "algorithm": "matching",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_wg/RM07R/RM07R.graph",
+    "graph_name": "RM07R",
+    "n": 272635,
+    "m": 19910625,
+    "arcs": 39821250,
+    "graph_bytes": 3415104,
+    "properties_bytes": 317,
+    "ef_bytes": 301352,
+    "perm_bytes": 0,
+    "bundle_bytes": 3716773
+  },
+  "config_path": null,
+  "slurm_job_id": "43716306",
+  "result": {"matching_size": 136316},
+  "memory": {"process_peak_rss_bytes": 14225408},
+  "timing_seconds": {
+    "webgraph_load": 0.012478163,
+    "algorithm": 5.071287900
+  }
+}

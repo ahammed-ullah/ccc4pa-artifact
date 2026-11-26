@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "bpa",
+    "parameters": {
+      "label_selection": "min-label",
+      "tau": 4
+    }
+  },
+  "graph": {
+    "name": "scifi",
+    "source": "file",
+    "type": "sx-tag-question",
+    "parameters": {
+      "path": "format_std/cornell_arb/sx-tag-question-parsed/parsed/scifi.txt"
+    },
+    "generation_statistics": {
+      "canonical_question_count": 48564,
+      "distinct_edges": 121121230,
+      "incidence_sum": 108063,
+      "incidence_sum_nontrivial": 107245,
+      "isolated_questions_removed": 239,
+      "max_tag_degree": 11815,
+      "mean_tag_degree": 39.1816533720087,
+      "min_tag_degree": 1,
+      "native_CR": 2258.7762599655,
+      "native_cover_size": 107245,
+      "native_statistics_available": true,
+      "nontrivial_tag_count": 1940,
+      "overlap_factor": 1.09307688668617,
+      "pair_occurrences": 132394817,
+      "potential_CR": 2469.01612196373,
+      "question_count": 48803,
+      "tag_count": 2758
+    },
+    "specification_path": "format_cgf/scifi.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/scifi-sx.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/scifi.cgf",
+    "preparation_report_path": "format_cgf/scifi.cgf.json",
+    "canonical_fingerprint_sha256": "e1b92cbc0d059d83ba11ed6598945cbeb74e8b38b61fe8dc176fb8a7fa425cbb",
+    "n": 48564,
+    "m": 121121230,
+    "time_seconds": 6.481956149
+  },
+  "constructed_cover": {
+    "num_cliques": 1258,
+    "cover_size": 86930,
+    "time_seconds": 9.235493107
+  },
+  "algorithm_statistics": {
+    "num_phases": 1,
+    "peak_size_D": 106000
+  },
+  "postprocess": {
+    "assignment_minimal": true,
+    "num_cliques": 1254,
+    "cover_size": 86680,
+    "time_seconds": 0.519608293
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

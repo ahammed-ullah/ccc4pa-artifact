@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "artifact": {
+    "format": "cgf",
+    "format_version": 1,
+    "encoding": "delta-vbyte",
+    "path": "wordpress.cgf",
+    "file_bytes": 459715602,
+    "file_checksum_sha256": "0b14a97538c6be46921ce024804180bbaac36946dd9835ea8948fb32dbfdffb2"
+  },
+  "graph": {
+    "name": "wordpress",
+    "source": "file",
+    "type": "sx-tag-question",
+    "origin_specification_path": "repos/cc_con/config/graphs/wordpress-sx.toml",
+    "parameters": {
+      "path": "format_std/cornell_arb/sx-tag-question-parsed/parsed/wordpress.txt"
+    },
+    "generation_statistics": {
+      "canonical_question_count": 88745,
+      "distinct_edges": 226563991,
+      "incidence_sum": 216222,
+      "incidence_sum_nontrivial": 216222,
+      "isolated_questions_removed": 0,
+      "max_tag_degree": 8210,
+      "mean_tag_degree": 283.384010484928,
+      "min_tag_degree": 2,
+      "native_CR": 2095.66085782205,
+      "native_cover_size": 216222,
+      "native_statistics_available": true,
+      "nontrivial_tag_count": 763,
+      "overlap_factor": 1.04914004626622,
+      "pair_occurrences": 237697356,
+      "potential_CR": 2198.64172933374,
+      "question_count": 88745,
+      "tag_count": 763
+    },
+    "n": 88745,
+    "m": 226563991,
+    "canonical_fingerprint_sha256": "3d9f3a05227f3bce0b0b5798deebe07cd7cfd28ddd391733f1c59242d3e9f5fe"
+  },
+  "preparation": {
+    "graph_time_seconds": 115.475386689,
+    "encoding_and_write_time_seconds": 6.743271524
+  }
+}

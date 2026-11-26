@@ -1,0 +1,26 @@
+{
+  "algorithm": "wvc",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_wg/amazon-reviews/amazon-reviews.graph",
+    "graph_name": "amazon-reviews",
+    "n": 2268231,
+    "m": 3032412387,
+    "arcs": 6064824774,
+    "graph_bytes": 4353150320,
+    "properties_bytes": 321,
+    "ef_bytes": 4580976,
+    "perm_bytes": 9072924,
+    "bundle_bytes": 4366804541
+  },
+  "config_path": null,
+  "slurm_job_id": "43717204",
+  "result": {"selected_weight_sum": "5826385732968942325"},
+  "memory": {"process_peak_rss_bytes": 4410150912},
+  "timing_seconds": {
+    "webgraph_load": 10.965877499,
+    "weight_preparation": 0.229233424,
+    "algorithm": 2301.084745916
+  }
+}

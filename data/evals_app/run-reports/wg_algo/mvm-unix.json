@@ -1,0 +1,27 @@
+{
+  "algorithm": "mvm",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]", "mvm_epsilon": 0.01, "mvm_seed": 4, "mvm_sample_limit": 606222},
+  "input": {
+    "graph_path": "format_wg/unix/unix.graph",
+    "graph_name": "unix",
+    "n": 144992,
+    "m": 657203781,
+    "arcs": 1314407562,
+    "graph_bytes": 42820472,
+    "properties_bytes": 320,
+    "ef_bytes": 243616,
+    "perm_bytes": 579968,
+    "bundle_bytes": 43644376
+  },
+  "config_path": null,
+  "slurm_job_id": "44718066",
+  "result": {"matched_vertex_weight_sum": "1522440858479428"},
+  "mvm_execution": {"status": "complete", "stop_reason": "sample_limit", "samples_completed": 606222, "positive_augmentations": 72920},
+  "memory": {"process_peak_rss_bytes": 55447552},
+  "timing_seconds": {
+    "webgraph_load": 0.163218856,
+    "weight_preparation": 0.031420256,
+    "algorithm": 1839.720776093
+  }
+}

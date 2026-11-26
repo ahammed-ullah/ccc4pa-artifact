@@ -1,0 +1,25 @@
+{
+  "algorithm": "dfs",
+  "cover_mode": "plain",
+  "parameters": {},
+  "input": {
+    "ccf_path": "format_ccf/gamedev.ccf",
+    "graph_name": "gamedev",
+    "n": 43145,
+    "m": 102877926,
+    "num_cliques": 941,
+    "cover_size": 119836,
+    "ccf_bytes": 161284,
+    "graph_fingerprint_sha256": "94ce47752ba181f63ee2c894e8f295e0e1c85899185c6619f17e3162486fd03b",
+    "ccf_stored_checksum_sha256": "2298773ac012d9f2539948a29e78a82f0040c1a10be24d899b75469eab648947"
+  },
+  "config_path": null,
+  "slurm_job_id": "43487678",
+  "result": {"connected_components": 3},
+  "memory": {"process_peak_rss_bytes": 12988416},
+  "timing_seconds": {
+    "ccf_load": 0.000955857,
+    "cover_decode": 0.001633057,
+    "algorithm": 0.012128193
+  }
+}

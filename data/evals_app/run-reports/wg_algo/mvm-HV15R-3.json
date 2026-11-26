@@ -1,0 +1,27 @@
+{
+  "algorithm": "mvm",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]", "mvm_epsilon": 0.01, "mvm_seed": 5, "mvm_sample_limit": 8433918},
+  "input": {
+    "graph_path": "format_wg/HV15R/HV15R.graph",
+    "graph_name": "HV15R",
+    "n": 2017169,
+    "m": 162357569,
+    "arcs": 324715138,
+    "graph_bytes": 38150384,
+    "properties_bytes": 320,
+    "ef_bytes": 2382584,
+    "perm_bytes": 0,
+    "bundle_bytes": 40533288
+  },
+  "config_path": null,
+  "slurm_job_id": "44717956",
+  "result": {"matched_vertex_weight_sum": "4102230465416290726"},
+  "mvm_execution": {"status": "complete", "stop_reason": "sample_limit", "samples_completed": 8433918, "positive_augmentations": 1026770},
+  "memory": {"process_peak_rss_bytes": 74481664},
+  "timing_seconds": {
+    "webgraph_load": 0.158364439,
+    "weight_preparation": 0.021784013,
+    "algorithm": 395.604428952
+  }
+}

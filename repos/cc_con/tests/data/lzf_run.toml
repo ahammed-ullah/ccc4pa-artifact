@@ -1,0 +1,5 @@
+[postprocess]
+assignment_minimal = false
+
+[verification]
+enabled = true

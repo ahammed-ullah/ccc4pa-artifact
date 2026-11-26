@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "local-mis",
+    "exact_truss": true
+  },
+  "graph": {
+    "name": "ri-u-1b",
+    "path": "format_cgf/ri-u-1b.cgf",
+    "format": "cgf",
+    "n": 1834053,
+    "m": 1000008074,
+    "encoded_bytes": 3840040401,
+    "read_time_seconds": 70.974064487
+  },
+  "lower_bounds": {
+    "combined_best": 4988820,
+    "common_neighborhood_global_color": 4988820,
+    "exact_truss": 4988820,
+    "global_core_color": 4988820,
+    "global_mis": 4983342,
+    "ordinary_local_mis": 4988178,
+    "simplicial_dominating_local_mis": 4988820
+  },
+  "timing_seconds": {
+    "linear_bounds": 36.63930423,
+    "common_neighborhood": 0,
+    "local_mis": 40.509403834,
+    "exact_truss": 79644.127626092,
+    "local_color": 0,
+    "bound_computation": 79721.312076086,
+    "total_including_graph_read": 79792.286140573
+  }
+}

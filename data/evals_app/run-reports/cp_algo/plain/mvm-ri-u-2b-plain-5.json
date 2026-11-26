@@ -1,0 +1,27 @@
+{
+  "algorithm": "mvm",
+  "cover_mode": "plain",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_round_limit": 30, "mvm_mode": "bounded", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "ccf_path": "format_ccf/ri-u-2b.ccf",
+    "graph_name": "ri-u-2b",
+    "n": 1835593,
+    "m": 2000080360,
+    "num_cliques": 6230,
+    "cover_size": 4996460,
+    "ccf_bytes": 9789481,
+    "graph_fingerprint_sha256": "5114159841375557e6f9fd20c24de51a2290eadcfbf9dd0459c07ec20e1c9763",
+    "ccf_stored_checksum_sha256": "d16b7c62ce682897fbd448cc40714c99fb8752d55a0c3e5d2436e40b3815a7a4"
+  },
+  "config_path": null,
+  "slurm_job_id": "43830782",
+  "result": {"matched_vertex_weight_sum": "3092399170961091978"},
+  "mvm_execution": {"rounds_attempted": 2, "rounds_with_flip": 1, "early_exit": true, "stop_reason": "weight_bound"},
+  "memory": {"process_peak_rss_bytes": 137814016},
+  "timing_seconds": {
+    "ccf_load": 0.021130927,
+    "cover_decode": 0.040294672,
+    "weight_preparation": 0.015818458,
+    "algorithm": 0.565512196
+  }
+}

@@ -1,0 +1,13 @@
+[graph]
+name = "ri-pl-8b"
+source = "synthetic"
+model = "hypergraph"
+
+[graph.parameters]
+distribution = "power-law"
+n = 2000000
+r = 324000
+alpha = 2.0
+s_min = 2
+s_max = 31910
+seed = 19

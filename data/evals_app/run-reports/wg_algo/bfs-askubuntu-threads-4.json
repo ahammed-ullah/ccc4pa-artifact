@@ -1,0 +1,25 @@
+{
+  "algorithm": "bfs",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk"},
+  "input": {
+    "graph_path": "format_wg/askubuntu-threads/askubuntu-threads.graph",
+    "graph_name": "askubuntu-threads",
+    "n": 157482,
+    "m": 27363251,
+    "arcs": 54726502,
+    "graph_bytes": 2747592,
+    "properties_bytes": 316,
+    "ef_bytes": 184568,
+    "perm_bytes": 629928,
+    "bundle_bytes": 3562404
+  },
+  "config_path": null,
+  "slurm_job_id": "43716701",
+  "result": {"connected_components": 3722},
+  "memory": {"process_peak_rss_bytes": 13234176},
+  "timing_seconds": {
+    "webgraph_load": 0.003985461,
+    "algorithm": 6.183053782
+  }
+}

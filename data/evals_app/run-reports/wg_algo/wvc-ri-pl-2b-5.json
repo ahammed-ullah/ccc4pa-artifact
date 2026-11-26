@@ -1,0 +1,26 @@
+{
+  "algorithm": "wvc",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_wg/ri-pl-2b/ri-pl-2b.graph",
+    "graph_name": "ri-pl-2b",
+    "n": 1835162,
+    "m": 2028767549,
+    "arcs": 4057535098,
+    "graph_bytes": 604515088,
+    "properties_bytes": 321,
+    "ef_bytes": 3109304,
+    "perm_bytes": 7340648,
+    "bundle_bytes": 614965361
+  },
+  "config_path": null,
+  "slurm_job_id": "43717119",
+  "result": {"selected_weight_sum": "2984378833551219576"},
+  "memory": {"process_peak_rss_bytes": 646463488},
+  "timing_seconds": {
+    "webgraph_load": 0.668594692,
+    "weight_preparation": 0.088457360,
+    "algorithm": 268.211845147
+  }
+}

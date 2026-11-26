@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "local-mis",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "wordpress",
+    "path": "format_cgf/wordpress.cgf",
+    "format": "cgf",
+    "n": 88745,
+    "m": 226563991,
+    "encoded_bytes": 459715602,
+    "read_time_seconds": 12.597836277
+  },
+  "lower_bounds": {
+    "combined_best": 216188,
+    "common_neighborhood_global_color": 206044,
+    "global_core_color": 182342,
+    "global_mis": 211702,
+    "ordinary_local_mis": 214089,
+    "simplicial_dominating_local_mis": 216180
+  },
+  "timing_seconds": {
+    "linear_bounds": 6.498389863,
+    "common_neighborhood": 20565.086028802,
+    "local_mis": 5.744691943,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 20577.331626183,
+    "total_including_graph_read": 20589.92946246
+  }
+}

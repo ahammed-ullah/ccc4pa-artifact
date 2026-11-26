@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "bcc",
+    "parameters": {}
+  },
+  "graph": {
+    "name": "math-sx-threads",
+    "source": "file",
+    "type": "cornell-dual-simplices",
+    "parameters": {
+      "nverts_path": "format_std/cornell_arb/threads-math-sx/threads-math-sx-nverts.txt",
+      "simplices_path": "format_std/cornell_arb/threads-math-sx/threads-math-sx-simplices.txt"
+    },
+    "generation_statistics": {
+      "dual_hyperedge_count": 176445,
+      "dual_incidence_sum": 1610393,
+      "dual_incidence_sum_nontrivial": 1509983,
+      "dual_isolated_vertices_removed": 21287,
+      "dual_native_CR": 1016.33408588044,
+      "dual_native_cover_size": 1509983,
+      "dual_native_statistics_available": true,
+      "dual_nontrivial_hyperedge_count": 76035,
+      "dual_overlap_factor": 1.00248205582355,
+      "dual_pair_occurrences": 769228136,
+      "m_dual": 767323596,
+      "max_dual_hyperedge_size": 12511,
+      "mean_dual_hyperedge_size": 9.1268837314744,
+      "min_dual_hyperedge_size": 1,
+      "n_dual": 698505,
+      "original_simplex_count": 719792,
+      "original_vertex_count": 176445
+    },
+    "specification_path": "format_cgf/math-sx-threads.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/math-sx-threads.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/math-sx-threads.cgf",
+    "preparation_report_path": "format_cgf/math-sx-threads.cgf.json",
+    "canonical_fingerprint_sha256": "8b7f2aad70866120fef6df5a238b01cf91faec3f07e652c28d3f9b1b3337904d",
+    "n": 698505,
+    "m": 767323596,
+    "time_seconds": 50.216944024
+  },
+  "constructed_cover": {
+    "num_cliques": 110144118,
+    "cover_size": 572514294,
+    "time_seconds": 140.689065937
+  },
+  "algorithm_statistics": {
+    "complement_degeneracy": 679684,
+    "mu": 243186944665,
+    "num_complement_colors": 43635,
+    "num_parts": 43635,
+    "splitting_applied": false
+  },
+  "postprocess": {
+    "assignment_minimal": false
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

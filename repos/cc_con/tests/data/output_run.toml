@@ -1,0 +1,13 @@
+[construction]
+tau = 1.0
+label_selection = "max-label"
+
+[postprocess]
+assignment_minimal = true
+
+[output]
+write_cover = true
+directory = "../../build/integration"
+
+[verification]
+enabled = false

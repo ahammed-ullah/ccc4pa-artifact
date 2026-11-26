@@ -1,0 +1,13 @@
+[graph]
+name = "hypergraph-power-law-example"
+source = "synthetic"
+model = "hypergraph"
+
+[graph.parameters]
+distribution = "power-law"
+n = 100
+r = 80
+alpha = 2.2
+s_min = 2
+s_max = 12
+seed = 19

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "artifact": {
+    "format": "cgf",
+    "format_version": 1,
+    "encoding": "delta-vbyte",
+    "path": "physics.cgf",
+    "file_bytes": 1052553590,
+    "file_checksum_sha256": "6b3b83f55660fd3b616038081c2a4a66ab2a9449e409b6bd4a43883bb87db9d0"
+  },
+  "graph": {
+    "name": "physics",
+    "source": "file",
+    "type": "sx-tag-question",
+    "origin_specification_path": "repos/cc_con/config/graphs/physics-sx.toml",
+    "parameters": {
+      "path": "format_std/cornell_arb/sx-tag-question-parsed/parsed/physics.txt"
+    },
+    "generation_statistics": {
+      "canonical_question_count": 121311,
+      "distinct_edges": 521145952,
+      "incidence_sum": 368859,
+      "incidence_sum_nontrivial": 368847,
+      "isolated_questions_removed": 0,
+      "max_tag_degree": 14846,
+      "mean_tag_degree": 409.3884572697,
+      "min_tag_degree": 1,
+      "native_CR": 2825.81098395812,
+      "native_cover_size": 368847,
+      "native_statistics_available": true,
+      "nontrivial_tag_count": 889,
+      "overlap_factor": 1.07999761072691,
+      "pair_occurrences": 562836383,
+      "potential_CR": 3051.86911104062,
+      "question_count": 121311,
+      "tag_count": 901
+    },
+    "n": 121311,
+    "m": 521145952,
+    "canonical_fingerprint_sha256": "1b59d0898cefd9819dfccb5c93754f5d862cb2880766520686f3d7a7d4b5c0ce"
+  },
+  "preparation": {
+    "graph_time_seconds": 272.162833259,
+    "encoding_and_write_time_seconds": 14.955213277
+  }
+}

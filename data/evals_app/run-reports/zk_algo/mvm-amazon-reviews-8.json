@@ -1,0 +1,26 @@
+{
+  "algorithm": "mvm",
+  "representation": "zuckerli",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_seed": 1, "mvm_sample_limit": 9483625, "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_zk/amazon-reviews/amazon-reviews.zk",
+    "graph_name": "amazon-reviews",
+    "n": 2268231,
+    "m": 3032412387,
+    "arcs": 6064824774,
+    "graph_bytes": 3988672135,
+    "index_bytes": 9923539,
+    "perm_bytes": 9072924,
+    "bundle_bytes": 4007668598
+  },
+  "config_path": null,
+  "slurm_job_id": "44729430",
+  "result": {"matched_vertex_weight_sum": "5835277079048973566"},
+  "mvm_execution": {"status": "complete", "stop_reason": "sample_limit", "samples_completed": 9483625, "positive_augmentations": 1149787},
+  "memory": {"process_peak_rss_bytes": 4041965568},
+  "timing_seconds": {
+    "zuckerli_load": 6.723591317,
+    "weight_preparation": 0.475416432,
+    "algorithm": 59697.407824905
+  }
+}

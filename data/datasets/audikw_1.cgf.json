@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "artifact": {
+    "format": "cgf",
+    "format_version": 1,
+    "encoding": "delta-vbyte",
+    "path": "audikw_1.cgf",
+    "file_bytes": 94621796,
+    "file_checksum_sha256": "07031c779644606fba84aab159dd81ea7bbf99ab6842107da75ce4cb15944aed"
+  },
+  "graph": {
+    "name": "audikw_1",
+    "source": "file",
+    "type": "mm",
+    "origin_specification_path": "repos/cc_con/config/graphs/audikw_1.toml",
+    "parameters": {
+      "path": "format_std/suitesparse/audikw_1/audikw_1.mtx"
+    },
+    "generation_statistics": {},
+    "n": 943695,
+    "m": 38354076,
+    "canonical_fingerprint_sha256": "ff8633cfd7b84a5fdd6519479f783fd1978933616d070e13aca00428786a17f9"
+  },
+  "preparation": {
+    "graph_time_seconds": 42.240075534,
+    "encoding_and_write_time_seconds": 1.904546957
+  }
+}

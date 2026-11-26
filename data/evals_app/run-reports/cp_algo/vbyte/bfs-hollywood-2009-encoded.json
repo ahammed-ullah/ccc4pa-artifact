@@ -1,0 +1,24 @@
+{
+  "algorithm": "bfs",
+  "cover_mode": "encoded",
+  "parameters": {},
+  "input": {
+    "ccf_path": "format_ccf/hollywood-2009.ccf",
+    "graph_name": "hollywood-2009",
+    "n": 1107243,
+    "m": 56375711,
+    "num_cliques": 587728,
+    "cover_size": 5912421,
+    "ccf_bytes": 16076819,
+    "graph_fingerprint_sha256": "6d249596df4baaf259340c19fa5e94a8f9bfa6c5193f0649f8ff939ea06c113c",
+    "ccf_stored_checksum_sha256": "3cee4215788769ef8965009cb8cb89120703c4143ca563a4059dfca474d77650"
+  },
+  "config_path": "cp_algo/config/encoded.toml",
+  "slurm_job_id": "43679014",
+  "result": {"connected_components": 11846},
+  "memory": {"process_peak_rss_bytes": 55062528},
+  "timing_seconds": {
+    "ccf_load": 0.074292600,
+    "algorithm": 0.373812607
+  }
+}

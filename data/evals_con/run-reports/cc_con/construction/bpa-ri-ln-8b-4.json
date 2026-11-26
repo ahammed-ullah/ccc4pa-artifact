@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "bpa",
+    "parameters": {
+      "label_selection": "min-label",
+      "tau": 4
+    }
+  },
+  "graph": {
+    "name": "ri-ln-8b",
+    "source": "synthetic",
+    "type": "hypergraph",
+    "parameters": {
+      "distribution": "lognormal",
+      "mu": 7.7,
+      "n": 2000000,
+      "r": 2005,
+      "seed": 19,
+      "sigma": 0.5
+    },
+    "generation_statistics": {
+      "deduplication_strategy": "sort-unique",
+      "distinct_edges": 8048755457,
+      "estimated_distinct_edges": 8048771501.70915,
+      "estimated_pair_to_edge_ratio": 1.00201507923133,
+      "nontrivial_hyperedges": 2005,
+      "pair_occurrences": 8064990414,
+      "sampled_size_max": 10571,
+      "sampled_size_mean": 2511.45436408978,
+      "sampled_size_min": 502,
+      "sampled_size_sum": 5035466
+    },
+    "specification_path": "format_cgf/ri-ln-8b.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/ri-ln-8b.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/ri-ln-8b.cgf",
+    "preparation_report_path": "format_cgf/ri-ln-8b.cgf.json",
+    "canonical_fingerprint_sha256": "13e2ffbd7cd23034c7e60cd15f3d2ff71bdaa312de3c56854498754cd5d2cae8",
+    "n": 1839320,
+    "m": 8048755457,
+    "time_seconds": 626.660345395
+  },
+  "constructed_cover": {
+    "num_cliques": 2008,
+    "cover_size": 5035526,
+    "time_seconds": 1406.291019087
+  },
+  "algorithm_statistics": {
+    "num_phases": 1,
+    "peak_size_D": 5035529
+  },
+  "postprocess": {
+    "assignment_minimal": true,
+    "num_cliques": 2005,
+    "cover_size": 5035466,
+    "time_seconds": 56.55895821
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

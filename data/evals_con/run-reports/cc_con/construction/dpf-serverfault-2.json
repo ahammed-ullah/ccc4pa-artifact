@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "dpf",
+    "parameters": {}
+  },
+  "graph": {
+    "name": "serverfault",
+    "source": "file",
+    "type": "sx-tag-question",
+    "parameters": {
+      "path": "format_std/cornell_arb/sx-tag-question-parsed/parsed/serverfault.com.txt"
+    },
+    "generation_statistics": {
+      "canonical_question_count": 257925,
+      "distinct_edges": 1567185915,
+      "incidence_sum": 749093,
+      "incidence_sum_nontrivial": 749010,
+      "isolated_questions_removed": 2,
+      "max_tag_degree": 31297,
+      "mean_tag_degree": 205.625308811419,
+      "min_tag_degree": 1,
+      "native_CR": 4184.68622581808,
+      "native_cover_size": 749010,
+      "native_statistics_available": true,
+      "nontrivial_tag_count": 3560,
+      "overlap_factor": 1.04246234180837,
+      "pair_occurrences": 1633732299,
+      "potential_CR": 4362.37780269956,
+      "question_count": 257927,
+      "tag_count": 3643
+    },
+    "specification_path": "format_cgf/serverfault.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/serverfault-sx.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/serverfault.cgf",
+    "preparation_report_path": "format_cgf/serverfault.cgf.json",
+    "canonical_fingerprint_sha256": "6387d8c9fa58801031c18eb003b2a1c731f5909438a4e7c77f71823e2b742b74",
+    "n": 257925,
+    "m": 1567185915,
+    "time_seconds": 81.947381891
+  },
+  "constructed_cover": {
+    "num_cliques": 31323,
+    "cover_size": 971541,
+    "time_seconds": 217.265442809
+  },
+  "algorithm_statistics": {
+    "degeneracy": 31296
+  },
+  "postprocess": {
+    "assignment_minimal": false
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

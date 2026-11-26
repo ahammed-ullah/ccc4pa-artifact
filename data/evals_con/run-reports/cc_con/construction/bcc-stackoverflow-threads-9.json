@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "bcc",
+    "parameters": {}
+  },
+  "graph": {
+    "name": "stackoverflow-threads",
+    "source": "file",
+    "type": "cornell-dual-simplices",
+    "parameters": {
+      "nverts_path": "format_std/cornell_arb/threads-stack-overflow-full/threads-stack-overflow-full-nverts.txt",
+      "simplices_path": "format_std/cornell_arb/threads-stack-overflow-full/threads-stack-overflow-full-simplices.txt"
+    },
+    "generation_statistics": {
+      "dual_hyperedge_count": 2675969,
+      "dual_incidence_sum": 25578226,
+      "dual_incidence_sum_nontrivial": 24361706,
+      "dual_isolated_vertices_removed": 325353,
+      "dual_native_CR": 675.956494344033,
+      "dual_native_cover_size": 24361706,
+      "dual_native_statistics_available": true,
+      "dual_nontrivial_hyperedge_count": 1459449,
+      "dual_overlap_factor": 1.00133574691162,
+      "dual_pair_occurrences": 8244724867,
+      "m_dual": 8233726692,
+      "max_dual_hyperedge_size": 36365,
+      "mean_dual_hyperedge_size": 9.55849114844006,
+      "min_dual_hyperedge_size": 1,
+      "n_dual": 10980003,
+      "original_simplex_count": 11305356,
+      "original_vertex_count": 2675969
+    },
+    "specification_path": "format_cgf/stackoverflow-threads.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/stackoverflow-threads.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/stackoverflow-threads.cgf",
+    "preparation_report_path": "format_cgf/stackoverflow-threads.cgf.json",
+    "canonical_fingerprint_sha256": "9e7a336ab63c69302c843f8c0cc3af9da30f5760695f04f2e00ee401f3d301bd",
+    "n": 10980003,
+    "m": 8233726692,
+    "time_seconds": 583.178063776
+  },
+  "constructed_cover": {
+    "num_cliques": 2087222672,
+    "cover_size": 8086285264,
+    "time_seconds": 2346.651195941
+  },
+  "algorithm_statistics": {
+    "complement_degeneracy": 10939042,
+    "mu": 60271993723312,
+    "num_complement_colors": 925560,
+    "num_parts": 925560,
+    "splitting_applied": false
+  },
+  "postprocess": {
+    "assignment_minimal": false
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

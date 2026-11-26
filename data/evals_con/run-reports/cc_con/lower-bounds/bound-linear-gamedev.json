@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "linear",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "gamedev",
+    "path": "format_cgf/gamedev.cgf",
+    "format": "cgf",
+    "n": 43145,
+    "m": 102877926,
+    "encoded_bytes": 207151137,
+    "read_time_seconds": 5.488239118
+  },
+  "lower_bounds": {
+    "combined_best": 112273,
+    "global_core_color": 88879,
+    "global_mis": 110222
+  },
+  "timing_seconds": {
+    "linear_bounds": 2.849555973,
+    "common_neighborhood": 0,
+    "local_mis": 0,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 2.850131475,
+    "total_including_graph_read": 8.338370593
+  }
+}

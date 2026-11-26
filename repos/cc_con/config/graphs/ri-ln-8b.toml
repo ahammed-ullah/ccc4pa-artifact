@@ -1,0 +1,12 @@
+[graph]
+name = "ri-ln-8b"
+source = "synthetic"
+model = "hypergraph"
+
+[graph.parameters]
+distribution = "lognormal"
+n = 2000000
+r = 2005
+mu = 7.7
+sigma = 0.5
+seed = 19

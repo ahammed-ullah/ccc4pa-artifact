@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "artifact": {
+    "format": "cgf",
+    "format_version": 1,
+    "encoding": "delta-vbyte",
+    "path": "rpg.cgf",
+    "file_bytes": 164545190,
+    "file_checksum_sha256": "c63d8f3cd3c8b9aa0c6a255a9301a4ae63dda3ccba964a0df5c9f05e931d8895"
+  },
+  "graph": {
+    "name": "rpg",
+    "source": "file",
+    "type": "sx-tag-question",
+    "origin_specification_path": "repos/cc_con/config/graphs/rpg-sx.toml",
+    "parameters": {
+      "path": "format_std/cornell_arb/sx-tag-question-parsed/parsed/rpg.txt"
+    },
+    "generation_statistics": {
+      "canonical_question_count": 28874,
+      "distinct_edges": 81903796,
+      "incidence_sum": 76226,
+      "incidence_sum_nontrivial": 76093,
+      "isolated_questions_removed": 29,
+      "max_tag_degree": 9231,
+      "mean_tag_degree": 73.3647738209817,
+      "min_tag_degree": 1,
+      "native_CR": 2152.72879239878,
+      "native_cover_size": 76093,
+      "native_statistics_available": true,
+      "nontrivial_tag_count": 906,
+      "overlap_factor": 1.07555401949868,
+      "pair_occurrences": 88091957,
+      "potential_CR": 2315.37610555504,
+      "question_count": 28903,
+      "tag_count": 1039
+    },
+    "n": 28874,
+    "m": 81903796,
+    "canonical_fingerprint_sha256": "c3545491008fdfeac2807ef20bc4452128b257a8f393179dbc04c6455ddc2650"
+  },
+  "preparation": {
+    "graph_time_seconds": 29.730342926,
+    "encoding_and_write_time_seconds": 2.34567392
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "local-mis",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "english",
+    "path": "format_cgf/english.cgf",
+    "format": "cgf",
+    "n": 98460,
+    "m": 424210898,
+    "encoded_bytes": 854944543,
+    "read_time_seconds": 21.656861924
+  },
+  "lower_bounds": {
+    "combined_best": 204013,
+    "common_neighborhood_global_color": 192782,
+    "global_core_color": 177048,
+    "global_mis": 197850,
+    "ordinary_local_mis": 200787,
+    "simplicial_dominating_local_mis": 204013
+  },
+  "timing_seconds": {
+    "linear_bounds": 9.857484529,
+    "common_neighborhood": 54818.058643218,
+    "local_mis": 8.864821853,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 54836.783309179,
+    "total_including_graph_read": 54858.440171103
+  }
+}

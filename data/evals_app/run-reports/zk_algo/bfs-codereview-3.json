@@ -1,0 +1,24 @@
+{
+  "algorithm": "bfs",
+  "representation": "zuckerli",
+  "parameters": {},
+  "input": {
+    "graph_path": "format_zk/codereview/codereview.zk",
+    "graph_name": "codereview",
+    "n": 54084,
+    "m": 206520631,
+    "arcs": 413041262,
+    "graph_bytes": 7869382,
+    "index_bytes": 175801,
+    "perm_bytes": 216336,
+    "bundle_bytes": 8261519
+  },
+  "config_path": null,
+  "slurm_job_id": "43708295",
+  "result": {"connected_components": 1},
+  "memory": {"process_peak_rss_bytes": 17977344},
+  "timing_seconds": {
+    "zuckerli_load": 0.018630679,
+    "algorithm": 119.493707813
+  }
+}

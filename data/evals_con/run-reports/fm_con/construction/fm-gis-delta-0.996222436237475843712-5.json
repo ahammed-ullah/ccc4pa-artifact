@@ -1,0 +1,64 @@
+{
+  "schema_version": 4,
+  "algorithm": {
+    "name": "fm",
+    "delta_selection": "fixed",
+    "workspace": "linear"
+  },
+  "graph": {
+    "name": "gis",
+    "path": "format_cgf/gis.cgf",
+    "format": "cgf",
+    "format_version": 1,
+    "file_bytes": 1191280532,
+    "canonical_fingerprint_sha256": "88f34da11988facc54f042e3a1014e81c9d86141f85338c3d9cae35432be508f",
+    "file_checksum_sha256": "684e01f96ef226f97fe93b982cd3935428ca4b47952fb3ddbf01e79d4c583a76",
+    "n": 101753,
+    "m": 592469235
+  },
+  "delta_search": {
+    "policy": "fixed-delta",
+    "scale_a": 4.03045056802483100738,
+    "initial_k_min": 4,
+    "initial_k_max": 4,
+    "candidate_count": 1,
+    "candidate_delta_min": 0.996222436237475843712,
+    "candidate_delta_max": 0.996222436237475843712,
+    "selected_delta": 0.996222436237475843712,
+    "selected_initial_k": 4,
+    "time_seconds": 32458.0423363379995862
+  },
+  "partition": {
+    "initial_cross_edges": 1184938470,
+    "k_ge_2_bicliques": 65504,
+    "star_bicliques": 86268,
+    "num_parts": 364293,
+    "edges_in_k_ge_2_bicliques": 1118594037,
+    "edges_in_star_bicliques": 66131912,
+    "residual_edges": 212521,
+    "nontrivial_size": 502100147,
+    "residual_size": 425042,
+    "total_size": 502525189
+  },
+  "fm_representation": {
+    "m_star": 502414421,
+    "n_star": 355278,
+    "center_count": 151772,
+    "return_arcs": 101753
+  },
+  "construction_state": {
+    "space_bound": "O(n+m)",
+    "packed_neighbor_bits": 17,
+    "packed_neighbor_words": 314749283,
+    "deleted_edge_words": 18514664,
+    "deletion_rank_entries": 4781529,
+    "neighborhood_tree_nodes": 0
+  },
+  "timing": {
+    "input_index_seconds": 32.0063681729999984782,
+    "selected_run_seconds": 32426.0359594590008783,
+    "initialization_seconds": 0.0171887530000000010588,
+    "k_ge_2_stripping_seconds": 32425.9286981980003475,
+    "star_stripping_seconds": 0.0900720579999999965137
+  }
+}

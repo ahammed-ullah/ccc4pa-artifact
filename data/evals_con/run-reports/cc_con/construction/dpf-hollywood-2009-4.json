@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "dpf",
+    "parameters": {}
+  },
+  "graph": {
+    "name": "hollywood-2009",
+    "source": "file",
+    "type": "mm",
+    "parameters": {
+      "path": "format_std/suitesparse/hollywood-2009/hollywood-2009.mtx"
+    },
+    "generation_statistics": {},
+    "specification_path": "format_cgf/hollywood-2009.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/hollywood-2009.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/hollywood-2009.cgf",
+    "preparation_report_path": "format_cgf/hollywood-2009.cgf.json",
+    "canonical_fingerprint_sha256": "6d249596df4baaf259340c19fa5e94a8f9bfa6c5193f0649f8ff939ea06c113c",
+    "n": 1107243,
+    "m": 56375711,
+    "time_seconds": 3.71675619
+  },
+  "constructed_cover": {
+    "num_cliques": 1032770,
+    "cover_size": 7435485,
+    "time_seconds": 8.266684551
+  },
+  "algorithm_statistics": {
+    "degeneracy": 2208
+  },
+  "postprocess": {
+    "assignment_minimal": false
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

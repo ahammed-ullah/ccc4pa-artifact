@@ -1,0 +1,26 @@
+{
+  "algorithm": "wvc",
+  "cover_mode": "plain",
+  "parameters": {"weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "ccf_path": "format_ccf/physics.ccf",
+    "graph_name": "physics",
+    "n": 121311,
+    "m": 521145952,
+    "num_cliques": 875,
+    "cover_size": 368721,
+    "ccf_bytes": 491921,
+    "graph_fingerprint_sha256": "1b59d0898cefd9819dfccb5c93754f5d862cb2880766520686f3d7a7d4b5c0ce",
+    "ccf_stored_checksum_sha256": "538915c93dd241415142ddde13c5de401a818eaf1669d214e7f4eb4d2b471692"
+  },
+  "config_path": null,
+  "slurm_job_id": "43487978",
+  "result": {"selected_weight_sum": "889565504800389"},
+  "memory": {"process_peak_rss_bytes": 13172736},
+  "timing_seconds": {
+    "ccf_load": 0.001880147,
+    "cover_decode": 0.004249976,
+    "weight_preparation": 0.001236386,
+    "algorithm": 0.002770122
+  }
+}

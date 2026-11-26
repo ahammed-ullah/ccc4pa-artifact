@@ -1,0 +1,26 @@
+{
+  "algorithm": "wvc",
+  "cover_mode": "plain",
+  "parameters": {"weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "ccf_path": "format_ccf/dielFilterV3real.ccf",
+    "graph_name": "dielFilterV3real",
+    "n": 1102824,
+    "m": 44101598,
+    "num_cliques": 61927,
+    "cover_size": 2635803,
+    "ccf_bytes": 3890710,
+    "graph_fingerprint_sha256": "f54f1ea1328642a614817443e9ba78532009c2e6cd50d23725dec021216d817e",
+    "ccf_stored_checksum_sha256": "ce4e4c4082177c510299d0791558b41e35f1a19de3a23c88fc4e880a354096f7"
+  },
+  "config_path": null,
+  "slurm_job_id": "43487773",
+  "result": {"selected_weight_sum": "668468460804506201"},
+  "memory": {"process_peak_rss_bytes": 43229184},
+  "timing_seconds": {
+    "ccf_load": 0.004324065,
+    "cover_decode": 0.030929104,
+    "weight_preparation": 0.009697092,
+    "algorithm": 0.015978049
+  }
+}

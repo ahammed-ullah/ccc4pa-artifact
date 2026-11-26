@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "cpa",
+    "parameters": {
+      "label_selection": "min-label",
+      "tau": 4
+    }
+  },
+  "graph": {
+    "name": "unix",
+    "source": "file",
+    "type": "sx-tag-question",
+    "parameters": {
+      "path": "format_std/cornell_arb/sx-tag-question-parsed/parsed/unix.txt"
+    },
+    "generation_statistics": {
+      "canonical_question_count": 144992,
+      "distinct_edges": 657203781,
+      "incidence_sum": 407563,
+      "incidence_sum_nontrivial": 407434,
+      "isolated_questions_removed": 5,
+      "max_tag_degree": 21679,
+      "mean_tag_degree": 154.263058289175,
+      "min_tag_degree": 1,
+      "native_CR": 3226.0625328274,
+      "native_cover_size": 407434,
+      "native_statistics_available": true,
+      "nontrivial_tag_count": 2513,
+      "overlap_factor": 1.04855006912993,
+      "pair_occurrences": 689111070,
+      "potential_CR": 3382.68809181364,
+      "question_count": 144997,
+      "tag_count": 2642
+    },
+    "specification_path": "format_cgf/unix.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/unix-sx.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/unix.cgf",
+    "preparation_report_path": "format_cgf/unix.cgf.json",
+    "canonical_fingerprint_sha256": "48d8fdfbd58228b6f54d563e26b693a9608430482f5fc75d79e38ba1d98573cb",
+    "n": 144992,
+    "m": 657203781,
+    "time_seconds": 34.697873203
+  },
+  "constructed_cover": {
+    "num_cliques": 6063,
+    "cover_size": 461565,
+    "time_seconds": 112.384609927
+  },
+  "algorithm_statistics": {
+    "bcc_cover_size": 162422791,
+    "bcc_num_cliques": 7214337,
+    "complement_degeneracy": 117403,
+    "mu": 9854063756,
+    "num_complement_colors": 1518,
+    "num_parts": 1518,
+    "num_phases": 1,
+    "peak_size_D": 1192056,
+    "splitting_applied": false
+  },
+  "postprocess": {
+    "assignment_minimal": true,
+    "num_cliques": 2438,
+    "cover_size": 407101,
+    "time_seconds": 3.620897365
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

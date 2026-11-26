@@ -1,0 +1,24 @@
+{
+  "algorithm": "matching",
+  "representation": "zuckerli",
+  "parameters": {"matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_zk/drupal/drupal.zk",
+    "graph_name": "drupal",
+    "n": 77488,
+    "m": 640722456,
+    "arcs": 1281444912,
+    "graph_bytes": 9340434,
+    "index_bytes": 261550,
+    "perm_bytes": 309952,
+    "bundle_bytes": 9911936
+  },
+  "config_path": null,
+  "slurm_job_id": "43708094",
+  "result": {"matching_size": 38742},
+  "memory": {"process_peak_rss_bytes": 20275200},
+  "timing_seconds": {
+    "zuckerli_load": 0.100984854,
+    "algorithm": 382.052668098
+  }
+}

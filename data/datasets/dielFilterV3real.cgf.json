@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "artifact": {
+    "format": "cgf",
+    "format_version": 1,
+    "encoding": "delta-vbyte",
+    "path": "dielFilterV3real.cgf",
+    "file_bytes": 113789546,
+    "file_checksum_sha256": "c2a30c12f3e85d15cd71885a731789aaffd377dea8811925b7ce9087d0de9b02"
+  },
+  "graph": {
+    "name": "dielFilterV3real",
+    "source": "file",
+    "type": "mm",
+    "origin_specification_path": "repos/cc_con/config/graphs/dielFilterV3real.toml",
+    "parameters": {
+      "path": "format_std/suitesparse/dielFilterV3real/dielFilterV3real.mtx"
+    },
+    "generation_statistics": {},
+    "n": 1102824,
+    "m": 44101598,
+    "canonical_fingerprint_sha256": "f54f1ea1328642a614817443e9ba78532009c2e6cd50d23725dec021216d817e"
+  },
+  "preparation": {
+    "graph_time_seconds": 50.530192286,
+    "encoding_and_write_time_seconds": 2.200962216
+  }
+}

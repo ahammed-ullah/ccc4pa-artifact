@@ -1,0 +1,25 @@
+{
+  "algorithm": "matching",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_wg/codegolf/codegolf.graph",
+    "graph_name": "codegolf",
+    "n": 9695,
+    "m": 34080224,
+    "arcs": 68160448,
+    "graph_bytes": 243448,
+    "properties_bytes": 315,
+    "ef_bytes": 12328,
+    "perm_bytes": 38780,
+    "bundle_bytes": 294871
+  },
+  "config_path": null,
+  "slurm_job_id": "43716506",
+  "result": {"matching_size": 4847},
+  "memory": {"process_peak_rss_bytes": 9732096},
+  "timing_seconds": {
+    "webgraph_load": 0.005812892,
+    "algorithm": 6.146137352
+  }
+}

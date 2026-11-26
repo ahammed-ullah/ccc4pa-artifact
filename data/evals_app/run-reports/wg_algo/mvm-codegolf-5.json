@@ -1,0 +1,27 @@
+{
+  "algorithm": "mvm",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]", "mvm_epsilon": 0.01, "mvm_seed": 2, "mvm_sample_limit": 40536},
+  "input": {
+    "graph_path": "format_wg/codegolf/codegolf.graph",
+    "graph_name": "codegolf",
+    "n": 9695,
+    "m": 34080224,
+    "arcs": 68160448,
+    "graph_bytes": 243448,
+    "properties_bytes": 315,
+    "ef_bytes": 12328,
+    "perm_bytes": 38780,
+    "bundle_bytes": 294871
+  },
+  "config_path": null,
+  "slurm_job_id": "44718134",
+  "result": {"matched_vertex_weight_sum": "458605284787"},
+  "mvm_execution": {"status": "complete", "stop_reason": "sample_limit", "samples_completed": 40536, "positive_augmentations": 4854},
+  "memory": {"process_peak_rss_bytes": 10072064},
+  "timing_seconds": {
+    "webgraph_load": 0.001509676,
+    "weight_preparation": 0.000794978,
+    "algorithm": 56.602247395
+  }
+}

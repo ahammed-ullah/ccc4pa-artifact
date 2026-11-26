@@ -1,0 +1,9 @@
+[postprocess]
+assignment_minimal = false
+
+[output]
+write_cover = true
+directory = "../../build/example-output"
+
+[verification]
+enabled = false

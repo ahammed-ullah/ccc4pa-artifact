@@ -1,0 +1,6 @@
+[graph]
+name = "cornell-simplices-test"
+source = "file"
+format = "cornell-simplices"
+nverts_path = "cornell_simplices_nverts.txt"
+simplices_path = "cornell_simplices_members.txt"

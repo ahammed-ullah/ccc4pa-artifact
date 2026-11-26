@@ -1,0 +1,25 @@
+{
+  "algorithm": "dfs",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk"},
+  "input": {
+    "graph_path": "format_wg/askubuntu/askubuntu.graph",
+    "graph_name": "askubuntu",
+    "n": 306695,
+    "m": 1942664590,
+    "arcs": 3885329180,
+    "graph_bytes": 128090824,
+    "properties_bytes": 321,
+    "ef_bytes": 533112,
+    "perm_bytes": 1226780,
+    "bundle_bytes": 129851037
+  },
+  "config_path": null,
+  "slurm_job_id": "43717029",
+  "result": {"connected_components": 3},
+  "memory": {"process_peak_rss_bytes": 144760832},
+  "timing_seconds": {
+    "webgraph_load": 0.188315443,
+    "algorithm": 1135.064390400
+  }
+}

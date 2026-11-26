@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "linear",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "unix",
+    "path": "format_cgf/unix.cgf",
+    "format": "cgf",
+    "n": 144992,
+    "m": 657203781,
+    "encoded_bytes": 1334873758,
+    "read_time_seconds": 33.952646281
+  },
+  "lower_bounds": {
+    "combined_best": 391441,
+    "global_core_color": 303194,
+    "global_mis": 387355
+  },
+  "timing_seconds": {
+    "linear_bounds": 20.757743542,
+    "common_neighborhood": 0,
+    "local_mis": 0,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 20.75964661,
+    "total_including_graph_read": 54.712292891
+  }
+}

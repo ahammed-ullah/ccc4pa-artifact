@@ -1,0 +1,25 @@
+{
+  "algorithm": "matching",
+  "cover_mode": "plain",
+  "parameters": {"matching_variant": "three_halves"},
+  "input": {
+    "ccf_path": "format_ccf/ri-pl-2b.ccf",
+    "graph_name": "ri-pl-2b",
+    "n": 1835162,
+    "m": 2028767549,
+    "num_cliques": 383836,
+    "cover_size": 4986964,
+    "ccf_bytes": 15399572,
+    "graph_fingerprint_sha256": "a5b9531cb44f749b7bf09c70544123ddf61627bd52682e8ffb8e85611f6d3b5a",
+    "ccf_stored_checksum_sha256": "34d6fcb65fde5f608ac9db7222c665abcda0adbe1fb19545321668dc7056d382"
+  },
+  "config_path": null,
+  "slurm_job_id": "43479222",
+  "result": {"matching_size": 893327},
+  "memory": {"process_peak_rss_bytes": 152244224},
+  "timing_seconds": {
+    "ccf_load": 0.100280936,
+    "cover_decode": 0.080067746,
+    "algorithm": 0.399175334
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "algorithm": "mvm",
+  "representation": "zuckerli",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_seed": 2, "mvm_sample_limit": 425437, "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_zk/gis/gis.zk",
+    "graph_name": "gis",
+    "n": 101753,
+    "m": 592469235,
+    "arcs": 1184938470,
+    "graph_bytes": 21081269,
+    "index_bytes": 356163,
+    "perm_bytes": 407012,
+    "bundle_bytes": 21844444
+  },
+  "config_path": null,
+  "slurm_job_id": "44718372",
+  "result": {"matched_vertex_weight_sum": "526299412769272"},
+  "mvm_execution": {"status": "complete", "stop_reason": "sample_limit", "samples_completed": 425437, "positive_augmentations": 51031},
+  "memory": {"process_peak_rss_bytes": 33103872},
+  "timing_seconds": {
+    "zuckerli_load": 0.214727610,
+    "weight_preparation": 0.047238807,
+    "algorithm": 2444.398631290
+  }
+}

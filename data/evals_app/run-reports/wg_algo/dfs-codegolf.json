@@ -1,0 +1,25 @@
+{
+  "algorithm": "dfs",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk"},
+  "input": {
+    "graph_path": "format_wg/codegolf/codegolf.graph",
+    "graph_name": "codegolf",
+    "n": 9695,
+    "m": 34080224,
+    "arcs": 68160448,
+    "graph_bytes": 243448,
+    "properties_bytes": 315,
+    "ef_bytes": 12328,
+    "perm_bytes": 38780,
+    "bundle_bytes": 294871
+  },
+  "config_path": null,
+  "slurm_job_id": "43717007",
+  "result": {"connected_components": 1},
+  "memory": {"process_peak_rss_bytes": 9715712},
+  "timing_seconds": {
+    "webgraph_load": 0.016168211,
+    "algorithm": 6.699504950
+  }
+}

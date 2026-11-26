@@ -1,0 +1,25 @@
+{
+  "algorithm": "wvc",
+  "representation": "zuckerli",
+  "parameters": {"weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_zk/drupal/drupal.zk",
+    "graph_name": "drupal",
+    "n": 77488,
+    "m": 640722456,
+    "arcs": 1281444912,
+    "graph_bytes": 9340434,
+    "index_bytes": 261550,
+    "perm_bytes": 309952,
+    "bundle_bytes": 9911936
+  },
+  "config_path": null,
+  "slurm_job_id": "43708820",
+  "result": {"selected_weight_sum": "232768165449978"},
+  "memory": {"process_peak_rss_bytes": 20746240},
+  "timing_seconds": {
+    "zuckerli_load": 0.007928399,
+    "weight_preparation": 0.003248910,
+    "algorithm": 240.563758421
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "bpa",
+    "parameters": {
+      "label_selection": "min-label",
+      "tau": 4
+    }
+  },
+  "graph": {
+    "name": "stackoverflow-answers",
+    "source": "file",
+    "type": "cornell-hyperedges",
+    "parameters": {
+      "path": "format_std/cornell_arb/stackoverflow-answers/hyperedges-stackoverflow-answers.txt"
+    },
+    "generation_statistics": {
+      "distinct_edges": 14653134369,
+      "incidence_sum": 26109177,
+      "incidence_sum_nontrivial": 26109177,
+      "max_hyperedge_size": 61315,
+      "mean_hyperedge_size": 23.6658442428368,
+      "min_hyperedge_size": 2,
+      "native_CR": 1122.45088146593,
+      "native_cover_size": 26109177,
+      "native_statistics_available": true,
+      "overlap_factor": 1.00138381533189,
+      "pair_occurrences": 14673411601,
+      "r": 1103243,
+      "r_nontrivial": 1103243
+    },
+    "specification_path": "format_cgf/stackoverflow-answers.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/stackoverflow-answers.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/stackoverflow-answers.cgf",
+    "preparation_report_path": "format_cgf/stackoverflow-answers.cgf.json",
+    "canonical_fingerprint_sha256": "950aa8302a083bddc053e438567f53e5e88e1af50ec6638a6004d767ebc1a9d1",
+    "n": 15211989,
+    "m": 14653134369,
+    "time_seconds": 1275.88322538
+  },
+  "constructed_cover": {
+    "num_cliques": 1101712,
+    "cover_size": 26111777,
+    "time_seconds": 3113.308233286
+  },
+  "algorithm_statistics": {
+    "num_phases": 1,
+    "peak_size_D": 26436287
+  },
+  "postprocess": {
+    "assignment_minimal": true,
+    "num_cliques": 1100608,
+    "cover_size": 26103697,
+    "time_seconds": 390.959712109
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

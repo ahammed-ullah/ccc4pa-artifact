@@ -1,0 +1,9 @@
+[construction]
+tau = 1.0
+label_selection = "max-clique"
+
+[postprocess]
+assignment_minimal = false
+
+[verification]
+enabled = true

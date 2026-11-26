@@ -1,0 +1,24 @@
+{
+  "algorithm": "dfs",
+  "representation": "zuckerli",
+  "parameters": {},
+  "input": {
+    "graph_path": "format_zk/wordpress/wordpress.zk",
+    "graph_name": "wordpress",
+    "n": 88745,
+    "m": 226563991,
+    "arcs": 453127982,
+    "graph_bytes": 17079177,
+    "index_bytes": 310635,
+    "perm_bytes": 354980,
+    "bundle_bytes": 17744792
+  },
+  "config_path": null,
+  "slurm_job_id": "43708537",
+  "result": {"connected_components": 2},
+  "memory": {"process_peak_rss_bytes": 27705344},
+  "timing_seconds": {
+    "zuckerli_load": 0.104187743,
+    "algorithm": 94.141889146
+  }
+}

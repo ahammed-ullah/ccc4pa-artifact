@@ -1,0 +1,25 @@
+{
+  "algorithm": "wvc",
+  "cover_mode": "encoded",
+  "parameters": {"weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "ccf_path": "format_ccf/ri-ln-4b.ccf",
+    "graph_name": "ri-ln-4b",
+    "n": 1874331,
+    "m": 4838453927,
+    "num_cliques": 4010,
+    "cover_size": 5532376,
+    "ccf_bytes": 10497386,
+    "graph_fingerprint_sha256": "c693cfc1abbe5acdcca121ad074227b4f76432454e4f25bf8ba0461ded95873d",
+    "ccf_stored_checksum_sha256": "f10e0d71904c48f17e1b5f454b938a1e12c9697785440bfecfe9d1ee62a59e7f"
+  },
+  "config_path": "cp_algo/config/encoded.toml",
+  "slurm_job_id": "43679536",
+  "result": {"selected_weight_sum": "3287457494148986389"},
+  "memory": {"process_peak_rss_bytes": 49745920},
+  "timing_seconds": {
+    "ccf_load": 0.069978093,
+    "weight_preparation": 0.032182446,
+    "algorithm": 0.184336163
+  }
+}

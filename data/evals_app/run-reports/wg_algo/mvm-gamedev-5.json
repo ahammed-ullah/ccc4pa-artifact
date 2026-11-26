@@ -1,0 +1,27 @@
+{
+  "algorithm": "mvm",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]", "mvm_epsilon": 0.01, "mvm_seed": 2, "mvm_sample_limit": 180393},
+  "input": {
+    "graph_path": "format_wg/gamedev/gamedev.graph",
+    "graph_name": "gamedev",
+    "n": 43145,
+    "m": 102877926,
+    "arcs": 205755852,
+    "graph_bytes": 5526008,
+    "properties_bytes": 317,
+    "ef_bytes": 66536,
+    "perm_bytes": 172580,
+    "bundle_bytes": 5765441
+  },
+  "config_path": null,
+  "slurm_job_id": "44718104",
+  "result": {"matched_vertex_weight_sum": "40136722203602"},
+  "mvm_execution": {"status": "complete", "stop_reason": "sample_limit", "samples_completed": 180393, "positive_augmentations": 21762},
+  "memory": {"process_peak_rss_bytes": 15429632},
+  "timing_seconds": {
+    "webgraph_load": 0.004723713,
+    "weight_preparation": 0.001865826,
+    "algorithm": 283.083741973
+  }
+}

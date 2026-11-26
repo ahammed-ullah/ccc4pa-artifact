@@ -1,0 +1,25 @@
+{
+  "algorithm": "matching",
+  "cover_mode": "plain",
+  "parameters": {"matching_variant": "three_halves"},
+  "input": {
+    "ccf_path": "format_ccf/askubuntu-threads.ccf",
+    "graph_name": "askubuntu-threads",
+    "n": 157482,
+    "m": 27363251,
+    "num_cliques": 32761,
+    "cover_size": 253407,
+    "ccf_bytes": 839435,
+    "graph_fingerprint_sha256": "e7ae9aed8b46ece2f25de166f673941a8e082accce4e21b3da5efc7ceba894e0",
+    "ccf_stored_checksum_sha256": "f5dbfe66b69164a71e08739725e2db635adee4fb8903ad5b2db826b9f812f675"
+  },
+  "config_path": null,
+  "slurm_job_id": "43479295",
+  "result": {"matching_size": 74735},
+  "memory": {"process_peak_rss_bytes": 19730432},
+  "timing_seconds": {
+    "ccf_load": 0.004377250,
+    "cover_decode": 0.005569455,
+    "algorithm": 0.014455753
+  }
+}

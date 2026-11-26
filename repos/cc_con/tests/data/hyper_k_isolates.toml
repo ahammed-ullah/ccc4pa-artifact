@@ -1,0 +1,11 @@
+[graph]
+name = "hyper-k-isolates"
+source = "synthetic"
+model = "hypergraph"
+
+[graph.parameters]
+distribution = "k-uniform"
+n = 10
+r = 1
+k = 3
+seed = 17

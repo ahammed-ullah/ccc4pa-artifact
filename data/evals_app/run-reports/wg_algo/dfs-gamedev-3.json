@@ -1,0 +1,25 @@
+{
+  "algorithm": "dfs",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk"},
+  "input": {
+    "graph_path": "format_wg/gamedev/gamedev.graph",
+    "graph_name": "gamedev",
+    "n": 43145,
+    "m": 102877926,
+    "arcs": 205755852,
+    "graph_bytes": 5526008,
+    "properties_bytes": 317,
+    "ef_bytes": 66536,
+    "perm_bytes": 172580,
+    "bundle_bytes": 5765441
+  },
+  "config_path": null,
+  "slurm_job_id": "43716976",
+  "result": {"connected_components": 3},
+  "memory": {"process_peak_rss_bytes": 15826944},
+  "timing_seconds": {
+    "webgraph_load": 0.016392542,
+    "algorithm": 34.303463194
+  }
+}

@@ -1,0 +1,13 @@
+[graph]
+name = "hyper-power-law-test"
+source = "synthetic"
+model = "hypergraph"
+
+[graph.parameters]
+distribution = "power-law"
+n = 14
+r = 25
+alpha = 2.2
+s_min = 2
+s_max = 7
+seed = 31

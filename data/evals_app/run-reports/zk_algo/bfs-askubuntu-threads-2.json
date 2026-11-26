@@ -1,0 +1,24 @@
+{
+  "algorithm": "bfs",
+  "representation": "zuckerli",
+  "parameters": {},
+  "input": {
+    "graph_path": "format_zk/askubuntu-threads/askubuntu-threads.zk",
+    "graph_name": "askubuntu-threads",
+    "n": 157482,
+    "m": 27363251,
+    "arcs": 54726502,
+    "graph_bytes": 2260910,
+    "index_bytes": 492159,
+    "perm_bytes": 629928,
+    "bundle_bytes": 3382997
+  },
+  "config_path": null,
+  "slurm_job_id": "43708265",
+  "result": {"connected_components": 3722},
+  "memory": {"process_peak_rss_bytes": 12730368},
+  "timing_seconds": {
+    "zuckerli_load": 0.894209564,
+    "algorithm": 5.971085036
+  }
+}

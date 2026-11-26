@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "linear",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "ri-u-4b",
+    "path": "format_cgf/ri-u-4b.cgf",
+    "format": "cgf",
+    "n": 1836234,
+    "m": 4007074338,
+    "encoded_bytes": 13549783733,
+    "read_time_seconds": 306.77405301
+  },
+  "lower_bounds": {
+    "combined_best": 5004480,
+    "global_core_color": 5004480,
+    "global_mis": 5000843
+  },
+  "timing_seconds": {
+    "linear_bounds": 188.73154323,
+    "common_neighborhood": 0,
+    "local_mis": 0,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 188.745730763,
+    "total_including_graph_read": 495.519783773
+  }
+}

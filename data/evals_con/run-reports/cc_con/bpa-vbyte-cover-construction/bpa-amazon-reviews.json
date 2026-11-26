@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "bpa",
+    "parameters": {
+      "label_selection": "min-label",
+      "tau": 4
+    }
+  },
+  "graph": {
+    "name": "amazon-reviews",
+    "source": "file",
+    "type": "cornell-hyperedges",
+    "parameters": {
+      "path": "format_std/cornell_arb/amazon-reviews/hyperedges-amazon-reviews.txt"
+    },
+    "generation_statistics": {
+      "distinct_edges": 3032412387,
+      "incidence_sum": 73141425,
+      "incidence_sum_nontrivial": 73141425,
+      "max_hyperedge_size": 9350,
+      "mean_hyperedge_size": 17.0677314850574,
+      "min_hyperedge_size": 2,
+      "native_CR": 82.9191497704618,
+      "native_cover_size": 73141425,
+      "native_statistics_available": true,
+      "overlap_factor": 1.20008167444542,
+      "pair_occurrences": 3639142535,
+      "r": 4285363,
+      "r_nontrivial": 4285363
+    },
+    "specification_path": "format_cgf/amazon-reviews.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/amazon-reviews.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/amazon-reviews.cgf",
+    "preparation_report_path": "format_cgf/amazon-reviews.cgf.json",
+    "canonical_fingerprint_sha256": "b5b5e8e52a760923d0ff2a32e61b1829cb5dba3b1f01743749754201056ce0d2",
+    "n": 2268231,
+    "m": 3032412387,
+    "time_seconds": 203.452655511
+  },
+  "constructed_cover": {
+    "num_cliques": 5559887,
+    "cover_size": 84545813,
+    "time_seconds": 4083.065091077
+  },
+  "algorithm_statistics": {
+    "num_phases": 1,
+    "peak_size_D": 257629605
+  },
+  "postprocess": {
+    "assignment_minimal": true,
+    "num_cliques": 5219136,
+    "cover_size": 75703657,
+    "time_seconds": 66.564785356
+  },
+  "output": {
+    "written": true,
+    "format": "ccf",
+    "format_version": 1,
+    "path": "format_ccf/amazon-reviews.ccf",
+    "encoded_bytes": 252057746,
+    "file_checksum_sha256": "ff9e807eaf0088509fd116d90dacaecc174481e9625a158507545ec4d52bbd41",
+    "encoding_and_write_time_seconds": 7.766317417
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": true,
+    "trigger": "cover-output",
+    "passed": true,
+    "time_seconds": 1423.585263068
+  }
+}

@@ -1,0 +1,9 @@
+/target/
+/bin/
+/logs/
+/__pycache__/
+/tests/__pycache__/
+/*.pyc
+/.crates.toml
+/.crates2.json
+.DS_Store

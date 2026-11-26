@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "local-mis",
+    "exact_truss": true
+  },
+  "graph": {
+    "name": "ri-u-250m",
+    "path": "format_cgf/ri-u-250m.cgf",
+    "format": "cgf",
+    "n": 1832126,
+    "m": 250013831,
+    "encoded_bytes": 1052066014,
+    "read_time_seconds": 18.276216396
+  },
+  "lower_bounds": {
+    "combined_best": 4951080,
+    "common_neighborhood_global_color": 4951080,
+    "exact_truss": 4951080,
+    "global_core_color": 4951080,
+    "global_mis": 4931812,
+    "ordinary_local_mis": 4950934,
+    "simplicial_dominating_local_mis": 4951080
+  },
+  "timing_seconds": {
+    "linear_bounds": 10.17851133,
+    "common_neighborhood": 0,
+    "local_mis": 10.897875277,
+    "exact_truss": 4182.686556708,
+    "local_color": 0,
+    "bound_computation": 4203.794601033,
+    "total_including_graph_read": 4222.070817429
+  }
+}

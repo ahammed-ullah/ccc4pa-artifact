@@ -1,0 +1,24 @@
+{
+  "algorithm": "matching",
+  "cover_mode": "encoded",
+  "parameters": {"matching_variant": "three_halves"},
+  "input": {
+    "ccf_path": "format_ccf/serverfault.ccf",
+    "graph_name": "serverfault",
+    "n": 257925,
+    "m": 1567185915,
+    "num_cliques": 3453,
+    "cover_size": 748154,
+    "ccf_bytes": 1115841,
+    "graph_fingerprint_sha256": "6387d8c9fa58801031c18eb003b2a1c731f5909438a4e7c77f71823e2b742b74",
+    "ccf_stored_checksum_sha256": "a5cf0d0cd93895610a1ffa817ac45fa9d714a95d479d240ce8ba115e59d7c37c"
+  },
+  "config_path": "cp_algo/config/encoded.toml",
+  "slurm_job_id": "43678953",
+  "result": {"matching_size": 128860},
+  "memory": {"process_peak_rss_bytes": 14413824},
+  "timing_seconds": {
+    "ccf_load": 0.001444819,
+    "algorithm": 0.034916412
+  }
+}

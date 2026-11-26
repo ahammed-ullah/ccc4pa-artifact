@@ -1,0 +1,24 @@
+{
+  "algorithm": "bfs",
+  "cover_mode": "encoded",
+  "parameters": {},
+  "input": {
+    "ccf_path": "format_ccf/stats.ccf",
+    "graph_name": "stats",
+    "n": 126441,
+    "m": 618292040,
+    "num_cliques": 1307,
+    "cover_size": 372165,
+    "ccf_bytes": 512258,
+    "graph_fingerprint_sha256": "1134f7b823d030d764b0a020bb816c549168e499e6b308c349825f3a5ad9b926",
+    "ccf_stored_checksum_sha256": "0aa72c3e42ccf05672403666fd456855b555bdf8fd56a265293af4dbff2f247f"
+  },
+  "config_path": "cp_algo/config/encoded.toml",
+  "slurm_job_id": "43679186",
+  "result": {"connected_components": 2},
+  "memory": {"process_peak_rss_bytes": 11399168},
+  "timing_seconds": {
+    "ccf_load": 0.004513612,
+    "algorithm": 0.018960396
+  }
+}

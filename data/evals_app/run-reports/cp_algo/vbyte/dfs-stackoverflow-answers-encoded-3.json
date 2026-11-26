@@ -1,0 +1,24 @@
+{
+  "algorithm": "dfs",
+  "cover_mode": "encoded",
+  "parameters": {},
+  "input": {
+    "ccf_path": "format_ccf/stackoverflow-answers.ccf",
+    "graph_name": "stackoverflow-answers",
+    "n": 15211989,
+    "m": 14653134369,
+    "num_cliques": 1100608,
+    "cover_size": 26103697,
+    "ccf_bytes": 74063333,
+    "graph_fingerprint_sha256": "950aa8302a083bddc053e438567f53e5e88e1af50ec6638a6004d767ebc1a9d1",
+    "ccf_stored_checksum_sha256": "2d327b5d20792b35f6583750746f46886094ef4c4e37289f20a4d07eb2bcaff8"
+  },
+  "config_path": "cp_algo/config/encoded.toml",
+  "slurm_job_id": "43679417",
+  "result": {"connected_components": 1},
+  "memory": {"process_peak_rss_bytes": 439844864},
+  "timing_seconds": {
+    "ccf_load": 0.124905033,
+    "algorithm": 6.891100152
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "algorithm": "wvc",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_wg/physics/physics.graph",
+    "graph_name": "physics",
+    "n": 121311,
+    "m": 521145952,
+    "arcs": 1042291904,
+    "graph_bytes": 42981392,
+    "properties_bytes": 321,
+    "ef_bytes": 207352,
+    "perm_bytes": 485244,
+    "bundle_bytes": 43674309
+  },
+  "config_path": null,
+  "slurm_job_id": "43717265",
+  "result": {"selected_weight_sum": "892751342963624"},
+  "memory": {"process_peak_rss_bytes": 55590912},
+  "timing_seconds": {
+    "webgraph_load": 0.133122995,
+    "weight_preparation": 0.026042195,
+    "algorithm": 110.115583554
+  }
+}

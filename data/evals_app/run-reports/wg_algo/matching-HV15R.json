@@ -1,0 +1,25 @@
+{
+  "algorithm": "matching",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_wg/HV15R/HV15R.graph",
+    "graph_name": "HV15R",
+    "n": 2017169,
+    "m": 162357569,
+    "arcs": 324715138,
+    "graph_bytes": 38150384,
+    "properties_bytes": 320,
+    "ef_bytes": 2382584,
+    "perm_bytes": 0,
+    "bundle_bytes": 40533288
+  },
+  "config_path": null,
+  "slurm_job_id": "43716327",
+  "result": {"matching_size": 1007138},
+  "memory": {"process_peak_rss_bytes": 59772928},
+  "timing_seconds": {
+    "webgraph_load": 0.145062143,
+    "algorithm": 39.011536489
+  }
+}

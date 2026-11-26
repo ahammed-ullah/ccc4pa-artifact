@@ -1,0 +1,27 @@
+{
+  "algorithm": "mvm",
+  "cover_mode": "plain",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_round_limit": 30, "mvm_mode": "bounded", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "ccf_path": "format_ccf/codegolf.ccf",
+    "graph_name": "codegolf",
+    "n": 9695,
+    "m": 34080224,
+    "num_cliques": 219,
+    "cover_size": 25268,
+    "ccf_bytes": 30269,
+    "graph_fingerprint_sha256": "36b8d55b9645702b6a7c82e690b252c6f41a04ff61a60da9e9dd4ffd781942e5",
+    "ccf_stored_checksum_sha256": "b46673e7c845a8112121564f060ea39fdde6499434bc2f468a54ec98b54883c0"
+  },
+  "config_path": null,
+  "slurm_job_id": "43830883",
+  "result": {"matched_vertex_weight_sum": "458605284787"},
+  "mvm_execution": {"rounds_attempted": 3, "rounds_with_flip": 2, "early_exit": true, "stop_reason": "weight_bound"},
+  "memory": {"process_peak_rss_bytes": 9408512},
+  "timing_seconds": {
+    "ccf_load": 0.018732135,
+    "cover_decode": 0.000386569,
+    "weight_preparation": 0.000157638,
+    "algorithm": 0.003125056
+  }
+}

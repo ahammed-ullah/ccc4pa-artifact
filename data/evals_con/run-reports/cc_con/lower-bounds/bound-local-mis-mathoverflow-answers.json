@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "local-mis",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "mathoverflow-answers",
+    "path": "format_cgf/mathoverflow-answers.cgf",
+    "format": "cgf",
+    "n": 73851,
+    "m": 17465233,
+    "encoded_bytes": 43657622,
+    "read_time_seconds": 1.18444374
+  },
+  "lower_bounds": {
+    "combined_best": 131242,
+    "common_neighborhood_global_color": 126324,
+    "global_core_color": 118445,
+    "global_mis": 125632,
+    "ordinary_local_mis": 129663,
+    "simplicial_dominating_local_mis": 131223
+  },
+  "timing_seconds": {
+    "linear_bounds": 0.436675851,
+    "common_neighborhood": 154.741324433,
+    "local_mis": 0.723394594,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 155.903601923,
+    "total_including_graph_read": 157.088045663
+  }
+}

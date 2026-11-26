@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "bpa",
+    "parameters": {
+      "label_selection": "min-label",
+      "tau": 4
+    }
+  },
+  "graph": {
+    "name": "codereview",
+    "source": "file",
+    "type": "sx-tag-question",
+    "parameters": {
+      "path": "format_std/cornell_arb/sx-tag-question-parsed/parsed/codereview.txt"
+    },
+    "generation_statistics": {
+      "canonical_question_count": 54084,
+      "distinct_edges": 206520631,
+      "incidence_sum": 163170,
+      "incidence_sum_nontrivial": 163103,
+      "isolated_questions_removed": 4,
+      "max_tag_degree": 8823,
+      "mean_tag_degree": 165.823170731707,
+      "min_tag_degree": 1,
+      "native_CR": 2532.3952471751,
+      "native_cover_size": 163103,
+      "native_statistics_available": true,
+      "nontrivial_tag_count": 917,
+      "overlap_factor": 1.08795490267507,
+      "pair_occurrences": 224685133,
+      "potential_CR": 2755.13182467521,
+      "question_count": 54088,
+      "tag_count": 984
+    },
+    "specification_path": "format_cgf/codereview.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/codereview-sx.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/codereview.cgf",
+    "preparation_report_path": "format_cgf/codereview.cgf.json",
+    "canonical_fingerprint_sha256": "a631dc245a3b7985127af8576c5367fd70bdda6fc141fdbffb4a1c065c502760",
+    "n": 54084,
+    "m": 206520631,
+    "time_seconds": 10.796163351
+  },
+  "constructed_cover": {
+    "num_cliques": 771,
+    "cover_size": 158446,
+    "time_seconds": 24.069564747
+  },
+  "algorithm_statistics": {
+    "num_phases": 1,
+    "peak_size_D": 190430
+  },
+  "postprocess": {
+    "assignment_minimal": true,
+    "num_cliques": 770,
+    "cover_size": 158244,
+    "time_seconds": 1.032990398
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

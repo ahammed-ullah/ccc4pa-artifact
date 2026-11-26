@@ -1,0 +1,25 @@
+{
+  "algorithm": "wvc",
+  "representation": "zuckerli",
+  "parameters": {"weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_zk/scifi/scifi.zk",
+    "graph_name": "scifi",
+    "n": 48564,
+    "m": 121121230,
+    "arcs": 242242460,
+    "graph_bytes": 965738,
+    "index_bytes": 139649,
+    "perm_bytes": 194256,
+    "bundle_bytes": 1299643
+  },
+  "config_path": null,
+  "slurm_job_id": "43708713",
+  "result": {"selected_weight_sum": "56575955000051"},
+  "memory": {"process_peak_rss_bytes": 11591680},
+  "timing_seconds": {
+    "zuckerli_load": 0.024383486,
+    "weight_preparation": 0.013976759,
+    "algorithm": 75.931979998
+  }
+}

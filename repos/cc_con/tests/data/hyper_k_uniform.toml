@@ -1,0 +1,11 @@
+[graph]
+name = "hyper-k-test"
+source = "synthetic"
+model = "hypergraph"
+
+[graph.parameters]
+distribution = "k-uniform"
+n = 6
+r = 4
+k = 6
+seed = 11

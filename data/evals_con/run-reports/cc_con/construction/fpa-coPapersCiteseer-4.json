@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "fpa",
+    "parameters": {
+      "label_selection": "min-label",
+      "tau": 4
+    }
+  },
+  "graph": {
+    "name": "coPapersCiteseer",
+    "source": "file",
+    "type": "mm",
+    "parameters": {
+      "path": "format_std/suitesparse/coPapersCiteseer/coPapersCiteseer.mtx"
+    },
+    "generation_statistics": {},
+    "specification_path": "format_cgf/coPapersCiteseer.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/coPapersCiteseer.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/coPapersCiteseer.cgf",
+    "preparation_report_path": "format_cgf/coPapersCiteseer.cgf.json",
+    "canonical_fingerprint_sha256": "7a818e1e19f8e06b1d0d480df25c84f0062a1eb8f97da974e5a44d11f322b86d",
+    "n": 434102,
+    "m": 16036720,
+    "time_seconds": 0.975136578
+  },
+  "constructed_cover": {
+    "num_cliques": 70853,
+    "cover_size": 839204,
+    "time_seconds": 1.188940657
+  },
+  "algorithm_statistics": {
+    "num_phases": 1,
+    "peak_size_D": 867280
+  },
+  "postprocess": {
+    "assignment_minimal": true,
+    "num_cliques": 70684,
+    "cover_size": 833897,
+    "time_seconds": 0.186750522
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

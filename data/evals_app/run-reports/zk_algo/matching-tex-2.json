@@ -1,0 +1,24 @@
+{
+  "algorithm": "matching",
+  "representation": "zuckerli",
+  "parameters": {"matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_zk/tex/tex.zk",
+    "graph_name": "tex",
+    "n": 160967,
+    "m": 580729818,
+    "arcs": 1161459636,
+    "graph_bytes": 29096147,
+    "index_bytes": 563412,
+    "perm_bytes": 643868,
+    "bundle_bytes": 30303427
+  },
+  "config_path": null,
+  "slurm_job_id": "43708000",
+  "result": {"matching_size": 80465},
+  "memory": {"process_peak_rss_bytes": 40644608},
+  "timing_seconds": {
+    "zuckerli_load": 0.070761020,
+    "algorithm": 509.041616793
+  }
+}

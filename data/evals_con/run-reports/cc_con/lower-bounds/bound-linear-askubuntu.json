@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "linear",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "askubuntu",
+    "path": "format_cgf/askubuntu.cgf",
+    "format": "cgf",
+    "n": 306695,
+    "m": 1942664590,
+    "encoded_bytes": 3989043006,
+    "read_time_seconds": 102.203336008
+  },
+  "lower_bounds": {
+    "combined_best": 819110,
+    "global_core_color": 643077,
+    "global_mis": 813921
+  },
+  "timing_seconds": {
+    "linear_bounds": 73.150743563,
+    "common_neighborhood": 0,
+    "local_mis": 0,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 73.153722236,
+    "total_including_graph_read": 175.357058244
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "algorithm": "bfs",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk"},
+  "input": {
+    "graph_path": "format_wg/mathoverflow-answers/mathoverflow-answers.graph",
+    "graph_name": "mathoverflow-answers",
+    "n": 73851,
+    "m": 17465233,
+    "arcs": 34930466,
+    "graph_bytes": 3095200,
+    "properties_bytes": 316,
+    "ef_bytes": 98080,
+    "perm_bytes": 295404,
+    "bundle_bytes": 3489000
+  },
+  "config_path": null,
+  "slurm_job_id": "43716695",
+  "result": {"connected_components": 1},
+  "memory": {"process_peak_rss_bytes": 12599296},
+  "timing_seconds": {
+    "webgraph_load": 0.023412754,
+    "algorithm": 5.666913514
+  }
+}

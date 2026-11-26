@@ -1,0 +1,24 @@
+{
+  "algorithm": "bfs",
+  "representation": "zuckerli",
+  "parameters": {},
+  "input": {
+    "graph_path": "format_zk/mathoverflow-answers/mathoverflow-answers.zk",
+    "graph_name": "mathoverflow-answers",
+    "n": 73851,
+    "m": 17465233,
+    "arcs": 34930466,
+    "graph_bytes": 2706899,
+    "index_bytes": 230812,
+    "perm_bytes": 295404,
+    "bundle_bytes": 3233115
+  },
+  "config_path": null,
+  "slurm_job_id": "43708259",
+  "result": {"connected_components": 1},
+  "memory": {"process_peak_rss_bytes": 12623872},
+  "timing_seconds": {
+    "zuckerli_load": 0.348991775,
+    "algorithm": 4.898502321
+  }
+}

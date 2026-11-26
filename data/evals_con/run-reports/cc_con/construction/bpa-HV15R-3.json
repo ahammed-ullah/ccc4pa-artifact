@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "bpa",
+    "parameters": {
+      "label_selection": "min-label",
+      "tau": 4
+    }
+  },
+  "graph": {
+    "name": "HV15R",
+    "source": "file",
+    "type": "mm",
+    "parameters": {
+      "path": "format_std/suitesparse/HV15R/HV15R.mtx"
+    },
+    "generation_statistics": {},
+    "specification_path": "format_cgf/HV15R.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/HV15R.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/HV15R.cgf",
+    "preparation_report_path": "format_cgf/HV15R.cgf.json",
+    "canonical_fingerprint_sha256": "cc74c41a3712eb675e9f10c4bc558e9c8a1cde3008de1eb44279c09cd6678155",
+    "n": 2017169,
+    "m": 162357569,
+    "time_seconds": 9.267832497
+  },
+  "constructed_cover": {
+    "num_cliques": 1302763,
+    "cover_size": 23718085,
+    "time_seconds": 27.054569153
+  },
+  "algorithm_statistics": {
+    "num_phases": 1,
+    "peak_size_D": 34130767
+  },
+  "postprocess": {
+    "assignment_minimal": true,
+    "num_cliques": 1302755,
+    "cover_size": 19609657,
+    "time_seconds": 3.375350882
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

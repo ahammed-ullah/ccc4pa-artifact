@@ -1,0 +1,64 @@
+{
+  "schema_version": 4,
+  "algorithm": {
+    "name": "fm",
+    "delta_selection": "fixed",
+    "workspace": "linear"
+  },
+  "graph": {
+    "name": "mathoverflow-answers",
+    "path": "format_cgf/mathoverflow-answers.cgf",
+    "format": "cgf",
+    "format_version": 1,
+    "file_bytes": 43657622,
+    "canonical_fingerprint_sha256": "fcf30b51fe63c56e75bf2cc9e5a65cc004428124cdcb1418730153ee28a1c21e",
+    "file_checksum_sha256": "4682c66e5e7dcf9cb208464cc43d47e35480feed26972f73a2d9c165d6c74ecd",
+    "n": 73851,
+    "m": 17465233
+  },
+  "delta_search": {
+    "policy": "fixed-delta",
+    "scale_a": 1.95160612698950551699,
+    "initial_k_min": 1,
+    "initial_k_max": 1,
+    "candidate_count": 1,
+    "candidate_delta_min": 0.756199236662208264573,
+    "candidate_delta_max": 0.756199236662208264573,
+    "selected_delta": 0.756199236662208264573,
+    "selected_initial_k": 1,
+    "time_seconds": 0.381091269999999981977
+  },
+  "partition": {
+    "initial_cross_edges": 34930466,
+    "k_ge_2_bicliques": 0,
+    "star_bicliques": 44410,
+    "num_parts": 2315633,
+    "edges_in_k_ge_2_bicliques": 0,
+    "edges_in_star_bicliques": 32659243,
+    "residual_edges": 2271223,
+    "nontrivial_size": 32703653,
+    "residual_size": 4542446,
+    "total_size": 37246099
+  },
+  "fm_representation": {
+    "m_star": 35048727,
+    "n_star": 192112,
+    "center_count": 44410,
+    "return_arcs": 73851
+  },
+  "construction_state": {
+    "space_bound": "O(n+m)",
+    "packed_neighbor_bits": 0,
+    "packed_neighbor_words": 0,
+    "deleted_edge_words": 0,
+    "deletion_rank_entries": 0,
+    "neighborhood_tree_nodes": 0
+  },
+  "timing": {
+    "input_index_seconds": 0,
+    "selected_run_seconds": 0.381090617999999992094,
+    "initialization_seconds": 0.333192160999999986704,
+    "k_ge_2_stripping_seconds": 2.9999999999999997319e-08,
+    "star_stripping_seconds": 0.0478978349999999997166
+  }
+}

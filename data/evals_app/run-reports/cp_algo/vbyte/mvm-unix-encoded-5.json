@@ -1,0 +1,26 @@
+{
+  "algorithm": "mvm",
+  "cover_mode": "encoded",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_round_limit": 30, "mvm_mode": "bounded", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "ccf_path": "format_ccf/unix.ccf",
+    "graph_name": "unix",
+    "n": 144992,
+    "m": 657203781,
+    "num_cliques": 2436,
+    "cover_size": 407096,
+    "ccf_bytes": 605797,
+    "graph_fingerprint_sha256": "48d8fdfbd58228b6f54d563e26b693a9608430482f5fc75d79e38ba1d98573cb",
+    "ccf_stored_checksum_sha256": "526129b96793c459a633eb67aaaac46597f0615c841ca3ff96045566d033d377"
+  },
+  "config_path": "cp_algo4/config/encoded.toml",
+  "slurm_job_id": "44762941",
+  "result": {"matched_vertex_weight_sum": "1522440858479428"},
+  "mvm_execution": {"rounds_attempted": 4, "rounds_with_flip": 3, "early_exit": true, "stop_reason": "no_positive_gain"},
+  "memory": {"process_peak_rss_bytes": 16818176},
+  "timing_seconds": {
+    "ccf_load": 0.003373699,
+    "weight_preparation": 0.001925273,
+    "algorithm": 0.122441944
+  }
+}

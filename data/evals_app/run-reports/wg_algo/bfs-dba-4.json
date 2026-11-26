@@ -1,0 +1,25 @@
+{
+  "algorithm": "bfs",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk"},
+  "input": {
+    "graph_path": "format_wg/dba/dba.graph",
+    "graph_name": "dba",
+    "n": 67234,
+    "m": 498237193,
+    "arcs": 996474386,
+    "graph_bytes": 9195088,
+    "properties_bytes": 317,
+    "ef_bytes": 104056,
+    "perm_bytes": 268936,
+    "bundle_bytes": 9568397
+  },
+  "config_path": null,
+  "slurm_job_id": "43716770",
+  "result": {"connected_components": 2},
+  "memory": {"process_peak_rss_bytes": 19718144},
+  "timing_seconds": {
+    "webgraph_load": 0.022915665,
+    "algorithm": 255.863123487
+  }
+}

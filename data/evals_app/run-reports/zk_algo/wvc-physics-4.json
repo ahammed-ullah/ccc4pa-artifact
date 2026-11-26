@@ -1,0 +1,25 @@
+{
+  "algorithm": "wvc",
+  "representation": "zuckerli",
+  "parameters": {"weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_zk/physics/physics.zk",
+    "graph_name": "physics",
+    "n": 121311,
+    "m": 521145952,
+    "arcs": 1042291904,
+    "graph_bytes": 39108058,
+    "index_bytes": 439780,
+    "perm_bytes": 485244,
+    "bundle_bytes": 40033082
+  },
+  "config_path": null,
+  "slurm_job_id": "43708814",
+  "result": {"selected_weight_sum": "892751342963624"},
+  "memory": {"process_peak_rss_bytes": 51646464},
+  "timing_seconds": {
+    "zuckerli_load": 0.072553352,
+    "weight_preparation": 0.006248039,
+    "algorithm": 154.089365305
+  }
+}

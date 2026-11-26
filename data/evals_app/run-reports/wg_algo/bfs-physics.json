@@ -1,0 +1,25 @@
+{
+  "algorithm": "bfs",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk"},
+  "input": {
+    "graph_path": "format_wg/physics/physics.graph",
+    "graph_name": "physics",
+    "n": 121311,
+    "m": 521145952,
+    "arcs": 1042291904,
+    "graph_bytes": 42981392,
+    "properties_bytes": 321,
+    "ef_bytes": 207352,
+    "perm_bytes": 485244,
+    "bundle_bytes": 43674309
+  },
+  "config_path": null,
+  "slurm_job_id": "43716778",
+  "result": {"connected_components": 1},
+  "memory": {"process_peak_rss_bytes": 54063104},
+  "timing_seconds": {
+    "webgraph_load": 0.151545020,
+    "algorithm": 166.840707601
+  }
+}

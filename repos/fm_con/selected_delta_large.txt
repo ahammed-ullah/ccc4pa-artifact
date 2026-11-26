@@ -1,0 +1,2 @@
+# graph selected_delta
+math 0.402509417377346865517

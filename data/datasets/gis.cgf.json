@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "artifact": {
+    "format": "cgf",
+    "format_version": 1,
+    "encoding": "delta-vbyte",
+    "path": "gis.cgf",
+    "file_bytes": 1191280532,
+    "file_checksum_sha256": "684e01f96ef226f97fe93b982cd3935428ca4b47952fb3ddbf01e79d4c583a76"
+  },
+  "graph": {
+    "name": "gis",
+    "source": "file",
+    "type": "sx-tag-question",
+    "origin_specification_path": "repos/cc_con/config/graphs/english-sx.toml",
+    "parameters": {
+      "path": "format_std/cornell_arb/sx-tag-question-parsed/parsed/gis.txt"
+    },
+    "generation_statistics": {
+      "canonical_question_count": 101753,
+      "distinct_edges": 592469235,
+      "incidence_sum": 309708,
+      "incidence_sum_nontrivial": 309513,
+      "isolated_questions_removed": 3,
+      "max_tag_degree": 21998,
+      "mean_tag_degree": 127.190143737166,
+      "min_tag_degree": 1,
+      "native_CR": 3828.39644861444,
+      "native_cover_size": 309513,
+      "native_statistics_available": true,
+      "nontrivial_tag_count": 2240,
+      "overlap_factor": 1.0611316906607,
+      "pair_occurrences": 628687881,
+      "potential_CR": 4062.43279603765,
+      "question_count": 101756,
+      "tag_count": 2435
+    },
+    "n": 101753,
+    "m": 592469235,
+    "canonical_fingerprint_sha256": "88f34da11988facc54f042e3a1014e81c9d86141f85338c3d9cae35432be508f"
+  },
+  "preparation": {
+    "graph_time_seconds": 318.784471045,
+    "encoding_and_write_time_seconds": 18.228890537
+  }
+}

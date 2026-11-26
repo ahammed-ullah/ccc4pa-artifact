@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "bcc",
+    "parameters": {}
+  },
+  "graph": {
+    "name": "ri-u-500m",
+    "source": "synthetic",
+    "type": "hypergraph",
+    "parameters": {
+      "distribution": "k-uniform",
+      "k": 202,
+      "n": 2000000,
+      "r": 24640,
+      "seed": 19
+    },
+    "generation_statistics": {
+      "deduplication_strategy": "sort-unique",
+      "distinct_edges": 500153753,
+      "estimated_distinct_edges": 500154093.549866,
+      "estimated_pair_to_edge_ratio": 1.00012505436013,
+      "nontrivial_hyperedges": 24640,
+      "pair_occurrences": 500216640,
+      "sampled_size_max": 202,
+      "sampled_size_mean": 202,
+      "sampled_size_min": 202,
+      "sampled_size_sum": 4977280
+    },
+    "specification_path": "format_cgf/ri-u-500m.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/ri-u-500m.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/ri-u-500m.cgf",
+    "preparation_report_path": "format_cgf/ri-u-500m.cgf.json",
+    "canonical_fingerprint_sha256": "1c616b73ec5ea421f59384e943a65d5368e2ed5b36797ce2bc7d97560b701c9f",
+    "n": 1834019,
+    "m": 500153753,
+    "time_seconds": 34.894600425
+  },
+  "constructed_cover": {
+    "num_cliques": 226577678,
+    "cover_size": 627853278,
+    "time_seconds": 105.36078854
+  },
+  "algorithm_statistics": {
+    "complement_degeneracy": 1831871,
+    "mu": 1681311775419,
+    "num_complement_colors": 24640,
+    "num_parts": 24640,
+    "splitting_applied": false
+  },
+  "postprocess": {
+    "assignment_minimal": false
+  },
+  "output": {
+    "written": false
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": false
+  }
+}

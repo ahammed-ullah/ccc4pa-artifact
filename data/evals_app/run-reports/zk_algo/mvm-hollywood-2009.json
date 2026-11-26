@@ -1,0 +1,26 @@
+{
+  "algorithm": "mvm",
+  "representation": "zuckerli",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_seed": 5, "mvm_sample_limit": 4629457, "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_zk/hollywood-2009/hollywood-2009.zk",
+    "graph_name": "hollywood-2009",
+    "n": 1107243,
+    "m": 56375711,
+    "arcs": 112751422,
+    "graph_bytes": 61664963,
+    "index_bytes": 4013784,
+    "perm_bytes": 0,
+    "bundle_bytes": 65678747
+  },
+  "config_path": null,
+  "slurm_job_id": "44718205",
+  "result": {"matched_vertex_weight_sum": "677215658655825541"},
+  "mvm_execution": {"status": "complete", "stop_reason": "sample_limit", "samples_completed": 4629457, "positive_augmentations": 666875},
+  "memory": {"process_peak_rss_bytes": 88801280},
+  "timing_seconds": {
+    "zuckerli_load": 0.634271786,
+    "weight_preparation": 0.009145081,
+    "algorithm": 296.683331497
+  }
+}

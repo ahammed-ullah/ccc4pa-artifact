@@ -1,0 +1,26 @@
+{
+  "algorithm": "mvm",
+  "cover_mode": "encoded",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_round_limit": 30, "mvm_mode": "bounded", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "ccf_path": "format_ccf/gis.ccf",
+    "graph_name": "gis",
+    "n": 101753,
+    "m": 592469235,
+    "num_cliques": 2102,
+    "cover_size": 308784,
+    "ccf_bytes": 433423,
+    "graph_fingerprint_sha256": "88f34da11988facc54f042e3a1014e81c9d86141f85338c3d9cae35432be508f",
+    "ccf_stored_checksum_sha256": "e8088a5b372b454f19cca59f7e2ca3b87f868043a21cc37a21346bc74c1ab6df"
+  },
+  "config_path": "cp_algo4/config/encoded.toml",
+  "slurm_job_id": "44762999",
+  "result": {"matched_vertex_weight_sum": "526299412769272"},
+  "mvm_execution": {"rounds_attempted": 4, "rounds_with_flip": 3, "early_exit": true, "stop_reason": "weight_bound"},
+  "memory": {"process_peak_rss_bytes": 14393344},
+  "timing_seconds": {
+    "ccf_load": 0.005750428,
+    "weight_preparation": 0.001402944,
+    "algorithm": 0.066892585
+  }
+}

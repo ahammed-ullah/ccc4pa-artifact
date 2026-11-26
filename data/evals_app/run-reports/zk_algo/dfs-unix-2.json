@@ -1,0 +1,24 @@
+{
+  "algorithm": "dfs",
+  "representation": "zuckerli",
+  "parameters": {},
+  "input": {
+    "graph_path": "format_zk/unix/unix.zk",
+    "graph_name": "unix",
+    "n": 144992,
+    "m": 657203781,
+    "arcs": 1314407562,
+    "graph_bytes": 38465869,
+    "index_bytes": 525624,
+    "perm_bytes": 579968,
+    "bundle_bytes": 39571461
+  },
+  "config_path": null,
+  "slurm_job_id": "43708488",
+  "result": {"connected_components": 2},
+  "memory": {"process_peak_rss_bytes": 51433472},
+  "timing_seconds": {
+    "zuckerli_load": 0.027661312,
+    "algorithm": 380.559585395
+  }
+}

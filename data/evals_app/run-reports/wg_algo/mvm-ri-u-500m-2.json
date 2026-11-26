@@ -1,0 +1,27 @@
+{
+  "algorithm": "mvm",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]", "mvm_epsilon": 0.01, "mvm_seed": 5, "mvm_sample_limit": 7668156},
+  "input": {
+    "graph_path": "format_wg/ri-u-500m/ri-u-500m.graph",
+    "graph_name": "ri-u-500m",
+    "n": 1834019,
+    "m": 500153753,
+    "arcs": 1000307506,
+    "graph_bytes": 1043783600,
+    "properties_bytes": 319,
+    "ef_bytes": 3296360,
+    "perm_bytes": 7336076,
+    "bundle_bytes": 1054416355
+  },
+  "config_path": null,
+  "slurm_job_id": "44718027",
+  "result": {"matched_vertex_weight_sum": "3085196637812301471"},
+  "mvm_execution": {"status": "complete", "stop_reason": "sample_limit", "samples_completed": 7668156, "positive_augmentations": 923264},
+  "memory": {"process_peak_rss_bytes": 1078525952},
+  "timing_seconds": {
+    "webgraph_load": 0.589834979,
+    "weight_preparation": 0.076372053,
+    "algorithm": 962.606134705
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "algorithm": "wvc",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_wg/dielFilterV3real/dielFilterV3real.graph",
+    "graph_name": "dielFilterV3real",
+    "n": 1102824,
+    "m": 44101598,
+    "arcs": 88203196,
+    "graph_bytes": 8391872,
+    "properties_bytes": 318,
+    "ef_bytes": 1126408,
+    "perm_bytes": 4411296,
+    "bundle_bytes": 13929894
+  },
+  "config_path": null,
+  "slurm_job_id": "43717060",
+  "result": {"selected_weight_sum": "668541549298069810"},
+  "memory": {"process_peak_rss_bytes": 36020224},
+  "timing_seconds": {
+    "webgraph_load": 0.107812360,
+    "weight_preparation": 0.080266031,
+    "algorithm": 5.481559696
+  }
+}

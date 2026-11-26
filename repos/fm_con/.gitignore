@@ -1,0 +1,7 @@
+/bin/
+/build/
+/logs/
+*.json
+*.json.claim/
+*.json.tmp
+.DS_Store

@@ -1,0 +1,26 @@
+{
+  "algorithm": "wvc",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_wg/gis/gis.graph",
+    "graph_name": "gis",
+    "n": 101753,
+    "m": 592469235,
+    "arcs": 1184938470,
+    "graph_bytes": 23567112,
+    "properties_bytes": 320,
+    "ef_bytes": 166648,
+    "perm_bytes": 407012,
+    "bundle_bytes": 24141092
+  },
+  "config_path": null,
+  "slurm_job_id": "43717234",
+  "result": {"selected_weight_sum": "525909080196616"},
+  "memory": {"process_peak_rss_bytes": 34799616},
+  "timing_seconds": {
+    "webgraph_load": 0.169718544,
+    "weight_preparation": 0.018304726,
+    "algorithm": 147.467574814
+  }
+}

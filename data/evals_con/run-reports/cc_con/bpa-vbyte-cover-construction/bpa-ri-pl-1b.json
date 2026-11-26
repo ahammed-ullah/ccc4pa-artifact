@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "name": "bpa",
+    "parameters": {
+      "label_selection": "min-label",
+      "tau": 4
+    }
+  },
+  "graph": {
+    "name": "ri-pl-1b",
+    "source": "synthetic",
+    "type": "hypergraph",
+    "parameters": {
+      "alpha": 2,
+      "distribution": "power-law",
+      "n": 2000000,
+      "r": 424000,
+      "s_max": 3050,
+      "s_min": 2,
+      "seed": 19
+    },
+    "generation_statistics": {
+      "deduplication_strategy": "sort-unique",
+      "distinct_edges": 1030095669,
+      "estimated_distinct_edges": 1030094406.71821,
+      "estimated_pair_to_edge_ratio": 1.00025720582508,
+      "nontrivial_hyperedges": 424000,
+      "pair_occurrences": 1030359353,
+      "sampled_size_max": 3041,
+      "sampled_size_mean": 11.8092924528302,
+      "sampled_size_min": 2,
+      "sampled_size_sum": 5007140
+    },
+    "specification_path": "format_cgf/ri-pl-1b.cgf.toml",
+    "origin_specification_path": "repos/cc_con/config/graphs/ri-pl-1b.toml",
+    "input_format": "cgf",
+    "prepared_artifact_path": "format_cgf/ri-pl-1b.cgf",
+    "preparation_report_path": "format_cgf/ri-pl-1b.cgf.json",
+    "canonical_fingerprint_sha256": "f4fd4b96e4ea30aaacfc86f5386939170390a2ea5e3c6ec81ca6b1642d448831",
+    "n": 1836221,
+    "m": 1030095669,
+    "time_seconds": 70.734169632
+  },
+  "constructed_cover": {
+    "num_cliques": 423924,
+    "cover_size": 5007076,
+    "time_seconds": 127.326518583
+  },
+  "algorithm_statistics": {
+    "num_phases": 1,
+    "peak_size_D": 5093053
+  },
+  "postprocess": {
+    "assignment_minimal": true,
+    "num_cliques": 423900,
+    "cover_size": 5006954,
+    "time_seconds": 8.597665767
+  },
+  "output": {
+    "written": true,
+    "format": "ccf",
+    "format_version": 1,
+    "path": "format_ccf/ri-pl-1b.ccf",
+    "encoded_bytes": 16141414,
+    "file_checksum_sha256": "c5173c3d520a6d4e161392351fa153d5af929fc047dd79e9e3ab7e89b808e288",
+    "encoding_and_write_time_seconds": 0.645399723
+  },
+  "verification": {
+    "explicitly_requested": false,
+    "performed": true,
+    "trigger": "cover-output",
+    "passed": true,
+    "time_seconds": 69.435519397
+  }
+}

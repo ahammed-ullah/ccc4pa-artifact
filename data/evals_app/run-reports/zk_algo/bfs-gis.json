@@ -1,0 +1,24 @@
+{
+  "algorithm": "bfs",
+  "representation": "zuckerli",
+  "parameters": {},
+  "input": {
+    "graph_path": "format_zk/gis/gis.zk",
+    "graph_name": "gis",
+    "n": 101753,
+    "m": 592469235,
+    "arcs": 1184938470,
+    "graph_bytes": 21081269,
+    "index_bytes": 356163,
+    "perm_bytes": 407012,
+    "bundle_bytes": 21844444
+  },
+  "config_path": null,
+  "slurm_job_id": "43708305",
+  "result": {"connected_components": 2},
+  "memory": {"process_peak_rss_bytes": 31969280},
+  "timing_seconds": {
+    "zuckerli_load": 0.308756259,
+    "algorithm": 304.202495152
+  }
+}

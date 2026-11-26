@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "local-mis",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "ri-ln-1b",
+    "path": "format_cgf/ri-ln-1b.cgf",
+    "format": "cgf",
+    "n": 1866033,
+    "m": 1174896620,
+    "encoded_bytes": 4466330232,
+    "read_time_seconds": 79.832890224
+  },
+  "lower_bounds": {
+    "combined_best": 5416701,
+    "common_neighborhood_global_color": 5416701,
+    "global_core_color": 4762353,
+    "global_mis": 5409960,
+    "ordinary_local_mis": 5416058,
+    "simplicial_dominating_local_mis": 5416701
+  },
+  "timing_seconds": {
+    "linear_bounds": 49.299967689,
+    "common_neighborhood": 21544.520039832,
+    "local_mis": 49.759580999,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 21643.603087449,
+    "total_including_graph_read": 21723.435977673
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "algorithm": "matching",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_wg/math-sx-threads/math-sx-threads.graph",
+    "graph_name": "math-sx-threads",
+    "n": 698505,
+    "m": 767323596,
+    "arcs": 1534647192,
+    "graph_bytes": 110672352,
+    "properties_bytes": 320,
+    "ef_bytes": 1092096,
+    "perm_bytes": 2794020,
+    "bundle_bytes": 114558788
+  },
+  "config_path": null,
+  "slurm_job_id": "43716457",
+  "result": {"matching_size": 346542},
+  "memory": {"process_peak_rss_bytes": 125296640},
+  "timing_seconds": {
+    "webgraph_load": 0.321892045,
+    "algorithm": 172.482875313
+  }
+}

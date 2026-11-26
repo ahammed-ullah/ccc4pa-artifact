@@ -1,0 +1,25 @@
+{
+  "algorithm": "wvc",
+  "cover_mode": "encoded",
+  "parameters": {"weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "ccf_path": "format_ccf/scifi.ccf",
+    "graph_name": "scifi",
+    "n": 48564,
+    "m": 121121230,
+    "num_cliques": 1254,
+    "cover_size": 86680,
+    "ccf_bytes": 121558,
+    "graph_fingerprint_sha256": "e1b92cbc0d059d83ba11ed6598945cbeb74e8b38b61fe8dc176fb8a7fa425cbb",
+    "ccf_stored_checksum_sha256": "6b03db3cd5e1efe5d3f81e776916e520c464ede4eebcae44090101a6a104b1cb"
+  },
+  "config_path": "cp_algo/config/encoded.toml",
+  "slurm_job_id": "43679610",
+  "result": {"selected_weight_sum": "56131119944116"},
+  "memory": {"process_peak_rss_bytes": 10043392},
+  "timing_seconds": {
+    "ccf_load": 0.000981646,
+    "weight_preparation": 0.000500882,
+    "algorithm": 0.001439547
+  }
+}

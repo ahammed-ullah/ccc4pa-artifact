@@ -1,0 +1,24 @@
+{
+  "algorithm": "dfs",
+  "cover_mode": "encoded",
+  "parameters": {},
+  "input": {
+    "ccf_path": "format_ccf/rpg.ccf",
+    "graph_name": "rpg",
+    "n": 28874,
+    "m": 81903796,
+    "num_cliques": 792,
+    "cover_size": 74901,
+    "ccf_bytes": 100281,
+    "graph_fingerprint_sha256": "c3545491008fdfeac2807ef20bc4452128b257a8f393179dbc04c6455ddc2650",
+    "ccf_stored_checksum_sha256": "18831e558ee77ab1573ef0ac252af5cfc96d6047b16dea480da8fdc532d71fdd"
+  },
+  "config_path": "cp_algo/config/encoded.toml",
+  "slurm_job_id": "43679456",
+  "result": {"connected_components": 15},
+  "memory": {"process_peak_rss_bytes": 10289152},
+  "timing_seconds": {
+    "ccf_load": 0.002121966,
+    "algorithm": 0.007738591
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "linear",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "stackoverflow-threads",
+    "path": "format_cgf/stackoverflow-threads.cgf",
+    "format": "cgf",
+    "n": 10980003,
+    "m": 8233726692,
+    "encoded_bytes": 32370556454,
+    "read_time_seconds": 700.437360278
+  },
+  "lower_bounds": {
+    "combined_best": 23525028,
+    "global_core_color": 21726778,
+    "global_mis": 22549905
+  },
+  "timing_seconds": {
+    "linear_bounds": 978.644534189,
+    "common_neighborhood": 0,
+    "local_mis": 0,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 978.814491287,
+    "total_including_graph_read": 1679.251851565
+  }
+}

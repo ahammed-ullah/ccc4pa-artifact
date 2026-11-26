@@ -1,0 +1,25 @@
+{
+  "algorithm": "matching",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_wg/ri-ln-8b/ri-ln-8b.graph",
+    "graph_name": "ri-ln-8b",
+    "n": 1839320,
+    "m": 8048755457,
+    "arcs": 16097510914,
+    "graph_bytes": 6599525752,
+    "properties_bytes": 324,
+    "ef_bytes": 3913048,
+    "perm_bytes": 7357280,
+    "bundle_bytes": 6610796404
+  },
+  "config_path": null,
+  "slurm_job_id": "43716356",
+  "result": {"matching_size": 919660},
+  "memory": {"process_peak_rss_bytes": 6623678464},
+  "timing_seconds": {
+    "webgraph_load": 10.810107949,
+    "algorithm": 7524.851751401
+  }
+}

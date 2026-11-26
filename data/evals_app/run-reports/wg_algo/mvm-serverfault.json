@@ -1,0 +1,27 @@
+{
+  "algorithm": "mvm",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]", "mvm_epsilon": 0.01, "mvm_seed": 1, "mvm_sample_limit": 1078402},
+  "input": {
+    "graph_path": "format_wg/serverfault/serverfault.graph",
+    "graph_name": "serverfault",
+    "n": 257925,
+    "m": 1567185915,
+    "arcs": 3134371830,
+    "graph_bytes": 116416800,
+    "properties_bytes": 320,
+    "ef_bytes": 452624,
+    "perm_bytes": 1031700,
+    "bundle_bytes": 117901444
+  },
+  "config_path": null,
+  "slurm_job_id": "44718128",
+  "result": {"matched_vertex_weight_sum": "8581275594820303"},
+  "mvm_execution": {"status": "complete", "stop_reason": "sample_limit", "samples_completed": 1078402, "positive_augmentations": 129392},
+  "memory": {"process_peak_rss_bytes": 129789952},
+  "timing_seconds": {
+    "webgraph_load": 0.321792650,
+    "weight_preparation": 0.030563583,
+    "algorithm": 5539.237122132
+  }
+}

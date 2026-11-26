@@ -1,0 +1,26 @@
+{
+  "algorithm": "wvc",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_wg/mathoverflow-answers/mathoverflow-answers.graph",
+    "graph_name": "mathoverflow-answers",
+    "n": 73851,
+    "m": 17465233,
+    "arcs": 34930466,
+    "graph_bytes": 3095200,
+    "properties_bytes": 316,
+    "ef_bytes": 98080,
+    "perm_bytes": 295404,
+    "bundle_bytes": 3489000
+  },
+  "config_path": null,
+  "slurm_job_id": "43717190",
+  "result": {"selected_weight_sum": "196608110651843"},
+  "memory": {"process_peak_rss_bytes": 13631488},
+  "timing_seconds": {
+    "webgraph_load": 0.010463806,
+    "weight_preparation": 0.004016078,
+    "algorithm": 3.116802130
+  }
+}

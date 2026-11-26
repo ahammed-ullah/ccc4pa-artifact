@@ -1,0 +1,24 @@
+{
+  "algorithm": "bfs",
+  "cover_mode": "encoded",
+  "parameters": {},
+  "input": {
+    "ccf_path": "format_ccf/ri-ln-1b.ccf",
+    "graph_name": "ri-ln-1b",
+    "n": 1866033,
+    "m": 1174896620,
+    "num_cliques": 16010,
+    "cover_size": 5416701,
+    "ccf_bytes": 11178347,
+    "graph_fingerprint_sha256": "507a59bf981952c87e75d8a58fc55f1a594ac31ffb65de308de689b32dc20e51",
+    "ccf_stored_checksum_sha256": "3771eca9155804b4a5a891d10e70123534dd23c31ac4c9b75fa7d62ff6cbd16f"
+  },
+  "config_path": "cp_algo/config/encoded.toml",
+  "slurm_job_id": "43679034",
+  "result": {"connected_components": 1},
+  "memory": {"process_peak_rss_bytes": 48971776},
+  "timing_seconds": {
+    "ccf_load": 0.045022419,
+    "algorithm": 0.338323040
+  }
+}

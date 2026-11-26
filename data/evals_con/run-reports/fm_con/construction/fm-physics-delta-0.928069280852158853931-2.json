@@ -1,0 +1,64 @@
+{
+  "schema_version": 4,
+  "algorithm": {
+    "name": "fm",
+    "delta_selection": "fixed",
+    "workspace": "linear"
+  },
+  "graph": {
+    "name": "physics",
+    "path": "format_cgf/physics.cgf",
+    "format": "cgf",
+    "format_version": 1,
+    "file_bytes": 1052553590,
+    "canonical_fingerprint_sha256": "1b59d0898cefd9819dfccb5c93754f5d862cb2880766520686f3d7a7d4b5c0ce",
+    "file_checksum_sha256": "6b3b83f55660fd3b616038081c2a4a66ab2a9449e409b6bd4a43883bb87db9d0",
+    "n": 121311,
+    "m": 521145952
+  },
+  "delta_search": {
+    "policy": "fixed-delta",
+    "scale_a": 3.50410568357987594105,
+    "initial_k_min": 3,
+    "initial_k_max": 3,
+    "candidate_count": 1,
+    "candidate_delta_min": 0.928069280852158853931,
+    "candidate_delta_max": 0.928069280852158853931,
+    "selected_delta": 0.928069280852158853931,
+    "selected_initial_k": 3,
+    "time_seconds": 38213.8448822150021442
+  },
+  "partition": {
+    "initial_cross_edges": 1042291904,
+    "k_ge_2_bicliques": 71509,
+    "star_bicliques": 103713,
+    "num_parts": 738357,
+    "edges_in_k_ge_2_bicliques": 913549058,
+    "edges_in_star_bicliques": 128179711,
+    "residual_edges": 563135,
+    "nontrivial_size": 542687465,
+    "residual_size": 1126270,
+    "total_size": 543813735
+  },
+  "fm_representation": {
+    "m_star": 543371911,
+    "n_star": 417844,
+    "center_count": 175222,
+    "return_arcs": 121311
+  },
+  "construction_state": {
+    "space_bound": "O(n+m)",
+    "packed_neighbor_bits": 17,
+    "packed_neighbor_words": 276858788,
+    "deleted_edge_words": 16285811,
+    "deletion_rank_entries": 4253155,
+    "neighborhood_tree_nodes": 0
+  },
+  "timing": {
+    "input_index_seconds": 27.4934859500000001731,
+    "selected_run_seconds": 38186.351390463001735,
+    "initialization_seconds": 0.0147426069999999995869,
+    "k_ge_2_stripping_seconds": 38186.2257420199966873,
+    "star_stripping_seconds": 0.110905384999999995221
+  }
+}

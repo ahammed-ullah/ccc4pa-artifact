@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "artifact": {
+    "format": "cgf",
+    "format_version": 1,
+    "encoding": "delta-vbyte",
+    "path": "ri-u-8b.cgf",
+    "file_bytes": 23833157373,
+    "file_checksum_sha256": "b8a3d332ae17a16bcf3dce1cc8c6666b77bcf0dda7e1e06d96abc6ad03074015"
+  },
+  "graph": {
+    "name": "ri-u-8b",
+    "source": "synthetic",
+    "type": "hypergraph",
+    "origin_specification_path": "repos/cc_con/config/graphs/ri-u-8b.toml",
+    "parameters": {
+      "distribution": "k-uniform",
+      "k": 3208,
+      "n": 2000000,
+      "r": 1560,
+      "seed": 19
+    },
+    "generation_statistics": {
+      "deduplication_strategy": "sort-unique",
+      "distinct_edges": 8008606172,
+      "estimated_distinct_edges": 8008616573.26169,
+      "estimated_pair_to_edge_ratio": 1.00200622749152,
+      "nontrivial_hyperedges": 1560,
+      "pair_occurrences": 8024683680,
+      "sampled_size_max": 3208,
+      "sampled_size_mean": 3208,
+      "sampled_size_min": 3208,
+      "sampled_size_sum": 5004480
+    },
+    "n": 1836255,
+    "m": 8008606172,
+    "canonical_fingerprint_sha256": "7cab5b1c373f405a1221fc1d7ff9f7ec9b7fcf01fd075a9d7f154ed5d2aadfed"
+  },
+  "preparation": {
+    "graph_time_seconds": 4887.703163029,
+    "encoding_and_write_time_seconds": 1326.502063583
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "algorithm": "matching",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_wg/coPapersCiteseer/coPapersCiteseer.graph",
+    "graph_name": "coPapersCiteseer",
+    "n": 434102,
+    "m": 16036720,
+    "arcs": 32073440,
+    "graph_bytes": 3755960,
+    "properties_bytes": 314,
+    "ef_bytes": 453264,
+    "perm_bytes": 0,
+    "bundle_bytes": 4209538
+  },
+  "config_path": null,
+  "slurm_job_id": "43716303",
+  "result": {"matching_size": 211596},
+  "memory": {"process_peak_rss_bytes": 14815232},
+  "timing_seconds": {
+    "webgraph_load": 0.066969066,
+    "algorithm": 1.535344377
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "algorithm": "bfs",
+  "cover_mode": "plain",
+  "parameters": {},
+  "input": {
+    "ccf_path": "format_ccf/amazon-reviews.ccf",
+    "graph_name": "amazon-reviews",
+    "n": 2268231,
+    "m": 3032412387,
+    "num_cliques": 5219136,
+    "cover_size": 75703657,
+    "ccf_bytes": 252057746,
+    "graph_fingerprint_sha256": "b5b5e8e52a760923d0ff2a32e61b1829cb5dba3b1f01743749754201056ce0d2",
+    "ccf_stored_checksum_sha256": "ff9e807eaf0088509fd116d90dacaecc174481e9625a158507545ec4d52bbd41"
+  },
+  "config_path": null,
+  "slurm_job_id": "43487418",
+  "result": {"connected_components": 6},
+  "memory": {"process_peak_rss_bytes": 1201373184},
+  "timing_seconds": {
+    "ccf_load": 0.390193500,
+    "cover_decode": 1.309163573,
+    "algorithm": 4.997410734
+  }
+}

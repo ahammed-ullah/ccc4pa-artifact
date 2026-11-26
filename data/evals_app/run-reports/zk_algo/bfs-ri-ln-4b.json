@@ -1,0 +1,24 @@
+{
+  "algorithm": "bfs",
+  "representation": "zuckerli",
+  "parameters": {},
+  "input": {
+    "graph_path": "format_zk/ri-ln-4b/ri-ln-4b.zk",
+    "graph_name": "ri-ln-4b",
+    "n": 1874331,
+    "m": 4838453927,
+    "arcs": 9676907854,
+    "graph_bytes": 4597476151,
+    "index_bytes": 8434518,
+    "perm_bytes": 7497324,
+    "bundle_bytes": 4613407993
+  },
+  "config_path": null,
+  "slurm_job_id": "43708161",
+  "result": {"connected_components": 1},
+  "memory": {"process_peak_rss_bytes": 4624433152},
+  "timing_seconds": {
+    "zuckerli_load": 7.350321470,
+    "algorithm": 2405.946334760
+  }
+}

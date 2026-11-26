@@ -1,0 +1,14 @@
+# Artifact run specification reconstructed from the saved BPA+ CCF reports.
+[construction]
+tau = 4.0
+label_selection = "min-label"
+
+[postprocess]
+assignment_minimal = true
+
+[output]
+write_cover = true
+directory = "covers"
+
+[verification]
+enabled = false

@@ -1,0 +1,24 @@
+{
+  "algorithm": "matching",
+  "representation": "zuckerli",
+  "parameters": {"matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_zk/ri-ln-2b/ri-ln-2b.zk",
+    "graph_name": "ri-ln-2b",
+    "n": 1872562,
+    "m": 2413320514,
+    "arcs": 4826641028,
+    "graph_bytes": 2651284693,
+    "index_bytes": 8192488,
+    "perm_bytes": 7490248,
+    "bundle_bytes": 2666967429
+  },
+  "config_path": null,
+  "slurm_job_id": "43707914",
+  "result": {"matching_size": 936280},
+  "memory": {"process_peak_rss_bytes": 2678325248},
+  "timing_seconds": {
+    "zuckerli_load": 3.591085701,
+    "algorithm": 653.450908177
+  }
+}

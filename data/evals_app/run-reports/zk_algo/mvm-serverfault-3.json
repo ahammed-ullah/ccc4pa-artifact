@@ -1,0 +1,26 @@
+{
+  "algorithm": "mvm",
+  "representation": "zuckerli",
+  "parameters": {"mvm_epsilon": 0.01, "mvm_seed": 2, "mvm_sample_limit": 1078402, "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_zk/serverfault/serverfault.zk",
+    "graph_name": "serverfault",
+    "n": 257925,
+    "m": 1567185915,
+    "arcs": 3134371830,
+    "graph_bytes": 105157481,
+    "index_bytes": 967247,
+    "perm_bytes": 1031700,
+    "bundle_bytes": 107156428
+  },
+  "config_path": null,
+  "slurm_job_id": "44718382",
+  "result": {"matched_vertex_weight_sum": "8581275594820303"},
+  "mvm_execution": {"status": "complete", "stop_reason": "sample_limit", "samples_completed": 1078402, "positive_augmentations": 129392},
+  "memory": {"process_peak_rss_bytes": 120303616},
+  "timing_seconds": {
+    "zuckerli_load": 0.279622035,
+    "weight_preparation": 0.025819705,
+    "algorithm": 12067.427787856
+  }
+}

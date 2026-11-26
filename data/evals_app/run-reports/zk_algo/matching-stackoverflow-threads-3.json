@@ -1,0 +1,24 @@
+{
+  "algorithm": "matching",
+  "representation": "zuckerli",
+  "parameters": {"matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_zk/stackoverflow-threads/stackoverflow-threads.zk",
+    "graph_name": "stackoverflow-threads",
+    "n": 10980003,
+    "m": 8233726692,
+    "arcs": 16467453384,
+    "graph_bytes": 1495366667,
+    "index_bytes": 46665041,
+    "perm_bytes": 43920012,
+    "bundle_bytes": 1585951720
+  },
+  "config_path": null,
+  "slurm_job_id": "43708038",
+  "result": {"matching_size": 5396137},
+  "memory": {"process_peak_rss_bytes": 1607548928},
+  "timing_seconds": {
+    "zuckerli_load": 2.299812826,
+    "algorithm": 3180.153159751
+  }
+}

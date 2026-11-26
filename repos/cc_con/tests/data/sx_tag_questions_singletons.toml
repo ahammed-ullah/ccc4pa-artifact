@@ -1,0 +1,5 @@
+[graph]
+name = "coQuestions-singletons"
+source = "file"
+format = "sx-tag-question"
+path = "sx_tag_questions/singletons.txt"

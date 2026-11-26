@@ -1,0 +1,25 @@
+{
+  "algorithm": "matching",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "matching_variant": "three_halves"},
+  "input": {
+    "graph_path": "format_wg/codereview/codereview.graph",
+    "graph_name": "codereview",
+    "n": 54084,
+    "m": 206520631,
+    "arcs": 413041262,
+    "graph_bytes": 8804536,
+    "properties_bytes": 318,
+    "ef_bytes": 85184,
+    "perm_bytes": 216336,
+    "bundle_bytes": 9106374
+  },
+  "config_path": null,
+  "slurm_job_id": "43716483",
+  "result": {"matching_size": 27041},
+  "memory": {"process_peak_rss_bytes": 18268160},
+  "timing_seconds": {
+    "webgraph_load": 0.156381515,
+    "algorithm": 80.488603738
+  }
+}

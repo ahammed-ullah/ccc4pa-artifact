@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "method": "local-mis",
+    "exact_truss": false
+  },
+  "graph": {
+    "name": "HV15R",
+    "path": "format_cgf/HV15R.cgf",
+    "format": "cgf",
+    "n": 2017169,
+    "m": 162357569,
+    "encoded_bytes": 364420976,
+    "read_time_seconds": 9.058528145
+  },
+  "lower_bounds": {
+    "combined_best": 14116098,
+    "common_neighborhood_global_color": 7527375,
+    "global_core_color": 5975501,
+    "global_mis": 7512112,
+    "ordinary_local_mis": 13536722,
+    "simplicial_dominating_local_mis": 13540572
+  },
+  "timing_seconds": {
+    "linear_bounds": 3.351217521,
+    "common_neighborhood": 143.146939265,
+    "local_mis": 4.681325603,
+    "exact_truss": 0,
+    "local_color": 0,
+    "bound_computation": 151.204325741,
+    "total_including_graph_read": 160.262853886
+  }
+}

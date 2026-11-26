@@ -1,0 +1,64 @@
+{
+  "schema_version": 4,
+  "algorithm": {
+    "name": "fm",
+    "delta_selection": "fixed",
+    "workspace": "linear"
+  },
+  "graph": {
+    "name": "math-sx-threads",
+    "path": "format_cgf/math-sx-threads.cgf",
+    "format": "cgf",
+    "format_version": 1,
+    "file_bytes": 2114621709,
+    "canonical_fingerprint_sha256": "8b7f2aad70866120fef6df5a238b01cf91faec3f07e652c28d3f9b1b3337904d",
+    "file_checksum_sha256": "63c6bda78a2228200a574c88a988efb18c4087f915880429f52f04355d969ff9",
+    "n": 698505,
+    "m": 767323596
+  },
+  "delta_search": {
+    "policy": "fixed-delta",
+    "scale_a": 2.08470139694350375817,
+    "initial_k_min": 2,
+    "initial_k_max": 2,
+    "candidate_count": 1,
+    "candidate_delta_min": 0.979685004992156389882,
+    "candidate_delta_max": 0.979685004992156389882,
+    "selected_delta": 0.979685004992156389882,
+    "selected_initial_k": 2,
+    "time_seconds": 21029.4541032419983821
+  },
+  "partition": {
+    "initial_cross_edges": 1534647192,
+    "k_ge_2_bicliques": 9029,
+    "star_bicliques": 591745,
+    "num_parts": 2436989,
+    "edges_in_k_ge_2_bicliques": 196061690,
+    "edges_in_star_bicliques": 1336749287,
+    "residual_edges": 1836215,
+    "nontrivial_size": 1435389935,
+    "residual_size": 3672430,
+    "total_size": 1439062365
+  },
+  "fm_representation": {
+    "m_star": 1437924655,
+    "n_star": 1997784,
+    "center_count": 600774,
+    "return_arcs": 698505
+  },
+  "construction_state": {
+    "space_bound": "O(n+m)",
+    "packed_neighbor_bits": 20,
+    "packed_neighbor_words": 479577249,
+    "deleted_edge_words": 23978863,
+    "deletion_rank_entries": 7089942,
+    "neighborhood_tree_nodes": 0
+  },
+  "timing": {
+    "input_index_seconds": 51.379354268999996691,
+    "selected_run_seconds": 20978.0746050310008286,
+    "initialization_seconds": 0.022833452000000000609,
+    "k_ge_2_stripping_seconds": 20977.2834048250006163,
+    "star_stripping_seconds": 0.768366274000000015754
+  }
+}

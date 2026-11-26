@@ -1,0 +1,26 @@
+{
+  "algorithm": "wvc",
+  "representation": "webgraph",
+  "parameters": {"decoder": "bulk", "weight_generator": "mt19937_64_rejection", "weight_seed": 19, "weight_range": "[1,n^2]"},
+  "input": {
+    "graph_path": "format_wg/askubuntu/askubuntu.graph",
+    "graph_name": "askubuntu",
+    "n": 306695,
+    "m": 1942664590,
+    "arcs": 3885329180,
+    "graph_bytes": 128090824,
+    "properties_bytes": 321,
+    "ef_bytes": 533112,
+    "perm_bytes": 1226780,
+    "bundle_bytes": 129851037
+  },
+  "config_path": null,
+  "slurm_job_id": "43717274",
+  "result": {"selected_weight_sum": "14407113014512012"},
+  "memory": {"process_peak_rss_bytes": 144146432},
+  "timing_seconds": {
+    "webgraph_load": 0.268351977,
+    "weight_preparation": 0.036818355,
+    "algorithm": 763.849673676
+  }
+}

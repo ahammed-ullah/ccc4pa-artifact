@@ -1,0 +1,24 @@
+{
+  "algorithm": "matching",
+  "cover_mode": "encoded",
+  "parameters": {"matching_variant": "three_halves"},
+  "input": {
+    "ccf_path": "format_ccf/gamedev.ccf",
+    "graph_name": "gamedev",
+    "n": 43145,
+    "m": 102877926,
+    "num_cliques": 941,
+    "cover_size": 119836,
+    "ccf_bytes": 161284,
+    "graph_fingerprint_sha256": "94ce47752ba181f63ee2c894e8f295e0e1c85899185c6619f17e3162486fd03b",
+    "ccf_stored_checksum_sha256": "2298773ac012d9f2539948a29e78a82f0040c1a10be24d899b75469eab648947"
+  },
+  "config_path": "cp_algo/config/encoded.toml",
+  "slurm_job_id": "43678926",
+  "result": {"matching_size": 21529},
+  "memory": {"process_peak_rss_bytes": 10035200},
+  "timing_seconds": {
+    "ccf_load": 0.003636140,
+    "algorithm": 0.005451971
+  }
+}
